@@ -10,12 +10,60 @@
 @import "style9.css";
 @import "style10.css";
 
+// Tech php
+h3{
+	font-size: 25px;
+}
+.container-tech-php{
+	padding-left: 30px;
+}
+.dd-wrap-tech-h1{
+	background:black;
+}
+// end tech php
+
+
 .clear{
-    clear: both;
+	clear: both;
 }
 .center{
 	text-align: center;
 }
+
+// Заголовок
+h1{
+	color:#fff;
+	font-size: 24px;
+	font-family: "UbuntuBold";
+}
+
+// Кнопка
+.button-1{
+	display: inline-block;;
+	background:#E3181B;
+	border-radius: 2px;
+	font-size: 10px;
+	color:#fff;
+	text-transform: uppercase;
+	padding: 14px 18px;
+	font-family: "UbuntuBold";
+}
+
+// Инпут для поиска по разделам
+.input-view{
+	outline: none;
+	border:none;
+	height: 50px;
+	background:#282828;
+	padding-left: 20px;
+	color:#929292;
+	font-size: 11px;
+	font-family: "RobotoRegular";
+}
+.input-view_width{
+	width: 288px;
+}
+
 
 
 
@@ -38,7 +86,7 @@
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }
