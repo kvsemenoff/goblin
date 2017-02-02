@@ -63,6 +63,68 @@
 		color: #e3181b;	
 	}	
 }
+
+/*===========fishing=============*/
+.df-section-bg{	
+	background-color: #1e1e1e;	
+}
+.df-section{
+	max-width: 1175px;
+	width: 100%;
+	margin: 0 auto;	
+	padding: 31px 0;
+}
+.df-fish_view{
+	text-align: center;
+}
+.df-fish__L_view{
+	text-align: left;
+	max-width: 700px;
+	width: 100%;
+	display: inline-block;
+	// background-color: #282828;
+	padding: 20px 10px 37px 20px;
+	// margin-right: -4px;
+	vertical-align: top;
+	// float: left;
+	h1{
+		font-size: 34px;
+	}
+	span{
+		font-size: 16px;
+		color:#a2a29c;
+		line-height: 22px;
+		font-family: "RobotoRegular";
+		display: block;		
+		margin: 20px 0 23px 0;
+		padding-right: 50px;
+	}
+}
+.df-bynow_view, .df-readmore_view{
+	font-size: 14px;
+	color:#ffffff;
+	line-height: 45px;
+	font-family: "UbuntuBold";
+	border: 2px solid #e3181b;
+	display: inline-block;
+	text-transform: uppercase;	
+	padding: 0 30px;
+}
+.df-readmore_view{
+	border: none;	
+	padding: 0 20px;
+}
+
+.df-fish__R_view{
+	max-width: 723px;
+	width: 100%;
+	display: inline-block;
+	height: 303px;	
+	// float: right;
+}
+
+
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -85,8 +147,21 @@
 	.df-pagination__numbers_view{		
 	    padding-left: 25px;
 	}
+
+	
 }
 
 @media only screen and (min-width : 1248px) {
+	/*========fishing====*/
+	.df-fish__L_view{
+		max-width: 452px;		
+		background-color: #282828;
+		padding: 80px 60px 87px 40px;			
+		float: left;
+	}
+	.df-fish__R_view{		
+		height: 403px;	
+		float: right;
+	}
 }
 
