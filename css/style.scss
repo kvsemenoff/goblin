@@ -64,7 +64,20 @@ h1{
 	width: 288px;
 }
 
-
+// Сабмит для поиска по разделам
+.submit-view{
+	font-family: "UbuntuBold";
+	color:#fff;
+	font-size: 11px;
+	height: 50px;
+	background:#282828;
+	border:none;
+	outline: none;
+	text-transform: uppercase;
+}
+.submit-view-width{
+	width: 116px;
+}
 
 
 @media only screen and (min-width : 320px) {

@@ -9,10 +9,11 @@
 	</div>
 	<br>
 
-	<h3>Инпут и сабмит для поиска по разделам с классами input-view, submit-view</h3>	<br>
+	<h3>Инпутб, сабмит и селект для поиска по разделам с классами input-view, submit-view</h3>	<br>
 	<form action="#">
-		<input class="input-view" type="text" value="" placeholder="Поиск лучших товаров..">		
-		<input class="submit-view" type="submit" value="Поиск">		
+		<input class="input-view input-view_width" type="text" value="" placeholder="Поиск лучших товаров..">	
+		<select name="" id="">Все разделы</select>	
+		<input class="submit-view submit-view-width" type="submit" value="Поиск">		
 	</form>		
 </div>
 
