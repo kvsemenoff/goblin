@@ -10,12 +10,55 @@
 @import "style9.css";
 @import "style10.css";
 
+// Tech php
+h3{
+	font-size: 25px;
+}
+.container-tech-php{
+	padding-left: 30px;
+}
+.dd-wrap-tech-h1{
+	background:black;
+}
+// end tech php
+
+
 .clear{
     clear: both;
 }
 .center{
 	text-align: center;
 }
+
+// Заголовок
+h1{
+	color:#fff;
+	font-size: 24px;
+}
+
+// Кнопка
+.button-1{
+	display: inline-block;;
+	background:#E3181B;
+	border-radius: 2px;
+	font-size: 10px;
+	color:#fff;
+	text-transform: uppercase;
+	padding: 14px 18px;
+}
+
+// Инпут для поиска по разделам
+.input-view{
+	outline: none;
+	border:none;
+	height: 50px;
+	background:#282828;
+	padding-left: 20px;
+	color:#929292;
+	font-size: 11px;
+}
+
+
 
 
 
