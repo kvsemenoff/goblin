@@ -1,3 +1,53 @@
+section.footer {
+  background: #282828;
+  min-height: 255px; }
 
+span.opershop {
+  font-family: "Ubuntu", "Arial", sans-serif;
+  font-weight: 700;
+  color: #fff; }
 
-/*# sourceMappingURL=style7.css.map */
+.footer__p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #797974;
+  font-family: "RobotoRegular", "Arial", sans-serif;
+  font-weight: 400; }
+  .footer__p .webaddr {
+    color: #a2a29c;
+    font-family: "RobotoRegular", "Arial", sans-serif;
+    font-weight: 400; }
+
+.footer__right {
+  text-align: left; }
+
+.footer__logo-img, .footer__info {
+  display: inline-block;
+  vertical-align: middle; }
+
+@media only screen and (min-width: 992px) {
+  section.footer {
+    padding-top: 70px;
+    padding-bottom: 50px; }
+  .footer__left {
+    float: left;
+    width: 29.2%; }
+  .footer__right {
+    float: right;
+    width: 51.7%; }
+  .footer__logo-block {
+    margin-bottom: 55px; }
+  span.opershop {
+    font-size: 22px; }
+  .webaddr {
+    font-size: 21px; }
+  .cooperate {
+    line-height: 22px; } }
+
+@media only screen and (min-width: 1170px) {
+  .footer__left {
+    float: left;
+    width: 335px; }
+  .footer__right {
+    float: right;
+    width: 605px; } }
