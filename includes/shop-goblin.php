@@ -1,4 +1,4 @@
-<section class="secton_padding section-db-shop-goblin-padding">
+<section class="section section_padding section-db-shop-goblin-padding">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">

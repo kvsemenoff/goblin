@@ -1,7 +1,5 @@
 .section-db-shop-goblin-padding{
 	background-color: #1e1e1e;
-	padding-bottom: 68px;
-	padding-top: 48px;
 }
 .db-shop-goblin-box{
 	max-width: 725px;
@@ -34,6 +32,10 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.section-db-shop-goblin-padding{
+		padding-bottom: 68px !important;
+		padding-top: 48px !important;
+	}
 	.db-shop-h1{
 		font-size: 34px;
 		line-height: 68px;
