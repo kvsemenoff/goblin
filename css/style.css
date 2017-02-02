@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url(reset.css);
 @import url(fonts.css);
 @import url(style2.css);
@@ -10,12 +9,58 @@
 @import url(style8.css);
 @import url(style9.css);
 @import url(style10.css);
+h3 {
+  font-size: 25px; }
+
+.container-tech-php {
+  padding-left: 30px; }
+
+.dd-wrap-tech-h1 {
+  background: black; }
+
 .clear {
   clear: both; }
 
 .center {
   text-align: center; }
-=======
-@import url(reset.css);@import url(fonts.css);@import url(style2.css);@import url(style3.css);@import url(style4.css);@import url(style5.css);@import url(style6.css);@import url(style7.css);@import url(style8.css);@import url(style9.css);@import url(style10.css);h3{font-size:25px}.container-tech-php{padding-left:30px}.dd-wrap-tech-h1{background:black}.clear{clear:both}.center{text-align:center}h1{color:#fff;font-size:24px;font-family:"UbuntuBold"}.button-1{display:inline-block;background:#E3181B;border-radius:2px;font-size:10px;color:#fff;text-transform:uppercase;padding:14px 18px;font-family:"UbuntuBold"}.input-view{outline:none;border:none;height:50px;background:#282828;padding-left:20px;color:#929292;font-size:11px;font-family:"RobotoRegular"}.input-view_width{width:288px}.submit-view{font-family:"UbuntuBold";color:#fff;font-size:11px;height:50px;background:#282828;border:none;outline:none;text-transform:uppercase}.submit-view-width{width:116px}
-/*# sourceMappingURL=style.css.map */
->>>>>>> 9169e88e9e91e3bef90aa3f05d2047741401eaf7
+
+h1 {
+  color: #fff;
+  font-size: 24px;
+  font-family: "UbuntuBold"; }
+
+.button-1 {
+  display: inline-block;
+  background: #E3181B;
+  border-radius: 2px;
+  font-size: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 14px 18px;
+  font-family: "UbuntuBold"; }
+
+.input-view {
+  outline: none;
+  border: none;
+  height: 50px;
+  background: #282828;
+  padding-left: 20px;
+  color: #929292;
+  font-size: 11px;
+  font-family: "RobotoRegular"; }
+
+.input-view_width {
+  width: 288px; }
+
+.submit-view {
+  font-family: "UbuntuBold";
+  color: #fff;
+  font-size: 11px;
+  height: 50px;
+  background: #282828;
+  border: none;
+  outline: none;
+  text-transform: uppercase; }
+
+.submit-view-width {
+  width: 116px; }

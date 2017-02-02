@@ -1,12 +1,35 @@
 section.footer {
     background: #282828;
     min-height: 255px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
-
+.footer__flex {
+    width: 100%;
+    max-width: 290px;
+    margin: 0 auto;
+}
 span.opershop {
-    font-family: "Ubuntu", "Arial", sans-serif;
+    font-family: "UbuntuBold", "Arial", sans-serif;
     font-weight: 700;
     color: #fff;
+}
+.footer__left {
+    &::after {
+        display: block;
+        content: "";
+        width: 50px;
+        height: 50px;
+        background: url(/img/icons/scroll_active.png) 0 0 no-repeat #1e1e1e;
+        &:hover {
+            background: url(/img/icons/scroll_hover.png) 0 0 no-repeat #1e1e1e;
+        }
+        border-radius: 50%;
+    }
+}
+
+.mob {
+    margin-top: 30px;
 }
 .footer__p {
     font-size: 14px;
@@ -20,14 +43,105 @@ span.opershop {
         font-weight: 400;
     }
 }
-.footer__right {
-    text-align: left;
-}
 .footer__logo-img, .footer__info {
     display: inline-block;
     vertical-align: middle;
 }
+.copyright, .footer__scroll-top {
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer__scroll-top {
+    display: none;
+}
 
+
+.footer__bottom {
+    text-align: right;
+}
+
+.footer__actions {
+    text-align: left;
+}
+
+.footer__email {
+    width: 100%;
+    max-width: 342px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin-top: 16px;
+    &:hover {
+        border: 1px solid #e3181b;
+        border-radius: 2px;
+    }
+    .input__footer, .footer__submit {
+        background: #1e1e1e;
+        height: 40px;
+    }
+    .input__footer {
+        width: 80%;
+    }
+    .footer__submit {
+        margin-left: -4px;
+        width: 20%;
+        padding-right: 20px;
+        margin-top: 0;
+        &:hover {
+            color: #e3181b;
+        }
+    }
+}
+.actions__boldtext {
+    color: #d1d1cc;
+    font-family: "UbuntuBold", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer__actions, .footer__email {
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer__flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+.footer__logo-block {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer__cooperate-block {
+    margin-bottom: 30px;
+}
+.slogan {
+    font-size: 13px;
+}
+.footer__logo-img{
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+    img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+.desk {
+    display: none;
+}
+.footer__scroll-top {
+    width: 50px;
+    height: 50px;
+}
+.opershop {
+    font-size: 18px;
+}
+.webaddr {
+    font-size: 16px;
+}
 @media only screen and (min-width : 320px) {
 }
 
@@ -42,16 +156,26 @@ span.opershop {
         padding-top: 70px;
         padding-bottom: 50px;
     }
+    .footer__flex {
+        width: 100%;
+        max-width: 1170px;
+        margin: 0 auto;
+    }
     .footer__left {
         float: left;
         width: 29.2%;
+        &::after {
+            display: none;
+        }
     }
     .footer__right {
         float: right;
-        width: 51.7%;
+        width: 36%;
     }
     .footer__logo-block {
         margin-bottom: 55px;
+        margin-top: 0;
+
     }
     span.opershop {
         font-size: 22px;
@@ -59,22 +183,122 @@ span.opershop {
     
     .webaddr {    
         font-size: 21px;
+        margin-bottom: 8px;
     }
     .cooperate {
         line-height: 22px;
     }
-    
+    .footer__scroll-top {
+        width: 50px;
+        height: 50px;
+        margin-left: 40px;
+    }
+    .footer__bottom {
+        margin-top: 40px;
+    }
+    .actions__boldtext {
+        font-size: 22px;
+        line-height: 38px;
+    }
+    .footer__actions {
+        margin-right: 22px;
+        text-align: right;
+        display: block;
+        vertical-align: middle;
+    }
+    .desk {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .footer__flex {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer__email {
+        width: 342px;
+        .input__footer {
+            width: 290px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    .footer__submit {
+        margin-left: -4px;
+        width: 50px;
+        padding-right: 20px;
+        &:hover {
+            color: #e3181b;
+        }
+        }
+    }
+    .footer__bottom {
+        display: block;
+    }
+    .footer__cooperate-block {
+        margin-bottom: 0;
+    }
+    .footer__scroll-top {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 20px;
+        background: url(/img/icons/scroll_active.png) 0 0 no-repeat #1e1e1e;
+        &:hover {
+            background: url(/img/icons/scroll_hover.png) 0 0 no-repeat #1e1e1e;
+        }
+        border-radius: 50%;
+    }
+    .footer__log-img {
+        width: 50px;
+        height: 50px;
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    .mob {
+        display: none;
+    }
 }
 @media only screen and (min-width : 1170px) {
-   .footer__left {
+   
+}
+@media only screen and (min-width : 1200px) {
+    section.footer {
+        min-height: 0;
+    }
+    .footer__left {
         float: left;
         width: 335px;
     }
     .footer__right {
         float: right;
-        width: 605px;
+        width: 615px;
     }
-}
-@media only screen and (min-width : 1248px) {
+    .footer__email {
+        width: 342px;
+        .input__footer {
+            width: 290px;   
+        }
+        .input__footer, .footer__submit {
+            height: 50px;
+        }
+    .footer__submit {
+        margin-left: -4px;
+        width: 50px;
+        padding-right: 20px;
+        &:hover {
+            color: #e3181b;
+        }
+        }
+    }
+    .footer__actions, .footer__email {
+        display: inline-block;
+    }
+    .footer__email {
+        margin-top: 0;
+    }
+    .footer__scroll-top {
+        margin-top: 0;
+    }
+
 }
 
