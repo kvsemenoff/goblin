@@ -1,20 +1,26 @@
 .section-db-shop-goblin-padding{
 	background-color: #1e1e1e;
+	padding-bottom: 68px;
+	padding-top: 48px;
+}
+.db-shop-goblin-box{
+	max-width: 725px;
+	margin: 0 auto;	
 }
 .db-shop-h1{
-	font-size: 34px;
-	line-height: 68px;
+	font-size: 24px;
+	line-height: 30px;
 	span{
 		color:#ffa500;
 	}
 }
 .db-shop-p{
 	p{
-	font-family: "RobotoRegular";
-	font-size: 14px;
-	color: #74746c;
-	line-height: 19px;
-	padding-top: 25px;	
+		font-family: "RobotoRegular";
+		font-size: 13px;
+		color: #74746c;
+		line-height: 17px;
+		padding-top: 15px;	
 	}
 }
 
@@ -28,6 +34,18 @@
 }
 
 @media only screen and (min-width : 992px) {
+	.db-shop-h1{
+		font-size: 34px;
+		line-height: 68px;
+	}
+
+	.db-shop-p{
+		p{
+			font-size: 14px;
+			line-height: 19px;
+		}
+	}
+
 }
 
 @media only screen and (min-width : 1248px) {
