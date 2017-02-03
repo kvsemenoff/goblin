@@ -223,5 +223,3 @@
 
 	</div> <!-- nav_block -->
 </div> <!-- sidebar -->
-
-
