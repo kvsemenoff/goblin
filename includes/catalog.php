@@ -1,38 +1,225 @@
-<section class="section_padding df-section">
-	<div class="df-catalog df-catalog_view">
+<div class="sidebar">
+	<div class="nav_block">
+		<div class="nav_item first">
+			<h3 class="nav_item_header nav_item_header--comp active ">Электроника <br> и компьютеры</h3>
+			<div class="sub_menu">
+				<h6 class="sub_menu_header">Ноутбуки</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#"></a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header">Планшеты</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#"></a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Аксессуары для ноутбуков и ПК</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Аксессуары для ноутбуков и ПК</a></li>
+						<li><a href="#">Аксессуары для ноутбуков и ПК</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Аксессуары для планшетов и электронных книг</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Чехлы и клавиатуры для планшетов</a></li>
+						<li><a href="#">Защитные пленки</a></li>
+						<li><a href="#">Кабели и зарядные устройства</a></li>
+						<li><a href="#">Карты памяти</a></li>
+						<li><a href="#">Аксессуары для электронных книг</a></li>
+						<li><a class="sub_menu_link" href="#">Все аксесуары</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header"><a class="sub_menu_link" href="#">Вся электроника</a></h6>
+			</div> <!-- sub_menu -->
+		</div> <!-- nav_item -->
+		<div class="nav_item">
+			<h3 class="nav_item_header nav_item_header--sport">Спорт</h3>
+			<div class="sub_menu">
+				<h6 class="sub_menu_header">Тренажеры и фитнес</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#"></a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header">Зимние виды спорта</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#"></a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Спортивные часы и компьютеры</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Кофеварки</a></li>
+						<li><a href="#">Соковыжималки</a></li>
+						<li><a href="#">Электрические чайники</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Спортивные аксессуары</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Кухонные процессоры</a></li>
+						<li><a href="#">Грили и ростеры</a></li>
+						<li><a href="#">Индукционные плиты</a></li>
+						<li><a href="#">Микроволновые печи</a></li>
+						<li><a href="#">Мультиварки</a></li>
+						<li><a href="#">Пароварки</a></li>
+						<li><a href="#">Тостеры</a></li>
+						<li><a href="#">Хлебопечи</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Аксессуары для активного отдыха</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Кухонные процессоры</a></li>
+						<li><a href="#">Грили и ростеры</a></li>
+						<li><a href="#">Индукционные плиты</a></li>
+						<li><a href="#">Микроволновые печи</a></li>
+						<li><a href="#">Мультиварки</a></li>
+						<li><a href="#">Пароварки</a></li>
+						<li><a href="#">Тостеры</a></li>
+						<li><a href="#">Хлебопечи</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header"><a class="sub_menu_link" href="#">Все спортивные аксессуары</a></h6>
+			</div> <!-- sub_menu -->
+		</div> <!-- nav_item -->
+		<div class="nav_item">
+			<h3 class="nav_item_header nav_item_header--game">Игрушки для детей</h3>
+			<div class="sub_menu">
+				<h6 class="sub_menu_header plus">Подготовка и обработка</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Блендеры и миксеры</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Приготовление напитков</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Кофеварки</a></li>
+						<li><a href="#">Соковыжималки</a></li>
+						<li><a href="#">Электрические чайники</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Приготовление пищи</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Кухонные процессоры</a></li>
+						<li><a href="#">Грили и ростеры</a></li>
+						<li><a href="#">Индукционные плиты</a></li>
+						<li><a href="#">Микроволновые печи</a></li>
+						<li><a href="#">Мультиварки</a></li>
+						<li><a href="#">Пароварки</a></li>
+						<li><a href="#">Тостеры</a></li>
+						<li><a href="#">Хлебопечи</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header"><a class="sub_menu_link" href="#">Все игрушки для детей</a></h6>
+			</div> <!-- sub_menu -->
+		</div> <!-- nav_item -->
+		<div class="nav_item">
+			<h3 class="nav_item_header nav_item_header--avto">Авто товары</h3>
+			<div class="sub_menu">
+				<h6 class="sub_menu_header plus">Подготовка и обработка</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Блендеры и миксеры</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Приготовление напитков</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Кофеварки</a></li>
+						<li><a href="#">Соковыжималки</a></li>
+						<li><a href="#">Электрические чайники</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Приготовление пищи</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Кухонные процессоры</a></li>
+						<li><a href="#">Грили и ростеры</a></li>
+						<li><a href="#">Индукционные плиты</a></li>
+						<li><a href="#">Микроволновые печи</a></li>
+						<li><a href="#">Мультиварки</a></li>
+						<li><a href="#">Пароварки</a></li>
+						<li><a href="#">Тостеры</a></li>
+						<li><a href="#">Хлебопечи</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header"><a class="sub_menu_link" href="#">Все авто товары</a></h6>
+			</div> <!-- sub_menu -->
+		</div> <!-- nav_item -->
+		<div class="nav_item">
+			<h3 class="nav_item_header nav_item_header--home">Дом, сад, огород, инструменты</h3>
+			<div class="sub_menu">
+				<h6 class="sub_menu_header plus">Подготовка и обработка</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Блендеры и миксеры</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Приготовление напитков</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Кофеварки</a></li>
+						<li><a href="#">Соковыжималки</a></li>
+						<li><a href="#">Электрические чайники</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Приготовление пищи</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Кухонные процессоры</a></li>
+						<li><a href="#">Грили и ростеры</a></li>
+						<li><a href="#">Индукционные плиты</a></li>
+						<li><a href="#">Микроволновые печи</a></li>
+						<li><a href="#">Мультиварки</a></li>
+						<li><a href="#">Пароварки</a></li>
+						<li><a href="#">Тостеры</a></li>
+						<li><a href="#">Хлебопечи</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header"><a class="sub_menu_link" href="#">Все для дома, сада, огорода</a></h6>
+			</div> <!-- sub_menu -->
+		</div> <!-- nav_item -->
+		<div class="nav_item">
+			<h3 class="nav_item_header nav_item_header--music">Игры, музыка и видеоозвучки</h3>
+			<div class="sub_menu">
+				<h6 class="sub_menu_header plus">Подготовка и обработка</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Блендеры и миксеры</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Приготовление напитков</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Кофеварки</a></li>
+						<li><a href="#">Соковыжималки</a></li>
+						<li><a href="#">Электрические чайники</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header plus">Приготовление пищи</h6>
+				<div class="inner_sub_menu">
+					<ul>
+						<li><a href="#">Кухонные процессоры</a></li>
+						<li><a href="#">Грили и ростеры</a></li>
+						<li><a href="#">Индукционные плиты</a></li>
+						<li><a href="#">Микроволновые печи</a></li>
+						<li><a href="#">Мультиварки</a></li>
+						<li><a href="#">Пароварки</a></li>
+						<li><a href="#">Тостеры</a></li>
+						<li><a href="#">Хлебопечи</a></li>
+					</ul>
+				</div> <!-- inner_sub_menu -->
+				<h6 class="sub_menu_header"><a class="sub_menu_link" href="#">Все игры, музыка и видеоозвучки</a></h6>
+			</div> <!-- sub_menu -->
+		</div> <!-- nav_item -->
 
-
-		<div class="df-catalog__product df-catalog__product_view">
-
-			<div class="df-catalog__img df-catalog__img_view">
-				<img src="img/dftovar1.png" alt="">
-				<div class="df-catalog__ico df-catalog__ico_view">
-					<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
-					<div class="df-catalog_image df-catalog_image_view">
-						<img src="img/dfi1.png" alt="">
-					</div>
-				</div>
-				<div class="df-catalog__ico df-catalog__ico_view">
-					<span class="df-catalog__show df-catalog__show_view">хит октября</span>
-					<div class="df-catalog_image df-catalog_image_view">
-						<img src="img/dfi4.png" alt="">
-					</div>
-				</div>
-			</div>
-
-			<div class="df-catalog-txtbox df-catalog-txtbox_view">
-				<h4>Модуль памяти HyperX Savage DDR4 (16gb)</h4>
-				<span class="df-nameproduct">Оперативная память</span>
-				<p>Скорость до 3000 МГц и низкая латентность обеспечивают исключительную скорость и производительность</p>
-				<div class="df-catalog__busket df-catalog__busket_view">
-					<span class="df-catalog__oldprice df-catalog__oldprice_view">35 990 р</span>
-					<span class="df-catalog__newprice df-catalog__newprice_veiw">17 990 р</span>
-					<a href="#" class="button-1 button-1_view">в корзину</a>
-				</div>
-			</div>
-
-		</div>
-
-
-	</div>
-</section>		
+	</div> <!-- nav_block -->
+</div> <!-- sidebar -->

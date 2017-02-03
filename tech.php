@@ -13,7 +13,7 @@
 
 	<br>
 
-	<h3>Инпутб, сабмит и селект для поиска по разделам с классами input-view, submit-view</h3>	<br>
+	<h3>Инпут, сабмит и селект для поиска по разделам с классами input-view, az-select, submit-view</h3>	<br>
 	<form action="#">
 
 
@@ -44,8 +44,63 @@
 		<!-- Сабмит -->
 		<input class="submit-view submit-view-width" type="submit" value="Поиск">	
 		<!-- конец сабмит -->
+	</form>	
+	<br>
+	<h3>Селект для карточки товара с доп классом az-select2</h3>
+	<div  class="az-select az-select2">
+		<select class="next-select" name="" id="">
+			<option value="1">XL 48</option>
+			<option value="2">тест</option>
+			<option value="3">тест</option>
+			<option value="4">тест</option>
+			<option value="5">тест</option>
+			<option value="6">тест</option>
+			<option value="7">тест</option>
+			<option value="8">тест</option>
+			<option value="9">тест</option>
+			<option value="9">тест</option>
+		</select>
+	</div>	
+	<br>
+	<h3>Кнопка в корзину с изображением</h3><br>
+	<a class="button-1 button-2" href="#">В корзину</a><br><br>
 
-	</form>		
+	<h3>Кнопки переключения</h3><br>
+	<div class="df-number">
+		<span class="dfbutton dfbutton2">-</span>
+		<input type="text" value="1" disabled="disabled">  
+		<span class="dfbutton dfbutton3">+</span>
+	</div>			
+	<br><br>
+
+	<h3>Радио кнопки</h3><br>
+	<label class="radio-lable">
+		<input class="checkbox" type="radio" name="checkbox-test" checked>
+		<span class="checkbox-custom"></span>
+		<span class="label"></span>
+	</label>
+	<label class="radio-lable">
+		<input class="checkbox" type="radio" name="checkbox-test" checked>
+		<span class="checkbox-custom"></span>
+		<span class="label"></span>
+	</label>
+	<label class="radio-lable">
+		<input class="checkbox" type="radio" name="checkbox-test" checked>
+		<span class="checkbox-custom"></span>
+		<span class="label"></span>
+	</label>
+	<label class="radio-lable">
+		<input class="checkbox" type="radio" name="checkbox-test" checked>
+		<span class="checkbox-custom"></span>
+		<span class="label"></span>
+	</label>
+	<label class="radio-lable">
+		<input class="checkbox" type="radio" name="checkbox-test" checked>
+		<span class="checkbox-custom"></span>
+		<span class="label"></span>
+	</label>
+
+		<br><br>
 </div>
 
 <?php require_once('includes/footer.php'); ?>
