@@ -85,9 +85,11 @@ h1{
 // Селект
 .az-select{
 	width: 194px;
+	height: 50px;
 	position: relative;
 	cursor: pointer;
 	background:#282828;
+	padding-top: 4px;
 }
 select{
 	height: 36px;
@@ -104,17 +106,19 @@ select{
 	-webkit-appearance: none;
 	-moz-appearance: none;
 }
+.next-select{
+	color:black;
+}
 select::-ms-expand {
 	display: none;
 }
 .az-options{
 	display: none;
 	top: calc(100% + 2px);
-	left: -2px;
-	width: calc(100% + 4px);
+	left: 0px;
+	width: calc(100% + 0px);
 	position: absolute;
 	background: rgba(0,0,0,0.8);
-	border-radius: 2px;
 	z-index: 6;
 }
 
@@ -142,13 +146,121 @@ div[data-val]:hover{
 	background: url(../img/select-arrow.png) no-repeat top left;
 	z-index: 1;
 }
-.az-select-focus:before{
-	background: url(../img/select-arrow-focus.png) no-repeat top left;
-}
+// .az-select-focus:before{
+// 	background: url(../img/select-arrow-focus.png) no-repeat top left;
+// }
 .az-select_style{
 	position: relative;
 	z-index: 2;
 }
+.az-select2{
+	background:#fff;
+	border:1px solid #CACACA;
+	position: relative;
+	border-radius: 2px;
+
+}
+.az-select2:before{
+	content: '';
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	right: 15px;
+	width: 13px;
+	height: 8px;
+	background: url(../img/redstr.png) no-repeat top left !important;
+	z-index: 1;
+}
+
+// Кнопка в корзину
+.button-2{
+	padding: 17px 19px 17px 34px;
+	position: relative;
+}
+.button-2:after{
+	content:"";
+	position: absolute;
+	background:url(../img/korz.jpg) no-repeat top right;
+	width: 50px;
+	height: 50px;
+	right: -49px;
+	top:0;
+}
+
+// Счетчик товара
+.df-number{
+	border:1px solid #CACACA;
+	border-radius: 2px;
+	width: 120px;
+	height: 33px;
+	.dfbutton{
+		display: inline-block;
+		width: 34px;
+		height: 31px;
+		padding-left: 11px;
+		padding-top: 0px;
+		color:red;
+		font-family: "RobotoRegular";
+		font-size: 21px;
+		cursor: pointer;
+		color:transparent;
+	}
+	.dfbutton2{
+		padding-left: 14px;
+		border-right:1px solid #CACACA;
+		background: url(../img/min.png) no-repeat center;
+	}
+	.dfbutton3{
+		border-left:1px solid #CACACA;
+		background: url(../img/pl.png) no-repeat center;
+	}
+	input[type="text"]{
+		// border-right: 1px solid #CACACA;
+		width: 42px;
+		background:#fff;
+		border:none;
+		outline: none;
+		font-family: "UbuntuBold";
+		color:black;
+		text-align: center;
+	}
+}
+
+// Радио кнопки
+.radio-lable{
+	display: block;
+}
+.checkbox {
+    display: none;
+}
+.checkbox-custom {
+    position: relative;     
+    width: 18px;             
+    height: 18px;            
+    border: 1px solid #282828;
+    background:none;
+    border-radius: 10em;
+    margin-top: 13px;
+    cursor:pointer;
+}
+.checkbox-custom,
+.label {
+    display: inline-block;
+    vertical-align: middle;
+}
+.checkbox:checked + .checkbox-custom::before {
+    content: "";             
+    display: block;        
+    position: absolute;     
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    background: red;
+    border-radius: 10em;
+}
+
+
 
 @media only screen and (min-width : 320px) {
 }
