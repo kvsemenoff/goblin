@@ -102,8 +102,8 @@
 								<div class="az-select az-select2">
 									<select class="next-select" name="" id="">
 										<option value="1">XL 48</option>
-										<option value="2">тест</option>
-										<option value="3">тест</option>
+										<option value="2">XL 48</option>
+										<option value="3">XL 48</option>
 									</select>
 								</div>	
 							</div>
@@ -112,9 +112,9 @@
 								<div class="az-select az-select2">
 									<select class="next-select" name="" id="">
 										<option value="1">5литров</option>
-										<option value="2">тест</option>
-										<option value="3">тест</option>
-										<option value="4">тест</option>
+										<option value="2">5литров</option>
+										<option value="3">5литров</option>
+										<option value="4">5литров</option>
 									</select>
 								</div>	
 							</div>
