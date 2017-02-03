@@ -109,12 +109,16 @@
 	display: inline-block;
 	text-transform: uppercase;	
 	padding: 0 30px;
+	transition:0.3s;
 }
 .df-readmore_view{
 	border: none;	
 	padding: 0 20px;
 }
-
+.df-bynow_view:hover{
+	background-color: #e3181b;	
+	transition:0.3s;
+}
 .df-fish__R_view{
 	max-width: 723px;
 	width: 100%;
@@ -125,6 +129,80 @@
 
 
 
+
+
+
+/*============catalog============*/
+
+.df-catalog__product_view{
+	max-width: 291px;
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.df-catalog__img_view{
+	text-align: center;
+	position: relative;
+}
+.df-catalog__ico_view{
+	
+}
+.df-catalog__show_view{
+	font-size: 14px;
+	color:#ffff00;
+	font-family: "RobotoRegular";
+	display: inline-block;
+	padding: 7px 11px ;
+	background-color: #282828;
+	border-radius: 5px;	
+	position: relative;
+}
+.df-catalog__show_view:after{
+	content: "";
+	position: absolute;
+	top:15px;
+	right:-5px;
+	width: 5px;
+	height: 7px;
+	background-image: url("../img/dfright3.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.df-catalog_image_view{
+	width: 52px;
+	height: 52px;
+	background-color: #282828;
+	border-radius:50%;
+	display: inline-block;
+	padding-top: 12px;
+}
+//txt box
+
+.df-catalog-txtbox_view{
+	h4{
+
+	}
+	span{
+
+	}
+	p{
+
+	}
+}
+
+.df-catalog__busket_view{
+
+}
+.df-catalog__oldprice_view{
+
+}
+.df-catalog__newprice_veiw{
+
+}
+.button-1_view{
+
+}
 @media only screen and (min-width : 320px) {
 }
 
