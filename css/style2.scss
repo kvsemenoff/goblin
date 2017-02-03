@@ -1,20 +1,68 @@
 .section-db-shop-goblin-padding{
 	background-color: #1e1e1e;
 }
+.db-shop-goblin-box{
+	max-width: 725px;
+	margin: 0 auto;	
+}
 .db-shop-h1{
-	font-size: 34px;
-	line-height: 68px;
+	font-size: 24px;
+	line-height: 30px;
 	span{
 		color:#ffa500;
 	}
 }
 .db-shop-p{
 	p{
-	font-family: "RobotoRegular";
+		font-family: "RobotoRegular";
+		font-size: 13px;
+		color: #74746c;
+		line-height: 17px;
+		padding-top: 15px;	
+	}
+}
+
+.db-section-protect_padding{
+	background: #282828;
+	color: #a2a29c;
 	font-size: 14px;
-	color: #74746c;
-	line-height: 19px;
-	padding-top: 25px;	
+	font-family: "RobotoRegular";
+}
+.db-protect-one{
+	background: url("../img/db-protect-mob.png")no-repeat top left ;
+	padding-left: 45px;
+	padding-bottom: 25px;
+	p{
+		span{
+			font-family: "UbuntuBold";
+			font-size: 18px;
+			color:#fff;
+		}
+	}
+}
+
+.db-protect-two{
+	background: url("../img/db-delivery-mob.png")no-repeat top left ;
+	padding-left: 45px;
+	padding-bottom: 25px;
+	p{
+		span{
+			font-family: "UbuntuBold";
+			font-size: 18px;
+			color:#fff;
+		}
+	}
+}
+
+.db-protect-three{
+	background: url("../img/db-gift-mob.png")no-repeat top left ;
+	padding-left: 45px;
+	p{
+		span{
+			font-family: "UbuntuBold";
+			font-size: 18px;
+			color:#fff;
+		}
 	}
 }
 
@@ -28,6 +76,62 @@
 }
 
 @media only screen and (min-width : 992px) {
+.db-section-protect_padding{
+	font-size: 16px;
+	padding: 64px 0 !important; 
+}
+.db-protect-one{
+	background: url("../img/db-protect.png")no-repeat top 12px left;
+	padding-left: 88px;
+	padding-bottom: 3px;
+	p{
+		span{
+			font-size: 22px;
+			line-height: 56px;
+		}
+	}
+}
+
+.db-protect-two{
+	background: url("../img/db-delivery.png")no-repeat top 11px left 3px;
+	padding-left: 92px;
+	padding-bottom: 3px;
+	p{
+		span{
+			font-size: 22px;
+			line-height: 56px;
+		}
+	}
+}
+
+.db-protect-three{
+	background: url("../img/db-gift.png")no-repeat top 12px left 6px;
+	padding-left: 96px;
+	padding-bottom: 3px;
+	p{
+		span{
+			font-size: 22px;
+			line-height: 56px;
+		}
+	}
+}
+
+	.section-db-shop-goblin-padding{
+		padding-bottom: 68px !important;
+		padding-top: 48px !important;
+	}
+	.db-shop-h1{
+		font-size: 34px;
+		line-height: 68px;
+	}
+
+	.db-shop-p{
+		p{
+			font-size: 14px;
+			line-height: 19px;
+		}
+	}
+
 }
 
 @media only screen and (min-width : 1248px) {
