@@ -35,7 +35,7 @@ $(document).ready(function(){
     });
 
 
-<<<<<<< HEAD
+
     $(".df-number .dfbutton").on("click", function() {
 
         var $button = $(this);
@@ -56,8 +56,8 @@ $(document).ready(function(){
 $button.parent().find("input").val(newVal);
 
 });
-});
-=======
+
+
 // ==========================================
 // ========== Сайдбар для каталога ==========
 // ==========================================
@@ -87,6 +87,6 @@ $button.parent().find("input").val(newVal);
     })
 
  });
->>>>>>> f4e54671bfea77e98ad2f853a43e37c7c02d07fa
+
 
 
