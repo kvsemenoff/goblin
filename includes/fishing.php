@@ -1,4 +1,3 @@
-
 <section class="section_padding df-section-bg">
 	<div class="df-section">	
 		<div class="df-fish df-fish_view">

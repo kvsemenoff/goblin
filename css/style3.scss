@@ -1,4 +1,76 @@
-
+.sidebar{
+	font-size: 14px;
+	color: #fff;
+	background: #1e1e1e;
+	font-size: 14px;
+	font-family: "RobotoRegular";
+	width: 290px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	padding: 10px 20px 10px 0;
+	.nav_item_header{
+		cursor: pointer;
+		font-weight: 400;
+		font-family: "UbuntuBold";
+		padding: 8px 10px 8px 35px;
+		text-transform: uppercase;
+		font-size: 14px;
+		max-width: 190px;
+		line-height: 22px;
+		background: url(../img/sidebar_ic.png) left 9px no-repeat;
+		&--sport{
+			background: url(../img/sidebar_ic.png) left -38px no-repeat;	
+		}
+		&--game{
+			background: url(../img/sidebar_ic.png) left -96px no-repeat;	
+		}
+		&--avto{
+			background: url(../img/sidebar_ic.png) left -152px no-repeat;	
+		}
+		&--home{
+			background: url(../img/sidebar_ic.png) left -206px no-repeat;	
+		}
+		&--music{
+			background: url(../img/sidebar_ic.png) left -275px no-repeat;	
+		}
+	}
+	.sub_menu_header{
+		cursor: pointer;
+		color: #d1d1cc;
+		font-weight: 400;
+		font-size: 16px;
+		padding: 5px 25px 5px 35px;
+		position: relative;
+		&.plus::before{
+			content: "";
+			width: 17px;
+			height: 17px;
+			position: absolute;
+			left: 6px;
+   		top: 8px;
+			background: url(../img/category_open.png) top no-repeat;
+		}
+		&.active.plus::before{
+			background: url(../img/category_open.png) bottom no-repeat;
+		}
+	}
+	a.sub_menu_link{
+		color: inherit;
+		display: inline-block!important;
+		padding: 5px 24px 5px 0px;
+		background: url(../img/arrow_ic.png) right center no-repeat;
+	}
+	.inner_sub_menu{
+		padding-right: 25px;
+		a{
+			display: block;
+			font-size: 14px;
+			color: #a2a29c;
+			padding: 5px 24px 5px 45px;
+		}
+	}
+}
 
 
 @media only screen and (min-width : 320px) {
