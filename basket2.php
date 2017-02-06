@@ -64,7 +64,7 @@
                   </thead>
                   <tfoot></tfoot>
                   <tbody>
-                      <tr>
+                      <tr class="item__tr">
                           <td class="purchase__item-pic">
                               <img src="/img/purchase-items/ssd_big.jpg" alt="" class="purchase__iten-img"></td>
                           <td class="purchase__item-desc">
@@ -160,8 +160,11 @@
                               <input type="text" name="purchase__name" class="purchase__name purchase__input-text" placeholder="Имя и фамилия">
                           </div>
                     </fieldset>
-                    <input type="checkbox" id="purchase__check" class="purchase__agreement-checkbox">
-                    <label for="purchase__check" class="purchase__agreement">Я принимаю <a href="#">пользовательское соглашение</a></label>
+                    <div class="purchase__agreement-block">
+                        <input type="checkbox" id="purchase__check" class="purchase__agreement-checkbox">
+                        <label for="purchase__check" class="purchase__agreement">Я принимаю <a href="#">пользовательское соглашение</a>
+                        </label>
+                    </div>
                   </div>
                   <div class="purchase__form-right">
                       <p class="purchase__form-payment">Оплата</p>

@@ -156,8 +156,8 @@ section.purchase {
 .purchase__agreement-checkbox:not(checked) {
     position: absolute;
     opacity: 0;
-    left: 29px;
-    bottom: 31px;
+    left: 4px;
+    bottom: 6px;
 }
 .purchase__agreement-checkbox:not(checked) + label {
     position: relative;  
@@ -304,6 +304,9 @@ section.purchase {
     margin-top: 35px;
 }
 .purchase__table {
+    thead {
+        background: #1e1e1e;
+    }
     width: 100%;
     tbody {
         background: #fff;
@@ -637,6 +640,13 @@ fieldset {
         height: 16px;
         background: url(/img/icons/close_btn.png) 0 0 no-repeat;
     }
+}
+.purchase__item {
+    background: #fff;
+    min-height: 100px;
+}
+.purchase__agreement-block {
+    position: relative;
 }
 @media only screen and (min-width : 320px) {
 }
