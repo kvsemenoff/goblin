@@ -145,7 +145,7 @@ body{
 /* Submenu
 ====================================*/
 .dd-sub-menu{
-	// display:none;
+	display:none;
 	position:absolute;
 	top:102px;
 	// top:196px;
@@ -492,6 +492,7 @@ body{
 }
 .dd-right{
 	padding-top: 82px;
+	padding-bottom: 42px;
 }
 .sub-clearfix{
 	display: none;
