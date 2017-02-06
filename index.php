@@ -7,8 +7,6 @@
 <?php require_once('includes/shop-goblin.php'); ?>	
 <?php require_once('includes/footer.php'); ?>
 <?php require_once('includes/popaps.php'); ?>
-
-	
 </body>
 </html>
 
