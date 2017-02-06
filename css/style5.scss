@@ -140,14 +140,16 @@
 	background-color: #fff;
 	padding: 0 !important;
 }
-
+.df-catalog_view{
+	text-align: center;
+}
 .df-catalog__product_view{
 	max-width: 293px;
 	min-height: 540px;
 	width: 100%;
 	display: inline-block;
 	vertical-align: top;	
-	padding: 55px 14px 37px 14px;
+	padding: 25px 14px 37px 14px;
 	margin-right: -4px;	
 	border-right: 1px solid #eaeaea;
 	border-bottom: 1px solid #eaeaea;
@@ -155,15 +157,10 @@
 }
 
 .df-catalog__img_view{
-	text-align: center;	
-	// min-height: 165px;	
-	height: 265px;
+	text-align: center;		
 	overflow: hidden;
-	.df-imgproduct{
-		width: 100%;
-		height: auto;
-		display: inline-block;
-		vertical-align: top;
+	.df-imgproduct{		
+		display: inline-block;		
 	}
 }
 .df-catalog__ico_view{
@@ -235,6 +232,7 @@
 //txt box
 
 .df-catalog-txtbox_view{
+	text-align: right;
 	h4{
 		font-size: 16px;
 		color:#1e1e1e;
@@ -256,21 +254,43 @@
 		line-height: 19px;
 		font-family: "RobotoRegular";
 		padding-bottom: 40px;
+
 	}
 }
-
+.df-alltxt{	
+	overflow: hidden;
+	text-align: left;	
+}
+.df-alltxt2{
+	p{
+		padding-bottom: 15px;
+	}
+}
+.df-alltxt3{
+	p{
+		padding-bottom: 0px;
+	}
+}
+.dfboxprice{
+	position: absolute;
+	bottom: 37px;
+	right: 23px;
+}
 .df-catalog__busket_view{
 	text-align: right;
 	display: inline-block;
-	width: 125px;
-	// padding-right: 35px;
+	width: 125px;	
     padding-top: 20px;
     margin-right: 17px;
-    font-size: 20px;
+    vertical-align: super;
+}
+.df-block{
+	font-size: 20px;
     color:#1e1e1e;
     font-family: "UbuntuBold";
     text-transform: uppercase;
-    vertical-align: super;
+    width: 100%;
+    padding: 0px 0 16px 0;
 }
 .df-catalog__oldprice_view{
 	font-size: 16px;
