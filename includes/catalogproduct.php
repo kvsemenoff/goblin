@@ -1,4 +1,4 @@
-<section class="section_padding df-section">
+<section class="section_padding df-section2">
 	<div class="df-catalog df-catalog_view">
 
 
@@ -199,7 +199,7 @@
 				<h4>Fostex HP-A4BL</h4>
 				<span class="df-nameproduct">Усилители</span>
 				<p>это цифро-аналоговый преобразователь и усилитель для наушников, который представляет собой усовершенствованную версию модели HP-A4. Главное отличие новинки: наличие..</p>
-				
+
 				<div class="df-catalog__busket df-catalog__busket_view">
 					<span class="df-catalog__oldprice df-catalog__oldprice_view">35 990 р</span>
 					<span class="df-catalog__newprice df-catalog__newprice_view">26 690 р</span>

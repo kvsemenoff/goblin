@@ -32,7 +32,7 @@
 	background-position: right center;
 	padding-right: 29px;	
 	padding-left: 0;	
-	
+
 }
 .df-pagination__link1_view:hover{
 	background-image: url("../img/dfleft2.png");
@@ -135,6 +135,12 @@
 
 /*============catalog============*/
 
+
+.df-section2{
+	background-color: #fff;
+	padding: 0 !important;
+}
+
 .df-catalog__product_view{
 	max-width: 293px;
 	min-height: 540px;
@@ -151,7 +157,8 @@
 .df-catalog__img_view{
 	text-align: center;	
 	// min-height: 165px;	
-	min-height: 265px;
+	height: 265px;
+	overflow: hidden;
 	.df-imgproduct{
 		width: 100%;
 		height: auto;
