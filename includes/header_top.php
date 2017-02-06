@@ -188,10 +188,20 @@
 				<div class="dd-center dd-right">
 					<div class="dd-box-center">
 						<ul>
-							<li>
+							<li class="active">
 								<a href="#">
 									Одежда, обувь аксессуары
 								</a>
+								<ul class="dd-min-menu">
+									<li><a href="#">Перейти в раздел</a></li>
+									<li><a href="#">OUTLET</a></li>
+									<li><a href="#">Женская одежда</a></li>
+									<li><a href="#">Детская одежда</a></li>
+									<li><a href="#">Свадьба</a></li>
+									<li><a href="#">Одежда для беременных</a></li>
+									<li><a href="#">Мужская одежда</a></li>
+									<li><a href="#">Обувь</a></li>
+								</ul>
 							</li>
 							<li>
 								<a href="#">

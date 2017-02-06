@@ -308,6 +308,24 @@ body{
 	}
 }
 
+// Аккордеон
+.dd-min-menu{
+	display:none;
+	li{
+		a{
+			background: unset !important;
+		}
+	}
+	li:after{
+		display: none !important;
+	}
+}
+.active{
+	position:relative;
+}
+.active:after{
+	position:relative;
+}
 // Регистрация в sub menu
 .dd-reg-mobile{
 	padding-left: 12px;
@@ -388,7 +406,7 @@ body{
 	}
 	.dd-center{
 		float: left;
-		height: 354px;
+		// height: 354px;
 	}
 	.dd-left{
 		width: 100%
@@ -456,13 +474,13 @@ body{
 	.dd-left{
 		padding-top: 85px;
 		width: 288px;
-		height: 486px;
+		// height: 486px;
 	}
 	.dd-reg-mobile{
 		display: none;
 	}
 	.dd-center{
-		height: 486px;
+		// height: 486px;
 	}
 	// end submenu
 }
