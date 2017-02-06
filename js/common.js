@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
 
 
@@ -17,6 +16,7 @@ $(document).ready(function(){
         $(id).css('left', winW/2-$(id).width()/2);
         $(id).fadeIn(500); 
     });
+
     $('.window .dd-close').click(function (e) {
         e.preventDefault();
         $('#mask, .window').hide();
@@ -27,7 +27,9 @@ $(document).ready(function(){
         $('#mask').hide();
         $('.window').hide();
     }); 
-    $(".phone").mask("+ 7 (999) 999 - 99 - 99?"); 
+
+ 
+
     $(".form1").submit(function() { 
         var tel = $(this).find('input[name="phone"]');
         var empty = false;
@@ -50,7 +52,17 @@ $(document).ready(function(){
         }
         return false;
     });
+    function cleanTnanks(form){
+                $('input[type="text"]').removeClass("error-input");
+                $("input[type=text], textarea").val("");
+                $('.window').hide();
+                $('input[type="submit"]').trigger('click');
+                // location = "spasibo.php";
+            };
+
+
     $('.az-select').each(function(){
+
         var select = $(this);    
         var option = select.find('select option');
         var str = '<div class="az-options">';
@@ -76,6 +88,8 @@ $(document).ready(function(){
             }
         });
     });
+
+   
 
     $(".az-select").click(function(){
         $(this).find('.az-options').slideToggle(0);
@@ -148,7 +162,7 @@ $('.nav_item_header').click(function(){
             $(this).removeClass('active');
             $(this).next('.inner_sub_menu').slideUp(300);
         }
-    })
+    });
 
 
 

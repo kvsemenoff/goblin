@@ -6,7 +6,7 @@
                    <div class="footer__left">
                        <div class="footer__logo-block">
                            <div class="footer__logo-img">
-                               <img class="footer__logo" src="/img/logo.png" alt="Магазинчик Гоблина">
+                               <img class="footer__logo" src="/img/footer_logo.png" alt="Магазинчик Гоблина">
                            </div>
                            <div class="footer__info">
                                <p class="footer__p webaddr"><span class="opershop">OperShop</span>.ru</p>

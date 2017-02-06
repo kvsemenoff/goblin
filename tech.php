@@ -1,4 +1,4 @@
-﻿<?php require_once('includes/header.php'); ?>
+<?php require_once('includes/header.php'); ?>
 <div class="container-tech-php">
 	<br><br>
 	<h3>Кнопка</h3>	<br>		
@@ -99,7 +99,6 @@
 		<span class="checkbox-custom"></span>
 		<span class="label"></span>
 	</label>
-
 		<br><br>
 </div>
 

@@ -36,7 +36,7 @@
 		<span class="db-close2 dd-close"></span>
 	</div>
 </div>
-<div class="window" >
+<div class="window" id="thanks">
 	<div class="db-popaps-form4">
 		<img src="img/db-message.png" alt="img"><br>
 		<h1 class="db-message-h1">Ваша заявка<br>
