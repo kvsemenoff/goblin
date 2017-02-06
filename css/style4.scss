@@ -446,6 +446,12 @@ body{
 	float:left;
 	margin-left: 1px;
 }
+.float-left-only{
+	float:left;
+}
+.float-right-only{
+	float:right;
+}
 .marg-left{
 	margin-left: 116px;
 }
@@ -455,6 +461,39 @@ body{
 .form-catalog{
 	display:none;
 }
+.az-select-reiting{
+	height: 27px !important;
+	width: 160px !important;
+	padding-top: 0 !important;
+	margin-left: 12px;
+	select{
+		height: 27px !important;
+	}
+}
+.az-select-reiting:before{
+	right:5px !important;
+}
+.dd-sortirovka{
+	span, .dd-a-recomend, .dd-a-recomend2{
+		display: inline-block;
+		color:#6D6D69;
+		font-family: "RobotoRegular";
+		font-size: 15px;
+	}
+	.dd-a-recomend{
+		color:#FFA500;
+	}
+}
+.padding-none{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+
+
+
 @media only screen and (min-width : 320px) {
 
 	// Submenu
@@ -603,6 +642,7 @@ body{
 	}
 	// end submenu
 }
+
 
 @media only screen and (min-width : 1248px) {
 	.form-catalog{
