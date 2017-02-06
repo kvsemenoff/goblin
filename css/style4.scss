@@ -1,5 +1,5 @@
 body{
-	background:#282828;
+	background:#1E1E1E;
 }
 
 
@@ -47,6 +47,7 @@ body{
 ==============================*/
 .dd-menu-dekstop-wrap{
 	display:none;
+	background:#2C2C2C;
 }
 .dd-menu{
 	ul{
@@ -351,8 +352,6 @@ body{
 	}
 }
 
-
-
 // Регистрация в sub menu
 .dd-reg-mobile{
 	padding-left: 12px;
@@ -371,6 +370,57 @@ body{
 .dd-title-dekstop{
 	display:none;
 }
+
+/* Catalog.php
+=======================================*/
+.dd-brad-wrap{
+	padding: 30px 0px;
+}
+.dd-bradcrumps{
+	a, span{
+		color:#A2A29C;
+		font-family: "RobotoRegular";
+		font-size: 15px;
+	}
+	span{
+		color:#6D6D69;
+		padding-left: 28px;
+	}
+}
+.dd-catalog-title{
+	padding-top: 20px;
+	span:first-child{
+		color:#fff;
+		font-size:35px; 
+		font-family: "UbuntuBold";
+	}
+	span:last-child{
+		display: inline-block;
+		padding-left: 38px;
+		color:#6D6D69;
+		font-family: "RobotoRegular";
+		font-size: 15px;
+	}
+}
+.dd-knopki{
+	a{
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+	}
+	a:first-child{
+		background: url(../img/pl1.png) no-repeat top center;
+		margin-right: 17px;
+	}
+	a:last-child{
+		background: url(../img/pl2.png) no-repeat top center;
+	}
+}
+
+
+
+
+
 @media only screen and (min-width : 320px) {
 
 	// Submenu
@@ -429,12 +479,12 @@ body{
 
 @media only screen and (min-width : 768px) {
 	// submenu
-.dd-left-center{
-	width: 641px;
-	margin: 0 auto;
-}
-.dd-center{
-	float: left;
+	.dd-left-center{
+		width: 641px;
+		margin: 0 auto;
+	}
+	.dd-center{
+		float: left;
 		// height: 354px;
 	}
 	.dd-left{
@@ -481,34 +531,34 @@ body{
 		transform:translate(0%, 0);
 		z-index:9999;
 	}
-.dd-title-dekstop{
-	display:block;
-	padding-bottom: 26px;
-	span{
-		color:#fff;
-		font-family: "UbuntuBold";
-		font-size: 25px;
+	.dd-title-dekstop{
+		display:block;
+		padding-bottom: 26px;
+		span{
+			color:#fff;
+			font-family: "UbuntuBold";
+			font-size: 25px;
+		}
 	}
-}
-.dd-right{
-	padding-top: 82px;
-	padding-bottom: 42px;
-}
-.sub-clearfix{
-	display: none;
-}
-.dd-box{
-	float: unset;
-}
-.dd-box2{
-	padding-left: 0;
-}
-.dd-left, .dd-left-center{
-	float: left;
-}
-.dd-left{
-	padding-top: 85px;
-	width: 288px;
+	.dd-right{
+		padding-top: 82px;
+		padding-bottom: 42px;
+	}
+	.sub-clearfix{
+		display: none;
+	}
+	.dd-box{
+		float: unset;
+	}
+	.dd-box2{
+		padding-left: 0;
+	}
+	.dd-left, .dd-left-center{
+		float: left;
+	}
+	.dd-left{
+		padding-top: 85px;
+		width: 288px;
 		// height: 486px;
 	}
 	.dd-reg-mobile{
@@ -529,7 +579,7 @@ body{
 		display:block;
 	}
 	.header-wrap{
-		background: none;
+		background: #1E1E1E;
 		padding: 30px 0px 28px;
 		.input-view-header{
 			display: none;
