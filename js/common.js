@@ -74,7 +74,6 @@ $button.parent().find("input").val(newVal);
             $(this).removeClass('active');
         }
     });
-    // $('.sub_menu_header').addClass('active');
     $('.inner_sub_menu').slideUp(0);
     $('.sub_menu_header').click(function(){
         if (!$(this).hasClass('active')){
@@ -85,6 +84,26 @@ $button.parent().find("input").val(newVal);
             $(this).next('.inner_sub_menu').slideUp(300);
         }
     })
+
+
+// ==========================================
+// ========== Слайдер товара ================
+// ==========================================
+    $('.slider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+      slidesToShow: 5,
+      // slidesToScroll: 1,
+      asNavFor: '.slider-for',
+      dots: true,
+      // centerMode: true,
+      focusOnSelect: true
+    });
 
  });
 
