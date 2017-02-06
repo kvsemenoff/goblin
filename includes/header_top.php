@@ -39,7 +39,7 @@
 			<div class="dd-menu">
 				<ul>
 					<li>
-						<a href="#">
+						<a class="dd-show-catalog" href="#">
 							<span>Каталог</span><br>
 							<span>Все категории</span>
 						</a>
@@ -386,8 +386,10 @@
 
 			$this.toggleClass("active"); 
 			$(answerId).slideToggle();
-
 		});
-		// $(".js-faq-tittle:first").click();
+		$(".dd-show-catalog, .dd-burger").click(function(e){
+			e.preventDefault();
+			$('.dd-sub-menu').slideToggle(500);
+		});
 	});
 </script>
