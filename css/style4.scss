@@ -142,6 +142,9 @@ body{
 
 /* Submenu
 ====================================*/
+.dd-sub-menu{
+	display:none;
+}
 .dd-left{
 	background: #2C2C2C;
 	padding: 25px 0px;
@@ -214,23 +217,54 @@ body{
 		width: 250px;
 		position:relative;
 		a{
-			display: inline-block;
+			display: block;
 			color:#C6C6C1;
 			font-size: 16px;
 			font-family: "RobotoRegular";
 			padding-left: 38px;
 			margin-bottom: 20px;
+			position:relative;
 		}
-	}
-	li:after{
-		content:"";
-		position:absolute;
-		background: url(../img/plus.png) no-repeat;
-		width: 17px;
-		height: 17px;
-		right: -30px;
-		top:3px;
-		display: none;
+		a:after{
+			content:"";
+			position:absolute;
+			background: url(../img/plus.png) no-repeat !important;
+			width: 17px;
+			height: 17px;
+			right: -30px;
+			top:3px;
+			display: none;
+		}
+		.active{
+			position:relative;
+		}
+		.active:after{
+			content:"";
+			position:absolute;
+			background: url(../img/minus.png) no-repeat !important;
+			width: 17px;
+			height: 17px;
+			right:-30px;
+		}
+		.dd-min-menu{
+			display:none;
+			border-left:4px solid #FFA500;
+			margin-left: 10px;
+
+			li{
+
+				a{
+					padding-left: 27px;
+					background: unset;
+				}
+				.dd-next{
+					background: url(../img/kstr.png) no-repeat right 55px center !important;
+				}
+				a:after{
+					background: unset !important;
+				}
+			}
+		}
 	}
 	li:nth-child(1){
 		a{
@@ -267,6 +301,7 @@ body{
 			background: url(../img/tal.png) no-repeat left center;
 		}
 	}
+
 }
 
 // Правая часть
@@ -308,24 +343,8 @@ body{
 	}
 }
 
-// Аккордеон
-.dd-min-menu{
-	display:none;
-	li{
-		a{
-			background: unset !important;
-		}
-	}
-	li:after{
-		display: none !important;
-	}
-}
-.active{
-	position:relative;
-}
-.active:after{
-	position:relative;
-}
+
+
 // Регистрация в sub menu
 .dd-reg-mobile{
 	padding-left: 12px;
@@ -352,8 +371,10 @@ body{
 		margin: 0 auto;
 	}
 	.dd-box-center{
-		li:after{
-			display: block;
+		li{
+			a:after{
+				display: block;
+			}
 		}
 	}
 	// конец submenu

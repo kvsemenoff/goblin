@@ -146,41 +146,111 @@
 						</div>	
 						<ul>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m3">
 									Аксессуары для ноутбуков
 									и ПК
 								</a>
+								<ul class="dd-min-menu" id="m3">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m4">
 									Авто-товары
 								</a>
+								<ul class="dd-min-menu" id="m4">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m5">
 									Игры, музыка
 									и видеоозвучки
 								</a>
+								<ul class="dd-min-menu" id="m5">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m6">
 									Электроника и компьютеры
 								</a>
+								<ul class="dd-min-menu" id="m6">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m7">
 									Спорт и отдых
 								</a>
+								<ul class="dd-min-menu" id="m7">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m8">
 									Игрушки для детей
 								</a>
+								<ul class="dd-min-menu" id="m8">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m9">
 									Красота и здоровье
 								</a>
+								<ul class="dd-min-menu" id="m9">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 						</ul>
 					</div>	
@@ -188,12 +258,12 @@
 				<div class="dd-center dd-right">
 					<div class="dd-box-center">
 						<ul>
-							<li class="active">
-								<a href="#">
+							<li>
+								<a class="js-faq-tittle" href="#m2">
 									Одежда, обувь аксессуары
 								</a>
-								<ul class="dd-min-menu">
-									<li><a href="#">Перейти в раздел</a></li>
+								<ul class="dd-min-menu" id="m2">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
 									<li><a href="#">OUTLET</a></li>
 									<li><a href="#">Женская одежда</a></li>
 									<li><a href="#">Детская одежда</a></li>
@@ -204,34 +274,94 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m1">
 									Зоотовары
 								</a>
+								<ul class="dd-min-menu" id="m1">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m10">
 									Канцелярские товары
 								</a>
+								<ul class="dd-min-menu" id="m10">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m11">
 									Бытовая техника
 								</a>
+								<ul class="dd-min-menu" id="m11">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m12">
 									Книги
 								</a>
+								<ul class="dd-min-menu" id="m12">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m13">
 									Антиквариат, винтаж, искусство
 								</a>
+								<ul class="dd-min-menu" id="m13">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 							<li>
-								<a href="#">
+								<a class="js-faq-tittle" href="#m14">
 									Товары для взрослых
 								</a>
+								<ul class="dd-min-menu" id="m14">
+									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+									<li><a href="#">Тест1</a></li>
+									<li><a href="#">Тест2</a></li>
+									<li><a href="#">Тест3</a></li>
+									<li><a href="#">Тест4</a></li>
+									<li><a href="#">Тест5</a></li>
+									<li><a href="#">Тест6</a></li>
+									<li><a href="#">Тест7</a></li>
+								</ul>
 							</li>
 						</ul>
 					</div>	
@@ -242,3 +372,22 @@
 <!-- 	</div>
 </div> -->
 <!-- Конец submenu -->
+<script>
+	$(function() {
+		$(".js-faq-tittle").click(function(e){
+			e.preventDefault();
+			var $this = $(this);
+			answerId = $this.attr("href");
+
+			if( !$this.hasClass("active")){
+				$(".dd-min-menu").slideUp();
+				$(".js-faq-tittle").removeClass("active");
+			}
+
+			$this.toggleClass("active"); 
+			$(answerId).slideToggle();
+
+		});
+		// $(".js-faq-tittle:first").click();
+	});
+</script>
