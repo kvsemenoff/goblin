@@ -72,9 +72,9 @@
 	position:absolute;
 	left:0;  
 	top:0;
-    display:none;
-    z-index:9998; 
-    border:none;
+	display:none;
+	z-index:9998; 
+	border:none;
 }
 .db-popaps-form1{
 	background-color: #282828 !important;
@@ -196,13 +196,13 @@
 .textarea-view_db-popaps1{
 	color: #a2a2a2 !important;
 	background-color: #1e1e1e !important;
-	border-radius:2px;
-	padding: 22px;
+	border-radius: 2px;
 	font-family: "RobotoRegular";
-	border:none;
-	resize:none;
+	border: none;
+	resize: none;
 	font-size: 14px;
-
+	padding-left: 20px;
+	padding-top: 10px;
 }
 .textarea-view_db-popaps1{
 	outline: none;
@@ -220,7 +220,8 @@
 	color: #a2a2a2 !important;
 	background-color: #282828 !important;
 	border-radius:2px;
-	padding: 22px;
+	padding-left: 20px;
+	padding-top: 10px;
 	font-family: "RobotoRegular";
 	border:none;
 	resize:none;
@@ -239,13 +240,14 @@
 	color: #000 !important;
 	background-color: #fff !important;
 	border-radius:2px;
-	padding: 20px;
+	padding-left: 21px;
+	padding-top: 10px;
 	font-family: "RobotoRegular";
 	border:none;
 	resize:none;
 	font-size: 14px;
 	border: 1px solid #cacaca;
-border-radius: 2px;
+	border-radius: 2px;
 }
 
 .textarea-view_db-popaps3{
