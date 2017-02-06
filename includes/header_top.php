@@ -389,7 +389,6 @@
 		});
 		$(".dd-show-catalog, .dd-burger").click(function(e){
 			e.preventDefault();
-			alert(1);
 			$('.dd-sub-menu').slideToggle(500);
 		});
 	});
