@@ -109,6 +109,7 @@ $button.parent().find("input").val(newVal);
 // ==========================================
 // ========== Сайдбар для каталога ==========
 // ==========================================
+<<<<<<< HEAD
 $('.sub_menu').slideUp(0);
 $('.nav_item.first > .sub_menu').slideDown(0);
 $('.nav_item_header').click(function(){
@@ -123,6 +124,21 @@ $('.nav_item_header').click(function(){
     }
 });
     // $('.sub_menu_header').addClass('active');
+=======
+    $('.sub_menu').slideUp(0);
+    $('.nav_item.first > .sub_menu').slideDown(0);
+    $('.nav_item_header').click(function(){
+        if (!$(this).hasClass('active')){
+            $('.nav_item_header').removeClass('active');
+            $(this).addClass('active');
+            $('.sub_menu').slideUp(300);
+            $(this).next('.sub_menu').slideDown(300);
+        } else {
+            $(this).next('.sub_menu').slideUp(300);
+            $(this).removeClass('active');
+        }
+    });
+>>>>>>> 97c00d0c92fb3a1af0402b389367a8cdb95c71b4
     $('.inner_sub_menu').slideUp(0);
     $('.sub_menu_header').click(function(){
         if (!$(this).hasClass('active')){
@@ -134,7 +150,31 @@ $('.nav_item_header').click(function(){
         }
     })
 
+<<<<<<< HEAD
 });
+=======
+
+// ==========================================
+// ========== Слайдер товара ================
+// ==========================================
+    $('.slider-for').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+      slidesToShow: 5,
+      // slidesToScroll: 1,
+      asNavFor: '.slider-for',
+      dots: true,
+      // centerMode: true,
+      focusOnSelect: true
+    });
+
+ });
+>>>>>>> 97c00d0c92fb3a1af0402b389367a8cdb95c71b4
 
 
 
