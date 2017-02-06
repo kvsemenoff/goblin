@@ -389,6 +389,7 @@ body{
 }
 .dd-catalog-title{
 	padding-top: 20px;
+	float:left;
 	span:first-child{
 		color:#fff;
 		font-size:35px; 
@@ -403,6 +404,7 @@ body{
 	}
 }
 .dd-knopki{
+	float:right;
 	a{
 		display: inline-block;
 		width: 50px;
@@ -416,11 +418,43 @@ body{
 		background: url(../img/pl2.png) no-repeat top center;
 	}
 }
-
-
-
-
-
+.dd-catalog-reg-wrap{
+	background: #2C2C2C;
+	padding: 13px 0px;
+	span{
+		font-family: "Conv_pt-serif_[allfont.ru]";
+		font-style: italic;
+		display: inline-block;
+		color:#797974;
+		font-size: 14px;
+	}
+}
+.dd-catalog-reg-left{
+	float:left;
+}
+.dd-catalog-reg-right{
+	float:right;
+	a{
+		display: inline-block;
+		padding-right: 22px;
+		color:#6D6D69;
+		font-family: "RobotoRegular";
+		font-size: 15px;
+	}
+}
+.flout-l{
+	float:left;
+	margin-left: 1px;
+}
+.marg-left{
+	margin-left: 116px;
+}
+.dd-korzina-catalog{
+	padding-top: 0 !important;
+}
+.form-catalog{
+	display:none;
+}
 @media only screen and (min-width : 320px) {
 
 	// Submenu
@@ -571,9 +605,15 @@ body{
 }
 
 @media only screen and (min-width : 1248px) {
+	.form-catalog{
+		display:block;
+	}
 	.dd-sub-menu{
 		// position:absolute;
 		top:196px;
+	}
+	.dd-sub-menu-catalog{
+		top:223px;
 	}
 	.dd-menu-dekstop-wrap{
 		display:block;
