@@ -217,14 +217,17 @@
 	cursor: pointer;
 }
 #df-another{
+
 	.df-catalog__show_view{
 		background-color: #e3181b;
 		color:#fff;
 		vertical-align: top;
-		margin-top: 22px;
+		// margin-top: 22px;
+		margin-top: 7px;
 	}
 	.df-catalog_image_view{
 		background: none;
+		padding-top: 0;
 	}
 	.df-catalog__show_view:after{
 		background-image: url("../img/dfright2.png");		
