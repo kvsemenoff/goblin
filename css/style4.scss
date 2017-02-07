@@ -491,8 +491,13 @@ body{
 .dd-cat{
 	margin-bottom: 28px;
 }
-
-
+.dd-krug{
+	padding-top: 154px;
+	padding-bottom: 114px;
+}
+.mt2{
+	margin-top: 2px !important;
+}
 
 
 
@@ -617,7 +622,7 @@ body{
 	}
 	.dd-right{
 		padding-top: 82px;
-		padding-bottom: 42px;
+		padding-bottom: 43px;
 	}
 	.sub-clearfix{
 		display: none;
@@ -633,6 +638,7 @@ body{
 	}
 	.dd-left{
 		padding-top: 85px;
+		padding-bottom: 64px;
 		width: 288px;
 		// height: 486px;
 	}

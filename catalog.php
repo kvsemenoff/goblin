@@ -56,7 +56,7 @@
 					</div>
 					<div class="clearfix"></div>
 				</div>
-				<?php require_once('includes/catalogproduct.php'); ?>	
+				<?php require_once('includes/catalogproduct2.php'); ?>	
 				<div class="section_padding ">
 					<div class="df-pagination df-pagination_view">
 						<a href="#" class="df-pagination__link1 df-pagination__link1_view">Назад</a>
