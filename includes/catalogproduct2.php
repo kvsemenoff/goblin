@@ -1,7 +1,7 @@
 <section class="section_padding df-section2">
 	<div class="df-catalog df-catalog_view">
 
-	<div class="df-catalog__product df-catalog__product_view">
+		<div class="df-catalog__product df-catalog__product_view">
 			<div class="df-catalog__img df-catalog__img_view">
 				<img src="img/dftovar2.png" alt="" class="df-imgproduct">				
 			</div>
@@ -21,6 +21,126 @@
 		</div>
 
 		<div class="df-catalog__product df-catalog__product_view">
+			<div class="df-catalog__img df-catalog__img_view">
+				<img src="img/dftovar3.png" alt="" class="df-imgproduct">
+				<!-- <div class="df-miniimage">
+					<div class="df-catalog__ico df-catalog__ico_view">
+						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
+						<div class="df-catalog_image df-catalog_image_view">
+							<img src="img/dfi1.png" alt="">
+						</div>
+					</div>
+					<div class="df-catalog__ico df-catalog__ico_view">
+						<span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
+						<div class="df-catalog_image df-catalog_image_view">
+							<img src="img/dfi2.png" alt="">
+						</div>
+					</div>
+					<div class="df-catalog__ico df-catalog__ico_view " id="df-another">
+						<span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
+						<div class="df-catalog_image df-catalog_image_view">
+							<img src="img/dfi3.png" alt="">
+						</div>
+					</div>
+					<div class="df-catalog__ico df-catalog__ico_view">
+						<span class="df-catalog__show df-catalog__show_view">хит октября</span>
+						<div class="df-catalog_image df-catalog_image_view">
+							<img src="img/dfi4.png" alt="">
+						</div>
+					</div>
+				</div> -->
+			</div>
+			<div class="df-catalog-txtbox df-catalog-txtbox_view">
+				<div class="df-alltxt">
+					<h4>МФУ Ricoh <br> SP 150SUW</h4>
+					<span class="df-nameproduct">Оперативная память</span>
+					<p>Элегантный дизайн, интуитивно понятное управление и скорость печати 22 стр./мин. Простота установки драйвера с автозапуском виртуальной панели управления позволяет начать работу..</p>
+				</div>
+				<div class="dfboxprice">
+					<div class="df-catalog__busket df-catalog__busket_view">
+						<span class="df-catalog__newprice2 df-catalog__newprice_view2">8 210 р</span>
+					</div>
+					<a href="#" class="button-1 button-1_view">в корзину</a>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="df-catalog__product df-catalog__product_view">
+			<div class="df-catalog__img df-catalog__img_view">
+				<img src="img/pole.jpg" alt="" class="df-imgproduct">
+				<div class="df-miniimage margin-top-minus">
+					<div class="df-catalog__ico df-catalog__ico_view">
+						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
+						<div class="df-catalog_image df-catalog_image_view">
+							<img src="img/dfi1.png" alt="">
+						</div>
+					</div>
+					<div class="df-catalog__ico df-catalog__ico_view">
+						<span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
+						<div class="df-catalog_image df-catalog_image_view">
+							<img src="img/dfi2.png" alt="">
+						</div>
+					</div>
+					<div class="df-catalog__ico df-catalog__ico_view " id="df-another">
+						<span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
+						<div class="df-catalog_image df-catalog_image_view">
+							<img src="img/dfi3.png" alt="">
+						</div>
+					</div>
+					<div class="df-catalog__ico df-catalog__ico_view">
+						<span class="df-catalog__show df-catalog__show_view">хит октября</span>
+						<div class="df-catalog_image df-catalog_image_view">
+							<img src="img/dfi4.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="df-catalog-txtbox df-catalog-txtbox_view">
+				<div class="df-alltxt">
+					<h4>Огромное поле боя: <br> село в степи</h4>
+					<span class="df-nameproduct">Аксессуары к настольным играм</span>
+					<p>Дополнительное поле боя, для тех, кто хочет играть в "Свержение..</p>
+				</div>
+				<div class="dfboxprice">
+					<div class="df-catalog__busket df-catalog__busket_view">
+						<span class="df-catalog__oldprice df-catalog__oldprice_view">35 990 р</span>
+						<span class="df-catalog__newprice df-catalog__newprice_view">17 990 р</span>
+					</div>
+					<a href="#" class="button-1 button-1_view">в корзину</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Наушники -->
+		
+		<div class="df-catalog__product df-catalog__product_view">
+			<div class="df-catalog__img df-catalog__img_view">
+				<img src="img/dftovar6.png" alt="" class="df-imgproduct">
+				<div class="df-miniimage">
+					<div class="df-catalog__ico df-catalog__ico_view">
+						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
+						<div class="df-catalog_image df-catalog_image_view">
+							<img src="img/dfi1.png" alt="">
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div class="df-catalog-txtbox df-catalog-txtbox_view">
+				<div class="df-alltxt">
+					<h4>TH-900 Black <br> Limited Edition</h4>
+					<span class="df-nameproduct">Наушники</span>	
+				</div>
+				<div class="dfboxprice">			
+					<div class="df-catalog__busket df-catalog__busket_view">					
+						<span class="df-catalog__newprice2 df-catalog__newprice_view2">13 590 р</span>
+					</div>
+					<a href="#" class="button-1 button-1_view">в корзину</a>
+				</div>
+			</div>
+		</div>
+
+	<!-- 	<div class="df-catalog__product df-catalog__product_view">
 			<div class="df-catalog__img df-catalog__img_view">
 				<img src="img/dftovar1.png" alt="" class="df-imgproduct">
 				<div class="df-miniimage">
@@ -52,55 +172,12 @@
 					<a href="#" class="button-1 button-1_view">в корзину</a>
 				</div>
 			</div>
-		</div>
-
-	
+		</div> -->
 
 
-		<div class="df-catalog__product df-catalog__product_view">
-			<div class="df-catalog__img df-catalog__img_view">
-				<img src="img/dftovar3.png" alt="" class="df-imgproduct">
-				<div class="df-miniimage">
-					<div class="df-catalog__ico df-catalog__ico_view">
-						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
-						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi1.png" alt="">
-						</div>
-					</div>
-					<div class="df-catalog__ico df-catalog__ico_view">
-						<span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
-						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi2.png" alt="">
-						</div>
-					</div>
-					<div class="df-catalog__ico df-catalog__ico_view " id="df-another">
-						<span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
-						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi3.png" alt="">
-						</div>
-					</div>
-					<div class="df-catalog__ico df-catalog__ico_view">
-						<span class="df-catalog__show df-catalog__show_view">хит октября</span>
-						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi4.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="df-catalog-txtbox df-catalog-txtbox_view">
-				<div class="df-alltxt">
-					<h4>МФУ Ricoh <br> SP 150SUW</h4>
-					<span class="df-nameproduct">Оперативная память</span>
-					<p>Элегантный дизайн, интуитивно понятное управление и скорость печати 22 стр./мин. Простота установки драйвера с автозапуском виртуальной панели управления позволяет начать работу..</p>
-				</div>
-				<div class="dfboxprice">
-					<div class="df-catalog__busket df-catalog__busket_view">
-						<span class="df-catalog__newprice2 df-catalog__newprice_view2">8 210 р</span>
-					</div>
-					<a href="#" class="button-1 button-1_view">в корзину</a>
-				</div>
-			</div>
-		</div>
+
+
+		
 
 		<div class="df-catalog__product df-catalog__product_view">
 			<div class="df-catalog__img df-catalog__img_view">
@@ -164,31 +241,6 @@
 			</div>
 		</div>
 
-		<div class="df-catalog__product df-catalog__product_view">
-			<div class="df-catalog__img df-catalog__img_view">
-				<img src="img/dftovar6.png" alt="" class="df-imgproduct">
-				<div class="df-miniimage">
-					<div class="df-catalog__ico df-catalog__ico_view">
-						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
-						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi1.png" alt="">
-						</div>
-					</div>					
-				</div>
-			</div>
-			<div class="df-catalog-txtbox df-catalog-txtbox_view">
-				<div class="df-alltxt">
-					<h4>TH-900 Black <br> Limited Edition</h4>
-					<span class="df-nameproduct">Наушники</span>	
-				</div>
-				<div class="dfboxprice">			
-					<div class="df-catalog__busket df-catalog__busket_view">					
-						<span class="df-catalog__newprice2 df-catalog__newprice_view2">13 590 р</span>
-					</div>
-					<a href="#" class="button-1 button-1_view">в корзину</a>
-				</div>
-			</div>
-		</div>
 
 		<div class="df-catalog__product df-catalog__product_view">
 			<div class="df-catalog__img df-catalog__img_view">
