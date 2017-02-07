@@ -11,16 +11,6 @@
 .cart .product { padding: 7px 15px 0 45px; }
 .cart .product h1 { color: #1e1e1e; font-size: 34px; padding: 10px 0; font-family: 'Myriad Pro', arial, sans-serif; }
 .cart .product .pick__title { display: inline-block; padding: 7px 7px 10px 0; font-size: 14px; }
-.cart .product .ch-block { display: inline-block; }
-.cart .product .ch-block label { display: inline-block; }
-.cart .product .ch-block label .checkbox-custom { margin: 0; border: 2px solid #fff; }
-.cart .product .ch-block label .checkbox-custom--grey { background: #d3d3d3; }
-.cart .product .ch-block label .checkbox-custom--black { background: #000; }
-.cart .product .ch-block label .checkbox-custom--green { background: #6c9873; }
-.cart .product .ch-block label .checkbox-custom--light { background: #f0f0f0; }
-.cart .product .ch-block .checkbox:checked + .checkbox-custom::before { content: ""; display: block; position: absolute; top: -4px; right: -4px; bottom: -4px; left: -4px; background: #d3d3d3; border-radius: 10em; z-index: -2; }
-.cart .product .ch-block .checkbox:checked + .checkbox-custom--black::before { background: #000; }
-.cart .product .ch-block .checkbox:checked + .checkbox-custom--green::before { background: #6c9873; }
 .cart .select-block { display: inline-block; padding: 9px 0 13px; margin-right: 18px; }
 .cart .select-block .select__title { color: #797974; font-size: 14px; display: block; padding: 3px 0; }
 .cart .select-block .az-select { width: 168px; height: 36px; padding: 0; }
@@ -100,6 +90,17 @@
 .basket-3 .end-itog__in { float: right; padding-right: 80px; }
 .basket-3 .end-itog__in span { color: #fff; font-size: 22px; font-family: "UbuntuBold"; display: block; }
 .basket-3 .end-itog__in span i { font-style: normal; display: inline-block; color: #1e1e1e; padding: 0 4px; line-height: 40px; background: #ffeac4; margin-left: 2px; border-radius: 2px; }
+
+.ch-block { display: inline-block; }
+.ch-block label { display: inline-block; }
+.ch-block label .checkbox-custom { margin: 0; border: 2px solid #fff; }
+.ch-block label .checkbox-custom--grey { background: #d3d3d3; }
+.ch-block label .checkbox-custom--black { background: #000; }
+.ch-block label .checkbox-custom--green { background: #6c9873; }
+.ch-block label .checkbox-custom--light { background: #f0f0f0; }
+.ch-block .checkbox:checked + .checkbox-custom::before { content: ""; display: block; position: absolute; top: -4px; right: -4px; bottom: -4px; left: -4px; background: #d3d3d3; border-radius: 10em; z-index: -2; }
+.ch-block .checkbox:checked + .checkbox-custom--black::before { background: #000; }
+.ch-block .checkbox:checked + .checkbox-custom--green::before { background: #6c9873; }
 
 @media only screen and (max-width: 1200px) { .basket-3 .nam-txt { width: 300px; padding: 0 30px 0 0px; }
   .basket-3 .box__title-txt { padding: 0 56px 0 25px; width: 300px; }
