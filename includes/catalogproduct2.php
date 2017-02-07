@@ -296,7 +296,7 @@
 			<div class="df-catalog__img df-catalog__img_view">
 				<img src="img/dftovar4.png" alt="" class="df-imgproduct">
 
-				<div class="color-pick">
+	<!-- 			<div class="color-pick">
 					<div class="ch-block">
 						<label class="radio-lable">
 							<input class="checkbox" type="radio" name="checkbox-test" checked>
@@ -319,7 +319,7 @@
 							<span class="label"></span>
 						</label>
 					</div>
-				</div>
+				</div> -->
 
 
 
