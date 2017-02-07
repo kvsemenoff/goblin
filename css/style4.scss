@@ -1,5 +1,5 @@
 body{
-	background:#1E1E1E;
+	// background:#1E1E1E;
 }
 
 
@@ -375,6 +375,10 @@ body{
 =======================================*/
 .dd-brad-wrap{
 	padding: 30px 0px;
+	background: #1E1E1E;
+}
+.dd-catalog-content{
+	background:#1E1E1E;
 }
 .dd-bradcrumps{
 	a, span{
@@ -492,8 +496,8 @@ body{
 	margin-bottom: 28px;
 }
 .dd-krug{
-	padding-top: 154px;
-	padding-bottom: 114px;
+	padding-top: 104px;
+	padding-bottom: 113px;
 }
 .mt2{
 	margin-top: 2px !important;
@@ -501,7 +505,73 @@ body{
 .margin-top-minus{
 	top:1px !important;
 }
+.dd-tovar-empty{
+	color:black;
+	font-family: "RobotoRegular";
+	font-size: 14px;
+}
+.dd-tovar-empty2{
+	color:#FFA500;
+	display:block;
+	text-align:left;
+	margin-bottom: -7px;
+}
+.bg-price{
+	background: #FFEAC4;
+	border-radius:3px;
+	padding: 7px 22px;
+	// display:inline-block;
+	// vertical-align:bottom;
+}
+.bg-price2{
+	background: #FFEAC4;
+	vertical-align:unset !important;
+	padding: 7px 5px !important; 
+}
+.margin-none{
+	margin-bottom: 0;
+}
 
+.ch-block{
+	display: inline-block;
+	label{
+		display: inline-block;
+		.checkbox-custom {
+			margin: 0;
+			border: 2px solid #fff;
+			&--grey{
+				background: #d3d3d3;
+			}
+			&--black{
+				background: #000;
+			}
+			&--green{
+				background: #6c9873;
+			}
+			&--light{
+				background: #f0f0f0;
+			}
+		}
+	}
+	.checkbox:checked+.checkbox-custom::before{
+		content: "";
+		display: block;
+		position: absolute;
+		top: -4px;
+		right: -4px;
+		bottom: -4px;
+		left: -4px;
+		background: #d3d3d3;
+		border-radius: 10em;
+		z-index: -2;
+	}
+	.checkbox:checked+.checkbox-custom--black::before{
+		background: #000;	
+	}
+	.checkbox:checked+.checkbox-custom--green::before{
+		background: #6c9873;	
+	}
+}
 
 @media only screen and (min-width : 320px) {
 

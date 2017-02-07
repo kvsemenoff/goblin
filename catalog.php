@@ -83,7 +83,7 @@
 
 
 <?php require_once('includes/protect.php'); ?>	
-<?php require_once('includes/shop-goblin.php'); ?>	
+<?php require_once('includes/shop-goblin2.php'); ?>	
 <?php require_once('includes/footer.php'); ?>
 
 

@@ -82,21 +82,21 @@
 			}
 			.checkbox:checked+.checkbox-custom::before{
 				content: "";
-		    display: block;
-		    position: absolute;
-		    top: -4px;
-		    right: -4px;
-		    bottom: -4px;
-		    left: -4px;
-		    background: #d3d3d3;
-		    border-radius: 10em;
-		    z-index: -2;
+				display: block;
+				position: absolute;
+				top: -4px;
+				right: -4px;
+				bottom: -4px;
+				left: -4px;
+				background: #d3d3d3;
+				border-radius: 10em;
+				z-index: -2;
 			}
 			.checkbox:checked+.checkbox-custom--black::before{
-		    background: #000;	
+				background: #000;	
 			}
 			.checkbox:checked+.checkbox-custom--green::before{
-		    background: #6c9873;	
+				background: #6c9873;	
 			}
 		}
 	}
