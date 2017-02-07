@@ -1,4 +1,4 @@
-.sidebar { font-size: 14px; color: #fff; background: #1e1e1e; font-size: 14px; font-family: "RobotoRegular"; width: 290px; position: fixed; left: 0; top: 0; padding: 10px 20px 10px 0; }
+.sidebar { font-size: 14px; color: #fff; background: #1e1e1e; font-size: 14px; font-family: "RobotoRegular"; width: 290px; left: 0; top: 0; padding: 10px 20px 10px 0; }
 .sidebar .nav_item_header { cursor: pointer; font-weight: 400; font-family: "UbuntuBold"; padding: 8px 10px 8px 35px; text-transform: uppercase; font-size: 14px; max-width: 190px; line-height: 22px; background: url(../img/sidebar_ic.png) left 9px no-repeat; }
 .sidebar .nav_item_header--sport { background: url(../img/sidebar_ic.png) left -38px no-repeat; }
 .sidebar .nav_item_header--game { background: url(../img/sidebar_ic.png) left -96px no-repeat; }
