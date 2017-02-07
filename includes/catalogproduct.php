@@ -1,5 +1,5 @@
-<section class="section_padding df-section2">
-	<div class="df-catalog df-catalog_view">
+<section class="df-section-bg df-section-pb">
+	<div class="df-catalog df-catalog_view df-section df-section2">
 
 
 		<div class="df-catalog__product df-catalog__product_view">
