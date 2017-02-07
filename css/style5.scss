@@ -135,7 +135,9 @@
 
 /*============catalog============*/
 
-
+.df-section-pb{
+	padding-bottom: 31px;
+}
 .df-section2{
 	background-color: #fff;
 	padding: 0 !important;
@@ -193,6 +195,21 @@
 	margin-right: 5px;
 	vertical-align: text-bottom;
 }
+.df-numbers{
+	position: relative;
+	span{
+		position: absolute;
+		top:-5px;
+		right:-5px;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background-color: #fff;
+		font-size: 14px;
+		color:#282828;
+		font-family: "RobotoRegular";
+	}
+}
 .df-catalog__show_view:after{
 	content: "";
 	position: absolute;
@@ -219,10 +236,12 @@
 		background-color: #e3181b;
 		color:#fff;
 		vertical-align: top;
-		margin-top: 22px;
+		// margin-top: 22px;
+		margin-top: 7px;
 	}
 	.df-catalog_image_view{
 		background: none;
+		padding-top: 0;
 	}
 	.df-catalog__show_view:after{
 		background-image: url("../img/dfright2.png");		
@@ -311,10 +330,7 @@
 	font-family: "UbuntuBold";
 }
 .button-1_view{
-	text-align: center;
-	// position: absolute;
-    // right: 33px;
-    // bottom: 3px;
+	text-align: center;	
     vertical-align: text-bottom;
 }
 @media only screen and (min-width : 320px) {

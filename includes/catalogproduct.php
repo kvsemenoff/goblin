@@ -1,5 +1,5 @@
-<section class="section_padding df-section2">
-	<div class="df-catalog df-catalog_view">
+<section class="df-section-bg df-section-pb">
+	<div class="df-catalog df-catalog_view df-section df-section2">
 
 
 		<div class="df-catalog__product df-catalog__product_view">
@@ -55,14 +55,13 @@
 			</div>
 		</div>
 
-
 		<div class="df-catalog__product df-catalog__product_view">
 			<div class="df-catalog__img df-catalog__img_view">
 				<img src="img/dftovar3.png" alt="" class="df-imgproduct">
 				<div class="df-miniimage">
 					<div class="df-catalog__ico df-catalog__ico_view">
-						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
-						<div class="df-catalog_image df-catalog_image_view">
+						<span class="df-catalog__show df-catalog__show_view">+ 2 подарока</span>
+						<div class="df-catalog_image df-catalog_image_view df-numbers">						<span>2</span>	
 							<img src="img/dfi1.png" alt="">
 						</div>
 					</div>
@@ -128,7 +127,6 @@
 				</div>
 			</div>
 		</div>
-
 
 		<div class="df-catalog__product df-catalog__product_view">
 			<div class="df-catalog__img df-catalog__img_view">
