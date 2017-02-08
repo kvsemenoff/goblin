@@ -1,28 +1,58 @@
 <section class="catalog-tablet-wrap">
     <div class="dd-border-bottom">
-       <div class="dd-left-cat">
-          <div class="dd-left-cat-img">
-            <img src="img/ssd.jpg" alt="" class="df-imgproduct">               
+     <div class="dd-left-cat">
+      <div class="dd-left-cat-img">
+        <img src="img/ssd.jpg" alt="" class="df-imgproduct">
+        <div class="dd-my-absolute2">
+            <div class="df-catalog__ico df-catalog__ico_view text-left">
+                <div class="df-catalog_image df-catalog_image_view">
+                    <img src="img/dfi4.png" alt="">
+                </div>
+                <span class="df-catalog__show df-catalog__show_view">хит октября</span>
+            </div>
         </div>
+        <div class="dd-my-absolute">
+            <div class="df-catalog__ico df-catalog__ico_view text-left">
+                <div class="df-catalog_image df-catalog_image_view">
+                    <img src="img/dfi1.png" alt="">
+                </div>
+                <span class="df-catalog__show df-catalog__show_view">+ подарок</span>
+            </div>
+
+            <div class="df-catalog__ico df-catalog__ico_view text-left">
+                <div class="df-catalog_image df-catalog_image_view">
+                    <img src="img/dfi2.png" alt="">
+                </div>
+                <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
+            </div>
+
+            <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
+                <div class="df-catalog_image df-catalog_image_view">
+                    <img src="img/dfi3.png" alt="">
+                </div>
+                <span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
+            </div>
+        </div>                
     </div>
-    <div class="dd-center-cat">
-        <div class="dd-cat-txt">
-            <h4>Toshiba HDTS425EZSTA</h4>
-            <span>Компьютерные комплектующие</span>
-            <p>Основными достоинствами этого устройства является его бесшумность и высокая скорость работы. Он прочный к различным вибрациям, весит очень мало. Объем накопителя составляет 256 ГБ, также он имеет низкое энергопотребление. Благодаря этому накопителю можно ускорить..</p>
-        </div>
+</div>
+<div class="dd-center-cat">
+    <div class="dd-cat-txt">
+        <h4>Toshiba HDTS425EZSTA</h4>
+        <span>Компьютерные комплектующие</span>
+        <p>Основными достоинствами этого устройства является его бесшумность и высокая скорость работы. Он прочный к различным вибрациям, весит очень мало. Объем накопителя составляет 256 ГБ, также он имеет низкое энергопотребление. Благодаря этому накопителю можно ускорить..</p>
     </div>
-    <div class="dd-right-cat">
-        <span class="dd-tovar-empty dd-tovar-empty2 margin-none">Товар заканчивается</span>
-        <div class="price-bg-cat">
-            <span class="df-catalog__oldprice df-catalog__oldprice_view">35 990 р</span>
-            <span class="df-catalog__newprice df-catalog__newprice_view">17 990 р</span>
-        </div>
-        <div class="dd-cat-but">
-            <a href="#" class="button-1 button-1_view after-cat">в корзину</a>
-        </div>
+</div>
+<div class="dd-right-cat">
+    <span class="dd-tovar-empty dd-tovar-empty2 margin-none">Товар заканчивается</span>
+    <div class="price-bg-cat">
+        <span class="df-catalog__oldprice df-catalog__oldprice_view">35 990 р</span>
+        <span class="df-catalog__newprice df-catalog__newprice_view">17 990 р</span>
     </div>
-    <div class="clearfix"></div>
+    <div class="dd-cat-but">
+        <a href="#" class="button-1 button-1_view after-cat">в корзину</a>
+    </div>
+</div>
+<div class="clearfix"></div>
 </div>
 
 <!-- //// -->
@@ -30,36 +60,28 @@
     <div class="dd-left-cat">
         <div class="dd-left-cat-img">
             <img src="img/ssd.jpg" alt="" class="df-imgproduct">
-            <div class="dd-my-absolute">
+            <div class="dd-my-absolute dd-top">
                 <div class="df-catalog__ico df-catalog__ico_view text-left">
-
                     <div class="df-catalog_image df-catalog_image_view">
                         <img src="img/dfi1.png" alt="">
                     </div>
                     <span class="df-catalog__show df-catalog__show_view">+ подарок</span>
                 </div>
-                <div class="df-catalog__ico df-catalog__ico_view text-left">
 
+                <div class="df-catalog__ico df-catalog__ico_view text-left">
                     <div class="df-catalog_image df-catalog_image_view">
                         <img src="img/dfi2.png" alt="">
                     </div>
                     <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
                 </div>
-                <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
 
+                <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
                     <div class="df-catalog_image df-catalog_image_view">
                         <img src="img/dfi3.png" alt="">
                     </div>
                     <span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
                 </div>
-                <div class="df-catalog__ico df-catalog__ico_view text-left">
-
-                    <div class="df-catalog_image df-catalog_image_view">
-                        <img src="img/dfi4.png" alt="">
-                    </div>
-                    <span class="df-catalog__show df-catalog__show_view">хит октября</span>
-                </div>
-            </div>                
+            </div>
         </div>
     </div>
     <div class="dd-center-cat">
@@ -85,8 +107,37 @@
 <!-- //// -->
 <div class="dd-border-bottom">
     <div class="dd-left-cat">
-        <div class="dd-left-cat-img">
-            <img src="img/kk.png" alt="" class="df-imgproduct">               
+        <div class="dd-left-cat-img img-padding">
+            <img src="img/kk.png" alt="" class="df-imgproduct"> 
+            <div class="dd-my-absolute dd-top">
+                <div class="df-catalog__ico df-catalog__ico_view text-left">
+                    <div class="df-catalog_image df-catalog_image_view">
+                        <img src="img/dfi1.png" alt="">
+                    </div>
+                    <span class="df-catalog__show df-catalog__show_view">+ подарок</span>
+                </div>
+
+                <div class="df-catalog__ico df-catalog__ico_view text-left">
+                    <div class="df-catalog_image df-catalog_image_view">
+                        <img src="img/dfi2.png" alt="">
+                    </div>
+                    <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
+                </div>
+
+                <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
+                    <div class="df-catalog_image df-catalog_image_view">
+                        <img src="img/dfi3.png" alt="">
+                    </div>
+                    <span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
+                </div>
+
+                <div class="df-catalog__ico df-catalog__ico_view text-left">
+                    <div class="df-catalog_image df-catalog_image_view">
+                        <img src="img/dfi4.png" alt="">
+                    </div>
+                    <span class="df-catalog__show df-catalog__show_view">хит октября</span>
+                </div>
+            </div>                              
         </div>
     </div>
     <div class="dd-center-cat">
@@ -113,8 +164,16 @@
     <!-- //// -->
     <div class="dd-border-bottom">
         <div class="dd-left-cat">
-            <div class="dd-left-cat-img">
-                <img src="img/p.png" alt="" class="df-imgproduct">               
+            <div class="dd-left-cat-img img-padding2">
+                <img src="img/p.png" alt="" class="df-imgproduct">
+                <div class="dd-my-absolute top2">
+                    <div class="df-catalog__ico df-catalog__ico_view text-left">
+                        <div class="df-catalog_image df-catalog_image_view">
+                            <img src="img/dfi2.png" alt="">
+                        </div>
+                        <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
+                    </div>
+                </div>               
             </div>
         </div>
         <div class="dd-center-cat">
@@ -144,8 +203,16 @@
         <!-- //// -->
         <div class="dd-border-bottom">
             <div class="dd-left-cat">
-                <div class="dd-left-cat-img">
+                <div class="dd-left-cat-img img-padding2">
                     <img src="img/kn.jpg" alt="" class="df-imgproduct">
+                    <div class="dd-my-absolute top2">
+                        <div class="df-catalog__ico df-catalog__ico_view text-left">
+                            <div class="df-catalog_image df-catalog_image_view">
+                                <img src="img/dfi2.png" alt="">
+                            </div>
+                            <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
+                        </div>
+                    </div>      
                     <div class="dd-prod">
                         <img src="img/prod.png" alt="">  
                     </div>             
@@ -163,8 +230,8 @@
                     </div>
                 </div>
                 <div class="dd-right-cat dd-right-cat5">
-                 <span class="dd-tovar-empty">Товар закончился</span>
-                 <div class="price-bg-cat">
+                   <span class="dd-tovar-empty">Товар закончился</span>
+                   <div class="price-bg-cat">
 
                     <span class="df-catalog__oldprice df-catalog__oldprice_view">35 990 р</span>
                     <span class="df-catalog__newprice df-catalog__newprice_view">17 990 р</span>
@@ -181,7 +248,22 @@
         <div class="dd-border-bottom">
             <div class="dd-left-cat">
                 <div class="dd-left-cat-img">
-                    <img src="img/uho.png" alt="" class="df-imgproduct">           
+                    <img src="img/uho.png" alt="" class="df-imgproduct">
+                    <div class="dd-my-absolute dd-top">
+                        <div class="df-catalog__ico df-catalog__ico_view text-left">
+                            <div class="df-catalog_image df-catalog_image_view">
+                                <img src="img/dfi2.png" alt="">
+                            </div>
+                            <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
+                        </div>
+
+                        <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
+                            <div class="df-catalog_image df-catalog_image_view">
+                                <img src="img/dfi3.png" alt="">
+                            </div>
+                            <span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
+                        </div>
+                    </div>            
                 </div>
             </div>
             <div class="dd-center-cat">
@@ -194,8 +276,7 @@
                     </div>
                 </div>
                 <div class="dd-right-cat dd-right-cat4">
-
-                 <div class="">
+                   <div class="">
                     <span class="df-catalog__newprice2 df-catalog__newprice_view2"> 12 590 р</span>
                 </div>
                 <div class="dd-cat-but">
@@ -210,7 +291,22 @@
         <div class="dd-border-bottom">
             <div class="dd-left-cat">
                 <div class="dd-left-cat-img">
-                    <img src="img/bb.png" alt="" class="df-imgproduct">           
+                    <img src="img/bb.png" alt="" class="df-imgproduct"> 
+                    <div class="dd-my-absolute dd-top">
+                        <div class="df-catalog__ico df-catalog__ico_view text-left">
+                            <div class="df-catalog_image df-catalog_image_view">
+                                <img src="img/dfi2.png" alt="">
+                            </div>
+                            <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
+                        </div>
+
+                        <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
+                            <div class="df-catalog_image df-catalog_image_view">
+                                <img src="img/dfi3.png" alt="">
+                            </div>
+                            <span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
+                        </div>
+                    </div>                    
                 </div>
             </div>
             <div class="dd-center-cat">
@@ -222,7 +318,7 @@
             </div>
             <div class="dd-right-cat dd-right-cat4">
 
-             <div class="">
+               <div class="">
                 <span class="df-catalog__newprice2 df-catalog__newprice_view2"> 13 590 р</span>
             </div>
             <div class="dd-cat-but">
