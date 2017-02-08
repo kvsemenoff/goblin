@@ -12,7 +12,28 @@
 	<!-- Конец заголовок -->
 
 	<br>
-
+	<div class="ch-block">
+         <label class="radio-lable">
+          <input class="checkbox" type="radio" name="checkbox-test" checked>
+          <span class="checkbox-custom checkbox-custom--grey"></span>
+          <span class="label"></span>
+         </label>
+         <label class="radio-lable">
+          <input class="checkbox" type="radio" name="checkbox-test" checked>
+          <span class="checkbox-custom checkbox-custom--black"></span>
+          <span class="label"></span>
+         </label>
+         <label class="radio-lable">
+          <input class="checkbox" type="radio" name="checkbox-test" checked>
+          <span class="checkbox-custom checkbox-custom--green"></span>
+          <span class="label"></span>
+         </label>
+         <label class="radio-lable">
+          <input class="checkbox" type="radio" name="checkbox-test" checked>
+          <span class="checkbox-custom checkbox-custom--light"></span>
+          <span class="label"></span>
+         </label>
+        </div>
 	<h3>Инпут, сабмит и селект для поиска по разделам с классами input-view, az-select, submit-view</h3>	<br>
 	<form action="#">
 

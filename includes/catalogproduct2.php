@@ -24,32 +24,6 @@
 		<div class="df-catalog__product df-catalog__product_view">
 			<div class="df-catalog__img df-catalog__img_view">
 				<img src="img/dftovar3.png" alt="" class="df-imgproduct">
-				<!-- <div class="df-miniimage">
-					<div class="df-catalog__ico df-catalog__ico_view">
-						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
-						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi1.png" alt="">
-						</div>
-					</div>
-					<div class="df-catalog__ico df-catalog__ico_view">
-						<span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
-						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi2.png" alt="">
-						</div>
-					</div>
-					<div class="df-catalog__ico df-catalog__ico_view " id="df-another">
-						<span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
-						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi3.png" alt="">
-						</div>
-					</div>
-					<div class="df-catalog__ico df-catalog__ico_view">
-						<span class="df-catalog__show df-catalog__show_view">хит октября</span>
-						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi4.png" alt="">
-						</div>
-					</div>
-				</div> -->
 			</div>
 			<div class="df-catalog-txtbox df-catalog-txtbox_view">
 				<div class="df-alltxt">

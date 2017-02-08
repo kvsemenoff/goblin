@@ -1,9 +1,6 @@
 ﻿<?php require_once('includes/header.php'); ?>
 <?php require_once('includes/header_top2.php'); ?>
 
-
-
-
 <section class="dd-brad-wrap">
 	<div class="container">
 		<div class="row">
@@ -27,7 +24,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 padding-none">
-				
+				<?php require_once('includes/catalog.php'); ?>
 			</div>
 			<div class="col-md-9 padding-none">
 				<div class="dd-cat">
