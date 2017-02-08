@@ -139,28 +139,6 @@
 						<a href="#" class="link"><span>Оплата</span></a>
 					</div>
 				</div>
-					<div class="ch-block">
-									<label class="radio-lable">
-										<input class="checkbox" type="radio" name="checkbox-test" checked>
-										<span class="checkbox-custom checkbox-custom--grey"></span>
-										<span class="label"></span>
-									</label>
-									<label class="radio-lable">
-										<input class="checkbox" type="radio" name="checkbox-test" checked>
-										<span class="checkbox-custom checkbox-custom--black"></span>
-										<span class="label"></span>
-									</label>
-									<label class="radio-lable">
-										<input class="checkbox" type="radio" name="checkbox-test" checked>
-										<span class="checkbox-custom checkbox-custom--green"></span>
-										<span class="label"></span>
-									</label>
-									<label class="radio-lable">
-										<input class="checkbox" type="radio" name="checkbox-test" checked>
-										<span class="checkbox-custom checkbox-custom--light"></span>
-										<span class="label"></span>
-									</label>
-								</div>
 			</div>
 		</div>
 	</div>
