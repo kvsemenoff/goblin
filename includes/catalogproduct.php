@@ -95,7 +95,9 @@
 					<div class="df-catalog__busket df-catalog__busket_view">
 						<span class="df-catalog__newprice2 df-catalog__newprice_view2">8 210 р</span>
 					</div>
-					<a href="#" class="button-1 button-1_view">в корзину</a>
+					<div>
+						<a href="#" class="button-1 button-1_view">в корзину</a>
+					</div>
 				</div>
 			</div>
 		</div>
