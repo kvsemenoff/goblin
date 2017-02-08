@@ -373,23 +373,5 @@
 </div> -->
 <!-- Конец submenu -->
 <script>
-	$(function() {
-		$(".js-faq-tittle").click(function(e){
-			e.preventDefault();
-			var $this = $(this);
-			answerId = $this.attr("href");
 
-			if( !$this.hasClass("active")){
-				$(".dd-min-menu").slideUp();
-				$(".js-faq-tittle").removeClass("active");
-			}
-
-			$this.toggleClass("active"); 
-			$(answerId).slideToggle();
-		});
-		$(".dd-show-catalog, .dd-burger").click(function(e){
-			e.preventDefault();
-			$('.dd-sub-menu').slideToggle(500);
-		});
-	});
 </script>

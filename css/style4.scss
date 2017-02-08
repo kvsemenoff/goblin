@@ -639,7 +639,25 @@ body{
 	left:48%;
 	transform:translate(-50px);
 }
-
+.dd-my-absolute{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.text-left{
+	text-align:left !important;
+	.df-catalog__show_view::after {
+		content: "";
+		position: absolute;
+		top: 15px;
+		left: -5px;
+		width: 5px;
+		height: 7px;
+		background-image: url("../img/dfleft3.png");
+		background-repeat: no-repeat;
+		background-position: right center;
+	}
+}
 @media only screen and (min-width : 320px) {
 
 	// Submenu

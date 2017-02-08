@@ -29,7 +29,37 @@
 <div class="dd-border-bottom">
     <div class="dd-left-cat">
         <div class="dd-left-cat-img">
-            <img src="img/ssd.jpg" alt="" class="df-imgproduct">               
+            <img src="img/ssd.jpg" alt="" class="df-imgproduct">
+            <div class="dd-my-absolute">
+                <div class="df-catalog__ico df-catalog__ico_view text-left">
+
+                    <div class="df-catalog_image df-catalog_image_view">
+                        <img src="img/dfi1.png" alt="">
+                    </div>
+                    <span class="df-catalog__show df-catalog__show_view">+ подарок</span>
+                </div>
+                <div class="df-catalog__ico df-catalog__ico_view text-left">
+
+                    <div class="df-catalog_image df-catalog_image_view">
+                        <img src="img/dfi2.png" alt="">
+                    </div>
+                    <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
+                </div>
+                <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
+
+                    <div class="df-catalog_image df-catalog_image_view">
+                        <img src="img/dfi3.png" alt="">
+                    </div>
+                    <span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
+                </div>
+                <div class="df-catalog__ico df-catalog__ico_view text-left">
+
+                    <div class="df-catalog_image df-catalog_image_view">
+                        <img src="img/dfi4.png" alt="">
+                    </div>
+                    <span class="df-catalog__show df-catalog__show_view">хит октября</span>
+                </div>
+            </div>                
         </div>
     </div>
     <div class="dd-center-cat">
@@ -180,7 +210,7 @@
         <div class="dd-border-bottom">
             <div class="dd-left-cat">
                 <div class="dd-left-cat-img">
-                <img src="img/bb.png" alt="" class="df-imgproduct">           
+                    <img src="img/bb.png" alt="" class="df-imgproduct">           
                 </div>
             </div>
             <div class="dd-center-cat">
@@ -188,18 +218,18 @@
                     <h4>Deeper Smart Fishfinder 3.0</h4>
                     <span>Эхолоты</span>
                     <p>Умный эхолот Deeper 3.0 может быть заброшен в любую точку водоёма. Deeper плавает на поверхности и передаёт детальную информацию о структуре дна и всей толщи воды прямо на экран вашего смартфона или планшета. Deeper отображает глубину, температуру, структуру дна, а также данные о расположении водорослей и рыбы. Эхолот Deeper 3.0 использует Bluetooth для соединения и передачи данных на ваше устройство. </p>
-                    </div>
-                </div>
-                <div class="dd-right-cat dd-right-cat4">
-
-                 <div class="">
-                    <span class="df-catalog__newprice2 df-catalog__newprice_view2"> 13 590 р</span>
-                </div>
-                <div class="dd-cat-but">
-                    <a href="#" class="button-1 button-1_view after-cat">В корзину</a>
                 </div>
             </div>
-            <div class="clearfix"></div>
+            <div class="dd-right-cat dd-right-cat4">
+
+             <div class="">
+                <span class="df-catalog__newprice2 df-catalog__newprice_view2"> 13 590 р</span>
+            </div>
+            <div class="dd-cat-but">
+                <a href="#" class="button-1 button-1_view after-cat">В корзину</a>
+            </div>
         </div>
-        <!-- //// -->
-    </section>
+        <div class="clearfix"></div>
+    </div>
+    <!-- //// -->
+</section>
