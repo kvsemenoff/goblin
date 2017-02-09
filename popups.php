@@ -1,8 +1,13 @@
 <?php require_once('includes/header.php'); ?>
-<a href="#db-form1" name="modal">Попап1</a><br>
-<a href="#db-form2" name="modal">Попап2</a><br>
-<a href="#db-form3" name="modal">Попап3</a><br>
+<?php require_once('includes/header_top.php'); ?>
+<br>
+<div align="center" width="200">
+<a href="#db-form1" name="modal">Попап1</a><br><br>
+<a href="#db-form2" name="modal">Попап2</a><br><br>
+<a href="#db-form3" name="modal">Попап3</a><br><br>
 <a href="#thanks" name="modal">Попап Спасибо</a>
+</div>
+<br>
 <div id="mask"></div>
 <div  class="window" id="db-form1">
   <div class="db-popaps-form1" >
