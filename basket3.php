@@ -1,4 +1,5 @@
 ﻿<?php require_once('includes/header.php'); ?>
+<?php require_once('/includes/header_top.php') ?>
 
 <section class="section basket basket-3">
 	<div class="box-1">
@@ -242,7 +243,12 @@
 	</div>
 </section>
 
+<?php require_once('includes/protect.php'); ?>	
+<?php require_once('includes/shop-goblin.php'); ?>	
+<?php require_once('includes/footer.php'); ?>
 	
+</body>
+</html>	
 </body>
 </html>
 

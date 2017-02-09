@@ -26,7 +26,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3 padding-none">
-				
+				<?php require_once('includes/catalog.php'); ?>
 			</div>
 			<div class="col-md-9 padding-none">
 				<div class="dd-cat">
