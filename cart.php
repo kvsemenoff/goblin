@@ -1,5 +1,5 @@
 ﻿<?php require_once('includes/header.php'); ?>
-
+<?php require_once('includes/header_top.php'); ?>
 <section class="section cart">
 	<div class="container">
 		<div class="row">
@@ -144,6 +144,9 @@
 	</div>
 </section>
 
+<?php require_once('includes/protect.php'); ?>	
+<?php require_once('includes/shop-goblin.php'); ?>	
+<?php require_once('includes/footer.php'); ?>
 	
 </body>
 </html>
