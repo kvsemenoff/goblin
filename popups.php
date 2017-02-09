@@ -1,7 +1,7 @@
 <?php require_once('includes/header.php'); ?>
 <a href="#db-form1" name="modal">Попап1</a><br>
-<a href="#db-form2" name="modal">Попап1</a><br>
-<a href="#db-form3" name="modal">Попап1</a><br>
+<a href="#db-form2" name="modal">Попап2</a><br>
+<a href="#db-form3" name="modal">Попап3</a><br>
 <a href="#thanks" name="modal">Попап Спасибо</a>
 <div id="mask"></div>
 <div  class="window" id="db-form1">
