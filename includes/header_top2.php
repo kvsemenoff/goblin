@@ -1,14 +1,50 @@
+<section class="dd-catalog-reg-wrap">
+	<div class="container">
+		<div class="row">
+			<div class="dd-catalog-reg-left">
+				<span>Приходите покупайте, покупайте приходите</span>
+			</div>
+			<div class="dd-catalog-reg-right">
+				<a href="#">Регистрация</a>
+				<a href="#">Войти</a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</section>
+
 <section class="header-wrap">
 	<div class="container">
 		<div class="row">
 			<div class="dd-logo">
 				<a href="#"><img class="img-responsive" src="img/logo.png" alt=""></a>
 			</div>
-			<div class="dd-korzina">
-				<div class="dd-reg-wrap">
-					<span><a href="#">Регистрация</a></span>
-					<span><a href="#">Войти</a></span>
+
+			
+			<form class="form-catalog" action="#">
+				<div class="input-wrap flout-l marg-left">
+					<input class="input-view input-view_width" type="text" value="" placeholder="Поиск лучших товаров..">
 				</div>
+				<div  class="az-select flout-l">
+					<select name="" id="">
+						<option value="1">Все разделы</option>
+						<option value="2">тест</option>
+						<option value="3">тест</option>
+						<option value="4">тест</option>
+						<option value="5">тест</option>
+						<option value="6">тест</option>
+						<option value="7">тест</option>
+						<option value="8">тест</option>
+						<option value="9">тест</option>
+						<option value="9">тест</option>
+					</select>
+				</div>
+				<div class="input-wrap flout-l">
+					<input class="submit-view submit-view-width" type="submit" value="Поиск">
+				</div>
+			</form>
+
+			<div class="dd-korzina dd-korzina-catalog">
 				<a href="#">
 					<div class="dd-korzina-img">
 						<img src="img/korz.png" alt="">
@@ -96,7 +132,7 @@
 <!-- Submenu -->
 <!-- <div class="container">
 	<div class="row"> -->
-		<div class="dd-sub-menu">
+		<div class="dd-sub-menu dd-sub-menu-catalog">
 			<div class="dd-reg-mobile">
 				<a href="#">Регистрация</a>
 				<a href="#">Войти</a>

@@ -1,4 +1,4 @@
-<section class="section_padding df-section-bg">
+<section class="df-section-bg">
 	<div class="df-section">	
 		<div class="df-fish df-fish_view">
 			<div class="df-fish__R df-fish__R_view">
@@ -7,7 +7,7 @@
 			<div class="df-fish__L df-fish__L_view">
 				<h1>Беспроводной эхолот для рыбалки</h1>
 				<span>Незаменимый помощник на рыбалке. Многофункционален, компактен и прост в эксплуатации.</span>
-				<a href="#" class="df-bynow_view">купить сейчас</a>
+				<a href="#db-form1" class="df-bynow_view" name="modal" >купить сейчас</a>
 				<a href="#" class="df-readmore_view">подробне</a>
 			</div>			
 		</div>

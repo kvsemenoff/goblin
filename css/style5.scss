@@ -32,6 +32,7 @@
 	background-position: right center;
 	padding-right: 29px;	
 	padding-left: 0;	
+
 }
 .df-pagination__link1_view:hover{
 	background-image: url("../img/dfleft2.png");
@@ -134,19 +135,51 @@
 
 /*============catalog============*/
 
+.df-section-pb{
+	padding-bottom: 31px;
+}
+.df-section2{
+	background-color: #fff;
+	padding: 0 !important;
+}
+.df-catalog_view{
+	text-align: center;
+}
 .df-catalog__product_view{
 	max-width: 291px;
+	min-height: 540px;
 	width: 100%;
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: top;	
+	padding: 25px 14px 37px 14px;
+	margin-right: -4px;	
+	border-right: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+	position: relative;
 }
 
 .df-catalog__img_view{
-	text-align: center;
-	position: relative;
+	text-align: center;		
+	overflow: hidden;
+	.df-imgproduct{		
+		display: inline-block;		
+	}
 }
 .df-catalog__ico_view{
-	
+	text-align: right;	
+	margin-bottom: 10px;
+}
+.df-catalog__ico_view:hover{
+	.df-catalog__show_view{
+		transition:0.5s;
+		transition-delay:0.5s;	
+		display: inline-block;		
+	}
+}
+.df-miniimage{
+	position: absolute;
+	top: 30px;
+	right: 30px;
 }
 .df-catalog__show_view{
 	font-size: 14px;
@@ -156,7 +189,26 @@
 	padding: 7px 11px ;
 	background-color: #282828;
 	border-radius: 5px;	
+	text-align: center;
 	position: relative;
+	display: none;
+	margin-right: 5px;
+	vertical-align: text-bottom;
+}
+.df-numbers{
+	position: relative;
+	span{
+		position: absolute;
+		top:-5px;
+		right:-5px;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background-color: #fff;
+		font-size: 14px;
+		color:#282828;
+		font-family: "RobotoRegular";
+	}
 }
 .df-catalog__show_view:after{
 	content: "";
@@ -175,33 +227,111 @@
 	background-color: #282828;
 	border-radius:50%;
 	display: inline-block;
-	padding-top: 12px;
+	padding-top: 14px;
+	text-align: center;
+	cursor: pointer;
 }
+#df-another{
+	.df-catalog__show_view{
+		background-color: #e3181b;
+		color:#fff;
+		vertical-align: top;
+		// margin-top: 22px;
+		margin-top: 7px;
+	}
+	.df-catalog_image_view{
+		background: none;
+		padding-top: 0;
+	}
+	.df-catalog__show_view:after{
+		background-image: url("../img/dfright2.png");		
+	}	
+}
+
 //txt box
 
 .df-catalog-txtbox_view{
+	text-align: right;
 	h4{
-
+		font-size: 16px;
+		color:#1e1e1e;
+		font-family: "UbuntuBold";
+		text-transform: uppercase;
+		line-height: 20px;
 	}
-	span{
-
+	.df-nameproduct{
+		font-size: 14px;
+		color:#a9a99c;
+		line-height: 19px;
+		font-family: "RobotoRegular";
+		margin: 20px 0 14px 0;
+		display: inline-block;	
 	}
 	p{
+		color: #74746c;
+		font-size: 14px;		
+		line-height: 19px;
+		font-family: "RobotoRegular";
+		padding-bottom: 40px;
 
 	}
 }
-
+.df-alltxt{	
+	overflow: hidden;
+	text-align: left;	
+}
+.df-alltxt2{
+	p{
+		padding-bottom: 15px;
+	}
+}
+.df-alltxt3{
+	p{
+		padding-bottom: 0px;
+	}
+}
+.dfboxprice{
+	position: absolute;
+	bottom: 37px;
+	right: 23px;
+}
 .df-catalog__busket_view{
-
+	text-align: right;
+	display: inline-block;
+	width: 125px;	
+    padding-top: 20px;
+    margin-right: 17px;
+    vertical-align: super;
+}
+.df-block{
+	font-size: 20px;
+    color:#1e1e1e;
+    font-family: "UbuntuBold";
+    text-transform: uppercase;
+    width: 100%;
+    padding: 0px 0 16px 0;
 }
 .df-catalog__oldprice_view{
-
+	font-size: 16px;
+	color:#74746c;
+	font-family: "UbuntuBold";
+	text-decoration: line-through;
+	display: block;
 }
-.df-catalog__newprice_veiw{
-
+.df-catalog__newprice_view{
+	font-size: 20px;
+	color:#e3181b;
+	font-family: "UbuntuBold";
+	display: block;
+}
+.df-catalog__newprice_view2{
+	font-size: 20px;
+	color:#1e1e1e;
+	font-family: "UbuntuBold";
 }
 .button-1_view{
-
+	text-align: center;	
+    vertical-align: text-bottom;
 }
 @media only screen and (min-width : 320px) {
 }

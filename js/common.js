@@ -23,12 +23,17 @@ $(document).ready(function(){
         $('.window').hide();
     }); 
 
-    $('#mask, .an-exit__krest').click(function () {
+    $('#mask').click(function () {
         $('#mask').hide();
-        $('.window').hide();
+        $('.window, .window2').hide();
     }); 
 
- 
+    $('.db-close2, .db-message-a').click(function () {
+        $('#mask').hide();
+        $('.window2').hide();
+    }); 
+
+
 
     $(".form1").submit(function() { 
         var tel = $(this).find('input[name="phone"]');
@@ -53,12 +58,12 @@ $(document).ready(function(){
         return false;
     });
     function cleanTnanks(form){
-                $('input[type="text"]').removeClass("error-input");
-                $("input[type=text], textarea").val("");
-                $('.window').hide();
-                $('input[type="submit"]').trigger('click');
-                // location = "spasibo.php";
-            };
+        $('.window').hide();
+        $('.window2').show();
+        var winW = $(window).width();
+        $('.window2').css('top',  posTop+50);
+        $('.window2').css('left', winW/2-$('.window2').width()/2);
+    };
 
 
     $('.az-select').each(function(){
@@ -89,7 +94,7 @@ $(document).ready(function(){
         });
     });
 
-   
+
 
     $(".az-select").click(function(){
         $(this).find('.az-options').slideToggle(0);
@@ -132,20 +137,6 @@ $button.parent().find("input").val(newVal);
 // ==========================================
 // ========== Сайдбар для каталога ==========
 // ==========================================
-
-$('.sub_menu').slideUp(0);
-$('.nav_item.first > .sub_menu').slideDown(0);
-$('.nav_item_header').click(function(){
-    if (!$(this).hasClass('active')){
-        $('.nav_item_header').removeClass('active');
-        $(this).addClass('active');
-        $('.sub_menu').slideUp(300);
-        $(this).next('.sub_menu').slideDown(300);
-    } else {
-        $(this).next('.sub_menu').slideUp(300);
-        $(this).removeClass('active');
-    }
-});
     // $('.sub_menu_header').addClass('active');
 
     $('.sub_menu').slideUp(0);
@@ -175,20 +166,40 @@ $('.nav_item_header').click(function(){
 
 
 
+// Главное меню
+$(function() {
+    $(".js-faq-tittle").click(function(e){
+        e.preventDefault();
+        var $this = $(this);
+        answerId = $this.attr("href");
+
+        if( !$this.hasClass("active")){
+            $(".dd-min-menu").slideUp();
+            $(".js-faq-tittle").removeClass("active");
+        }
+
+        $this.toggleClass("active"); 
+        $(answerId).slideToggle();
+    });
+    $(".dd-show-catalog, .dd-burger").click(function(e){
+        e.preventDefault();
+        $('.dd-sub-menu').slideToggle(500);
+    });
+});
 
 
 // ==========================================
 // ========== Слайдер товара ================
 // ==========================================
-    $('.slider-for').slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      fade: true,
-      asNavFor: '.slider-nav'
-    });
-    $('.slider-nav').slick({
-      slidesToShow: 5,
+$('.slider-for').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
+});
+$('.slider-nav').slick({
+  slidesToShow: 5,
       // slidesToScroll: 1,
       asNavFor: '.slider-for',
       dots: true,
@@ -221,8 +232,7 @@ $('.nav_item_header').click(function(){
   
             parent.toggleClass("purchase__form-courier");
         })
-
-    });
+  });
    
 });
 

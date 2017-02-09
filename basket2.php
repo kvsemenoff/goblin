@@ -195,10 +195,18 @@
                         </label>
                         <p class="payment__price">35 900 р</p>
                         <p class="payment__price delivery__price">С учетом доставки  3 450 р</p>
-                      <button type="submit" class="button-1 button-2 payment__button">Отправить заказ</button>
+                        <a href="#thanks" name="modal">
+                      <button type="submit"  class="button-1 button-2 payment__button">Отправить заказ</button>
+                      </a>
                   </div>
               </form>
           </div>
       </div>
 </section>
-<?php require_once('/includes/footer.php') ?>
+
+<?php require_once('includes/protect.php'); ?>  
+<?php require_once('includes/shop-goblin.php'); ?>  
+<?php require_once('includes/footer.php'); ?>
+  
+</body>
+</html>
