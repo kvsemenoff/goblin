@@ -18,21 +18,21 @@
 		font-size: 14px;
 		max-width: 190px;
 		line-height: 22px;
-		background: url(../img/f1.png) 5px 12px no-repeat;
+		background: url(../img/f1.svg) 5px 12px no-repeat;
 		&--sport{
-			background: url(../img/f2.png) 5px 12px no-repeat;	
+			background: url(../img/f2.svg) 5px 12px no-repeat;	
 		}
 		&--game{
-			background: url(../img/f3.png) 5px 12px no-repeat;	
+			background: url(../img/f3.svg) 5px 12px no-repeat;	
 		}
 		&--avto{
-			background: url(../img/f4.png) 5px 12px no-repeat;	
+			background: url(../img/f4.svg) 5px 12px no-repeat;	
 		}
 		&--home{
-			background: url(../img/f5.png) 5px 12px no-repeat;	
+			background: url(../img/f5.svg) 5px 12px no-repeat;	
 		}
 		&--music{
-			background: url(../img/f6.png) 5px 12px no-repeat;	
+			background: url(../img/f6.svg) 5px 12px no-repeat;	
 		}
 	}
 	.sub_menu_header{
@@ -49,17 +49,17 @@
 			position: absolute;
 			left: 6px;
    		top: 8px;
-			background: url(../img/category_open.png) top no-repeat;
+			background: url(../img/category_open.svg) top no-repeat;
 		}
 		&.active.plus::before{
-			background: url(../img/category_open.png) bottom no-repeat;
+			background: url(../img/category_open.svg) bottom no-repeat;
 		}
 	}
 	a.sub_menu_link{
 		color: inherit;
 		display: inline-block!important;
 		padding: 5px 24px 5px 0px;
-		background: url(../img/arrow_ic.png) right center no-repeat;
+		background: url(../img/arrow_ic.svg) right center no-repeat;
 	}
 	.inner_sub_menu{
 		padding-right: 25px;

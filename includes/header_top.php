@@ -11,7 +11,7 @@
 				</div>
 				<a href="#">
 					<div class="dd-korzina-img">
-						<img src="img/korz.png" alt="">
+						<img src="img/korz.svg" alt="">
 					</div>
 				</a>
 				<div class="dd-korzina-txt">
@@ -19,7 +19,7 @@
 					<span>добавьте товары</span>
 				</div>
 				<div class="dd-burger">
-					<img src="img/burg.png" alt="">
+					<img src="img/burg.svg" alt="">
 				</div>
 			</div>
 			<div class="clearfix clearfix-display"></div>

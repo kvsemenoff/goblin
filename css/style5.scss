@@ -20,14 +20,14 @@
 	font-size: 14px;
 	color:#d1d1cc;
 	line-height: 65px;
-	background-image: url("../img/dfleft1.png");
+	background-image: url("../img/dfleft1.svg");
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 29px;		
 }
 .df-pagination__link2_view{
 	text-align: right;
-	background-image: url("../img/dfright1.png");
+	background-image: url("../img/dfright1.svg");
 	background-repeat: no-repeat;
 	background-position: right center;
 	padding-right: 29px;	
@@ -35,11 +35,11 @@
 
 }
 .df-pagination__link1_view:hover{
-	background-image: url("../img/dfleft2.png");
+	background-image: url("../img/dfleft2.svg");
 	color: #e3181b;
 }
 .df-pagination__link2_view:hover{
-	background-image: url("../img/dfright2.png");
+	background-image: url("../img/dfright2.svg");
 	color: #e3181b;	
 }
 .df-pagination__numbers_view{
@@ -217,7 +217,7 @@
 	right:-5px;
 	width: 5px;
 	height: 7px;
-	background-image: url("../img/dfright3.png");
+	background-image: url("../img/dfright3.svg");
 	background-repeat: no-repeat;
 	background-position: right center;
 }
@@ -244,7 +244,7 @@
 		padding-top: 0;
 	}
 	.df-catalog__show_view:after{
-		background-image: url("../img/dfright2.png");		
+		background-image: url("../img/dfright2.svg");		
 	}	
 }
 

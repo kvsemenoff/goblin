@@ -48,25 +48,25 @@
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi1.png" alt="">
+							<img src="img/dfi1.svg" alt="">
 						</div>
 					</div>
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi2.png" alt="">
+							<img src="img/dfi2.svg" alt="">
 						</div>
 					</div>
 					<div class="df-catalog__ico df-catalog__ico_view " id="df-another">
 						<span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi3.png" alt="">
+							<img src="img/dfi3.svg" alt="">
 						</div>
 					</div>
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">хит октября</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi4.png" alt="">
+							<img src="img/dfi4.svg" alt="">
 						</div>
 					</div>
 				</div>
@@ -97,7 +97,7 @@
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi1.png" alt="">
+							<img src="img/dfi1.svg" alt="">
 						</div>
 					</div>					
 				</div>
@@ -126,25 +126,25 @@
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi1.png" alt="">
+							<img src="img/dfi1.svg" alt="">
 						</div>
 					</div>
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi2.png" alt="">
+							<img src="img/dfi2.svg" alt="">
 						</div>
 					</div>
 					<div class="df-catalog__ico df-catalog__ico_view " id="df-another">
 						<span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi3.png" alt="">
+							<img src="img/dfi3.svg" alt="">
 						</div>
 					</div>
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">хит октября</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi4.png" alt="">
+							<img src="img/dfi4.svg" alt="">
 						</div>
 					</div>
 				</div>			
@@ -173,7 +173,7 @@
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi2.png" alt="">
+							<img src="img/dfi2.svg" alt="">
 						</div>
 					</div>					
 				</div>
@@ -203,25 +203,25 @@
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi1.png" alt="">
+							<img src="img/dfi1.svg" alt="">
 						</div>
 					</div>
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi2.png" alt="">
+							<img src="img/dfi2.svg" alt="">
 						</div>
 					</div>
 					<div class="df-catalog__ico df-catalog__ico_view " id="df-another">
 						<span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi3.png" alt="">
+							<img src="img/dfi3.svg" alt="">
 						</div>
 					</div>
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">хит октября</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi4.png" alt="">
+							<img src="img/dfi4.svg" alt="">
 						</div>
 					</div>
 				</div>							
@@ -303,7 +303,7 @@
 					<div class="df-catalog__ico df-catalog__ico_view"  id="df-another">
 						<span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi3.png" alt="">
+							<img src="img/dfi3.svg" alt="">
 						</div>
 					</div>
 				</div>
@@ -351,19 +351,19 @@
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi1.png" alt="">
+							<img src="img/dfi1.svg" alt="">
 						</div>
 					</div>
 					<div class="df-catalog__ico df-catalog__ico_view">
 						<span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi2.png" alt="">
+							<img src="img/dfi2.svg" alt="">
 						</div>
 					</div>
 					<div class="df-catalog__ico df-catalog__ico_view " id="df-another">
 						<span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
 						<div class="df-catalog_image df-catalog_image_view">
-							<img src="img/dfi3.png" alt="">
+							<img src="img/dfi3.svg" alt="">
 						</div>
 					</div>
 				</div>						
@@ -390,7 +390,7 @@
 			<a href="#">
 				<div class="df-catalog__product df-catalog__product_view">
 					<div class="dd-krug">
-						<img src="img/krug.png" alt="">
+						<img src="img/krug.svg" alt="">
 					</div>
 					<div class="df-catalog-txtbox df-catalog-txtbox_view">
 						<div class="df-alltxt df-alltxt3">
