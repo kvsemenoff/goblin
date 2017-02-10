@@ -6,7 +6,7 @@
         <div class="dd-my-absolute2">
             <div class="df-catalog__ico df-catalog__ico_view text-left">
                 <div class="df-catalog_image df-catalog_image_view">
-                    <img src="img/dfi4.png" alt="">
+                    <img src="img/dfi4.svg" alt="">
                 </div>
                 <span class="df-catalog__show df-catalog__show_view">хит октября</span>
             </div>
@@ -14,21 +14,21 @@
         <div class="dd-my-absolute">
             <div class="df-catalog__ico df-catalog__ico_view text-left">
                 <div class="df-catalog_image df-catalog_image_view">
-                    <img src="img/dfi1.png" alt="">
+                    <img src="img/dfi1.svg" alt="">
                 </div>
                 <span class="df-catalog__show df-catalog__show_view">+ подарок</span>
             </div>
 
             <div class="df-catalog__ico df-catalog__ico_view text-left">
                 <div class="df-catalog_image df-catalog_image_view">
-                    <img src="img/dfi2.png" alt="">
+                    <img src="img/dfi2.svg" alt="">
                 </div>
                 <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
             </div>
 
             <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
                 <div class="df-catalog_image df-catalog_image_view">
-                    <img src="img/dfi3.png" alt="">
+                    <img src="img/dfi3.svg" alt="">
                 </div>
                 <span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
             </div>
@@ -63,21 +63,21 @@
             <div class="dd-my-absolute dd-top">
                 <div class="df-catalog__ico df-catalog__ico_view text-left">
                     <div class="df-catalog_image df-catalog_image_view">
-                        <img src="img/dfi1.png" alt="">
+                        <img src="img/dfi1.svg" alt="">
                     </div>
                     <span class="df-catalog__show df-catalog__show_view">+ подарок</span>
                 </div>
 
                 <div class="df-catalog__ico df-catalog__ico_view text-left">
                     <div class="df-catalog_image df-catalog_image_view">
-                        <img src="img/dfi2.png" alt="">
+                        <img src="img/dfi2.svg" alt="">
                     </div>
                     <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
                 </div>
 
                 <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
                     <div class="df-catalog_image df-catalog_image_view">
-                        <img src="img/dfi3.png" alt="">
+                        <img src="img/dfi3.svg" alt="">
                     </div>
                     <span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
                 </div>
@@ -112,28 +112,28 @@
             <div class="dd-my-absolute dd-top">
                 <div class="df-catalog__ico df-catalog__ico_view text-left">
                     <div class="df-catalog_image df-catalog_image_view">
-                        <img src="img/dfi1.png" alt="">
+                        <img src="img/dfi1.svg" alt="">
                     </div>
                     <span class="df-catalog__show df-catalog__show_view">+ подарок</span>
                 </div>
 
                 <div class="df-catalog__ico df-catalog__ico_view text-left">
                     <div class="df-catalog_image df-catalog_image_view">
-                        <img src="img/dfi2.png" alt="">
+                        <img src="img/dfi2.svg" alt="">
                     </div>
                     <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
                 </div>
 
                 <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
                     <div class="df-catalog_image df-catalog_image_view">
-                        <img src="img/dfi3.png" alt="">
+                        <img src="img/dfi3.svg" alt="">
                     </div>
                     <span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
                 </div>
 
                 <div class="df-catalog__ico df-catalog__ico_view text-left">
                     <div class="df-catalog_image df-catalog_image_view">
-                        <img src="img/dfi4.png" alt="">
+                        <img src="img/dfi4.svg" alt="">
                     </div>
                     <span class="df-catalog__show df-catalog__show_view">хит октября</span>
                 </div>
@@ -169,7 +169,7 @@
                 <div class="dd-my-absolute top2">
                     <div class="df-catalog__ico df-catalog__ico_view text-left">
                         <div class="df-catalog_image df-catalog_image_view">
-                            <img src="img/dfi2.png" alt="">
+                            <img src="img/dfi2.svg" alt="">
                         </div>
                         <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
                     </div>
@@ -208,7 +208,7 @@
                     <div class="dd-my-absolute top2">
                         <div class="df-catalog__ico df-catalog__ico_view text-left">
                             <div class="df-catalog_image df-catalog_image_view">
-                                <img src="img/dfi2.png" alt="">
+                                <img src="img/dfi2.svg" alt="">
                             </div>
                             <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
                         </div>
@@ -252,14 +252,14 @@
                     <div class="dd-my-absolute dd-top">
                         <div class="df-catalog__ico df-catalog__ico_view text-left">
                             <div class="df-catalog_image df-catalog_image_view">
-                                <img src="img/dfi2.png" alt="">
+                                <img src="img/dfi2.svg" alt="">
                             </div>
                             <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
                         </div>
 
                         <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
                             <div class="df-catalog_image df-catalog_image_view">
-                                <img src="img/dfi3.png" alt="">
+                                <img src="img/dfi3.svg" alt="">
                             </div>
                             <span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
                         </div>
@@ -295,14 +295,14 @@
                     <div class="dd-my-absolute dd-top">
                         <div class="df-catalog__ico df-catalog__ico_view text-left">
                             <div class="df-catalog_image df-catalog_image_view">
-                                <img src="img/dfi2.png" alt="">
+                                <img src="img/dfi2.svg" alt="">
                             </div>
                             <span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
                         </div>
 
                         <div class="df-catalog__ico df-catalog__ico_view  text-left" id="df-another">
                             <div class="df-catalog_image df-catalog_image_view">
-                                <img src="img/dfi3.png" alt="">
+                                <img src="img/dfi3.svg" alt="">
                             </div>
                             <span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
                         </div>
