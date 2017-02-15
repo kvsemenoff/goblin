@@ -655,7 +655,30 @@ fieldset {
 }
 
 @media only screen and (min-width : 768px) {
-}
+    .footer__flex {
+        width: 100%;
+        display: block;
+        max-width: 740px;
+        margin: 0 auto;
+    }
+    .footer__left {
+        float: left;
+        width: 50%;
+        &::after {
+            display: none;
+        }
+    }
+    .footer__right {
+        float: right;
+        width: 50%;
+    }
+    .footer__logo-block {
+        margin-top: 0;
+    }
+    .footer__actions {
+        text-align: right;
+    }
+ }
 
 @media only screen and (min-width : 992px) {
     .purchase__table {
@@ -753,6 +776,12 @@ fieldset {
             max-width: 100%;
         }
     }
+    .footer__flex {
+      max-width: 970px;
+    }
+    .footer__right {
+        width: 36%;
+    }
         
 }
 @media only screen and (min-width : 1170px) {
@@ -763,24 +792,28 @@ fieldset {
     }
     .footer__flex {
         width: 100%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
         max-width: 1170px;
         margin: 0 auto;
     }
     .footer__left {
         float: left;
-        width: 29.2%;
+        // width: 29.2%;
         &::after {
             display: none;
         }
     }
     .footer__right {
         float: right;
-        width: 36%;
+        // width: 36%;
     }
     .footer__logo-block {
         margin-bottom: 55px;
-        margin-top: 0;
-
+        margin-top: 0px;
     }
     span.opershop {
         font-size: 22px;

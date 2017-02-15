@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-       <div class="footer__flex">
+       <div class="footer__flex clearfix">
          <div class="footer__left">
            <div class="footer__logo-block">
              <div class="footer__logo-img">
