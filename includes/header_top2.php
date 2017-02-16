@@ -137,7 +137,7 @@
 				<a href="#">Регистрация</a>
 				<a href="#">Войти</a>
 			</div>
-			<div class="dd-left">
+			<div class="dd-left fix-height">
 				<div class="dd-left-center">
 					<div class="dd-box dd-box1">
 						<ul>
@@ -174,8 +174,9 @@
 					<div class="clearfix sub-clearfix"></div>
 				</div>
 			</div>
+				<div class="dd-bg-black">
 			<div class="dd-left-center">
-				<div class="dd-center">
+				<div class="dd-center fix-height">
 					<div class="dd-box-center">
 						<div class="dd-title-dekstop">
 							<span>Каталог товаров</span>
@@ -291,7 +292,7 @@
 						</ul>
 					</div>	
 				</div>	
-				<div class="dd-center dd-right">
+				<div class="dd-center dd-right fix-height">
 					<div class="dd-box-center">
 						<ul>
 							<li>
@@ -402,6 +403,35 @@
 						</ul>
 					</div>	
 				</div>
+
+					<div class="fl">
+						<div class="df-catalog__product df-catalog__product_view fl-height">
+							<div class="df-catalog__img df-catalog__img_view">
+								<div class="dd-rec">
+									<span>гоблин рекомендует</span>
+								</div>
+								<img src="img/dftovar1.png" alt="" class="df-imgproduct">
+
+							</div>
+							<div class="df-catalog-txtbox df-catalog-txtbox_view">
+								<div class="df-alltxt">
+									<h4>Модуль памяти <br> HyperX Savage DDR4 (16gb)</h4>
+									<span class="df-nameproduct">Оперативная память</span>
+									<p>Скорость до 3000 МГц и низкая латентность обеспечивают исключительную скорость и производительность</p>
+								</div>
+								<div class="dfboxprice">
+									<div class="df-catalog__busket df-catalog__busket_view">
+									<span class="df-catalog__newprice2 df-catalog__newprice_view2">8 210 р</span>
+									</div>
+									<a href="#" class="button-1 button-1_view">в корзину</a>
+								</div>
+							</div>
+							
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+					</div>
 			</div>	
 			<div class="clearfix"></div>	
 		</div>

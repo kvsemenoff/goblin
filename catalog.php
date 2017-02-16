@@ -25,10 +25,10 @@
 <section class="dd-catalog-content">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3 padding-none">
+			<div class="col-md-3 hidden-sm hidden-xs padding-none pt-side">
 				<?php require_once('includes/catalog.php'); ?>
 			</div>
-			<div class="col-md-9 padding-none">
+			<div class="col-md-9 col-sm-12 col-xs-12 padding-none">
 				<div class="dd-cat">
 					<div class="dd-sortirovka float-left-only">
 						<span>Сортировка</span>

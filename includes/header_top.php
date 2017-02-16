@@ -101,7 +101,7 @@
 				<a href="#">Регистрация</a>
 				<a href="#">Войти</a>
 			</div>
-			<div class="dd-left">
+			<div class="dd-left fix-height">
 				<div class="dd-left-center">
 					<div class="dd-box dd-box1">
 						<ul>
@@ -138,236 +138,266 @@
 					<div class="clearfix sub-clearfix"></div>
 				</div>
 			</div>
-			<div class="dd-left-center">
-				<div class="dd-center">
-					<div class="dd-box-center">
-						<div class="dd-title-dekstop">
-							<span>Каталог товаров</span>
+			<div class="dd-bg-black">
+				<div class="dd-left-center">
+					<div class="dd-center">
+						<div class="dd-box-center">
+							<div class="dd-title-dekstop">
+								<span>Каталог товаров</span>
+							</div>	
+							<ul>
+								<li>
+									<a class="js-faq-tittle" href="#m3">
+										Аксессуары для ноутбуков
+										и ПК
+									</a>
+									<ul class="dd-min-menu" id="m3">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m4">
+										Авто-товары
+									</a>
+									<ul class="dd-min-menu" id="m4">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m5">
+										Игры, музыка
+										и видеоозвучки
+									</a>
+									<ul class="dd-min-menu" id="m5">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m6">
+										Электроника и компьютеры
+									</a>
+									<ul class="dd-min-menu" id="m6">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m7">
+										Спорт и отдых
+									</a>
+									<ul class="dd-min-menu" id="m7">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m8">
+										Игрушки для детей
+									</a>
+									<ul class="dd-min-menu" id="m8">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m9">
+										Красота и здоровье
+									</a>
+									<ul class="dd-min-menu" id="m9">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+							</ul>
 						</div>	
-						<ul>
-							<li>
-								<a class="js-faq-tittle" href="#m3">
-									Аксессуары для ноутбуков
-									и ПК
-								</a>
-								<ul class="dd-min-menu" id="m3">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m4">
-									Авто-товары
-								</a>
-								<ul class="dd-min-menu" id="m4">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m5">
-									Игры, музыка
-									и видеоозвучки
-								</a>
-								<ul class="dd-min-menu" id="m5">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m6">
-									Электроника и компьютеры
-								</a>
-								<ul class="dd-min-menu" id="m6">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m7">
-									Спорт и отдых
-								</a>
-								<ul class="dd-min-menu" id="m7">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m8">
-									Игрушки для детей
-								</a>
-								<ul class="dd-min-menu" id="m8">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m9">
-									Красота и здоровье
-								</a>
-								<ul class="dd-min-menu" id="m9">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-						</ul>
 					</div>	
+					<div class="dd-center dd-right">
+						<div class="dd-box-center">
+							<ul>
+								<li>
+									<a class="js-faq-tittle" href="#m2">
+										Одежда, обувь аксессуары
+									</a>
+									<ul class="dd-min-menu" id="m2">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">OUTLET</a></li>
+										<li><a href="#">Женская одежда</a></li>
+										<li><a href="#">Детская одежда</a></li>
+										<li><a href="#">Свадьба</a></li>
+										<li><a href="#">Одежда для беременных</a></li>
+										<li><a href="#">Мужская одежда</a></li>
+										<li><a href="#">Обувь</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m1">
+										Зоотовары
+									</a>
+									<ul class="dd-min-menu" id="m1">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m10">
+										Канцелярские товары
+									</a>
+									<ul class="dd-min-menu" id="m10">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m11">
+										Бытовая техника
+									</a>
+									<ul class="dd-min-menu" id="m11">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m12">
+										Книги
+									</a>
+									<ul class="dd-min-menu" id="m12">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m13">
+										Антиквариат, винтаж, искусство
+									</a>
+									<ul class="dd-min-menu" id="m13">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+								<li>
+									<a class="js-faq-tittle" href="#m14">
+										Товары для взрослых
+									</a>
+									<ul class="dd-min-menu" id="m14">
+										<li><a class="dd-next" href="#">Перейти в раздел</a></li>
+										<li><a href="#">Тест1</a></li>
+										<li><a href="#">Тест2</a></li>
+										<li><a href="#">Тест3</a></li>
+										<li><a href="#">Тест4</a></li>
+										<li><a href="#">Тест5</a></li>
+										<li><a href="#">Тест6</a></li>
+										<li><a href="#">Тест7</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>	
+					</div>
+
+					<div class="fl">
+						<div class="df-catalog__product df-catalog__product_view fl-height">
+							<div class="df-catalog__img df-catalog__img_view">
+								<div class="dd-rec">
+									<span>гоблин рекомендует</span>
+								</div>
+								<img src="img/dftovar1.png" alt="" class="df-imgproduct">
+
+							</div>
+							<div class="df-catalog-txtbox df-catalog-txtbox_view">
+								<div class="df-alltxt">
+									<h4>Модуль памяти <br> HyperX Savage DDR4 (16gb)</h4>
+									<span class="df-nameproduct">Оперативная память</span>
+									<p>Скорость до 3000 МГц и низкая латентность обеспечивают исключительную скорость и производительность</p>
+								</div>
+								<div class="dfboxprice">
+									<div class="df-catalog__busket df-catalog__busket_view">
+									<span class="df-catalog__newprice2 df-catalog__newprice_view2">8 210 р</span>
+									</div>
+									<a href="#" class="button-1 button-1_view">в корзину</a>
+								</div>
+							</div>
+							
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
 				</div>	
-				<div class="dd-center dd-right">
-					<div class="dd-box-center">
-						<ul>
-							<li>
-								<a class="js-faq-tittle" href="#m2">
-									Одежда, обувь аксессуары
-								</a>
-								<ul class="dd-min-menu" id="m2">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">OUTLET</a></li>
-									<li><a href="#">Женская одежда</a></li>
-									<li><a href="#">Детская одежда</a></li>
-									<li><a href="#">Свадьба</a></li>
-									<li><a href="#">Одежда для беременных</a></li>
-									<li><a href="#">Мужская одежда</a></li>
-									<li><a href="#">Обувь</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m1">
-									Зоотовары
-								</a>
-								<ul class="dd-min-menu" id="m1">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m10">
-									Канцелярские товары
-								</a>
-								<ul class="dd-min-menu" id="m10">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m11">
-									Бытовая техника
-								</a>
-								<ul class="dd-min-menu" id="m11">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m12">
-									Книги
-								</a>
-								<ul class="dd-min-menu" id="m12">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m13">
-									Антиквариат, винтаж, искусство
-								</a>
-								<ul class="dd-min-menu" id="m13">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-							<li>
-								<a class="js-faq-tittle" href="#m14">
-									Товары для взрослых
-								</a>
-								<ul class="dd-min-menu" id="m14">
-									<li><a class="dd-next" href="#">Перейти в раздел</a></li>
-									<li><a href="#">Тест1</a></li>
-									<li><a href="#">Тест2</a></li>
-									<li><a href="#">Тест3</a></li>
-									<li><a href="#">Тест4</a></li>
-									<li><a href="#">Тест5</a></li>
-									<li><a href="#">Тест6</a></li>
-									<li><a href="#">Тест7</a></li>
-								</ul>
-							</li>
-						</ul>
-					</div>	
-				</div>
+				<div class="clearfix"></div>
 			</div>	
-			<div class="clearfix"></div>	
 		</div>
 <!-- 	</div>
 </div> -->
