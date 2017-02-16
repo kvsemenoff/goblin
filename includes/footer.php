@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-       <div class="footer__flex">
+       <div class="footer__flex clearfix">
          <div class="footer__left">
            <div class="footer__logo-block">
              <div class="footer__logo-img">
@@ -75,7 +75,7 @@
 </div>
 <div class="window2" id="thanks">
   <div class="db-popaps-form4">
-    <img src="img/db-message.png" alt="img"><br>
+    <img src="img/db-message.svg" alt="img"><br>
     <h1 class="db-message-h1">Ваша заявка<br>
       успешно отправлена</h1>
       <p class="db-message-p">наш представитель свяжется с вами в<br> ближайшее время</p>

@@ -103,20 +103,29 @@ $(document).ready(function(){
 
 
 
+    let oneprice = parseFloat($(".oneprice__count").text().trim().replace(/\s+/g, '')),
+        totalprice = oneprice;
+    $(".totalprice__count").text(oneprice);
     $(".df-number .dfbutton").on("click", function() {
 
         var $button = $(this);
-        var oldValue = $button.parent().find("input").val();  
+        var oldValue = $button.parent().find("input").val();
+            
 
         if ($button.text() == "+") {
           var newVal = parseFloat(oldValue) + 1;
+          totalprice += oneprice;
+          $(".totalprice__count").text(totalprice);
       }  
       else {
      // Don't allow decrementing below zero
      if (oldValue > 1) {
         var newVal = parseFloat(oldValue) - 1;
+        totalprice -= oneprice;
+        $(".totalprice__count").text(totalprice);
     } else {
         newVal = 1;
+        totalprice = oneprice;
     }
 }
 
@@ -155,6 +164,29 @@ $button.parent().find("input").val(newVal);
         }
     });
 
+// ==========================================
+// ========== Табы cart.php ==========
+// ==========================================
+$('.tabs-content > .tab-content').each(function(index){
+    if (index != 0) {
+        $(this).css('display','none');
+    };
+});
+    
+$('.tab').click(function(){
+    $('.tab').removeClass('active');
+    $('.tabs-content').find('div').removeClass('active');
+    $('.tabs-content > .tab-content').css('display','none');
+    $(this).addClass('active');
+
+    for (var i = 0; i < 4; i++) {
+        if($('.tabs > .tab-' + i).hasClass('active')){
+            $('.tabs-content > .tab-' + i).addClass('active');
+    };
+    
+    $('.tabs-content > .active').css('display','block');
+    };
+});
 
 
 // Главное меню
@@ -196,10 +228,42 @@ $('.slider-nav').slick({
       dots: true,
       // centerMode: true,
       focusOnSelect: true
+    });
+     $(".close__btn").on("click", function(e) {
+        e.preventDefault();
+        $(this).closest("");
+    })
+     
+     /* Отображение и скрытие формы доставки */
+    $(".purchase__form-label .checkbox").on("click", function() {
+       let _this = $(this),
+           parent = _this.closest("fieldset"),
+           form = parent.find(".purchase__form-fields"),
+           other__forms = $(".purchase__form-fields"),
+           other__fieldsets = $("fieldset"),
+           activeItem = other__forms.filter(".active__field");
+        activeItem.slideUp(500, function () {
+            other__forms.each(function() {
+                $(this).removeClass("active__field");
+            })
+            other__fieldsets.each(function(){
+                $(this).removeClass("purchase__form-courier");
+            });
+            form.slideDown(500, function() {            
+                form.toggleClass("active__field");
+            })
+  
+            parent.toggleClass("purchase__form-courier");
+        })
   });
-
+   
 });
 
+$(document).ready(function(){
+    $(".close__btn").on("click", function() {
+       $(this).closest(".item__tr").empty();
+    })
+});
 
 
 

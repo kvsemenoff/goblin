@@ -147,7 +147,7 @@ div[data-val]:hover{
 	right: 15px;
 	width: 13px;
 	height: 8px;
-	background: url(../img/select-arrow.png) no-repeat top left;
+	background: url(../img/select-arrow.svg) no-repeat top left;
 	z-index: 1;
 }
 // .az-select-focus:before{
@@ -172,7 +172,7 @@ div[data-val]:hover{
 	right: 15px;
 	width: 13px;
 	height: 8px;
-	background: url(../img/redstr.png) no-repeat top left !important;
+	background: url(../img/redstr.svg) no-repeat top left !important;
 	z-index: 1;
 }
 
@@ -184,7 +184,7 @@ div[data-val]:hover{
 .button-2:after{
 	content:"";
 	position: absolute;
-	background:url(../img/korz.jpg) no-repeat top right;
+	background:url(../img/korz.svg) no-repeat top right;
 	width: 50px;
 	height: 50px;
 	right: -49px;
@@ -212,11 +212,11 @@ div[data-val]:hover{
 	.dfbutton2{
 		padding-left: 14px;
 		border-right:1px solid #CACACA;
-		background: url(../img/min.png) no-repeat center;
+		background: url(../img/min.svg) no-repeat center;
 	}
 	.dfbutton3{
 		border-left:1px solid #CACACA;
-		background: url(../img/pl.png) no-repeat center;
+		background: url(../img/pl.svg) no-repeat center;
 	}
 	input[type="text"]{
 		// border-right: 1px solid #CACACA;
