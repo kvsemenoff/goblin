@@ -1,6 +1,8 @@
 
 $(document).ready(function(){
-
+    $('.lupa-submit').click(function(){
+        $('.dd-hide').toggleClass('dd-hidden');
+    });
 
     $('a[name=modal]').click(function(e) {
         e.preventDefault();
@@ -104,13 +106,13 @@ $(document).ready(function(){
 
 
     let oneprice = parseFloat($(".oneprice__count").text().trim().replace(/\s+/g, '')),
-        totalprice = oneprice;
+    totalprice = oneprice;
     $(".totalprice__count").text(oneprice);
     $(".df-number .dfbutton").on("click", function() {
 
         var $button = $(this);
         var oldValue = $button.parent().find("input").val();
-            
+
 
         if ($button.text() == "+") {
           var newVal = parseFloat(oldValue) + 1;
@@ -172,7 +174,7 @@ $('.tabs-content > .tab-content').each(function(index){
         $(this).css('display','none');
     };
 });
-    
+
 $('.tab').click(function(){
     $('.tab').removeClass('active');
     $('.tabs-content').find('div').removeClass('active');
@@ -182,9 +184,9 @@ $('.tab').click(function(){
     for (var i = 0; i < 4; i++) {
         if($('.tabs > .tab-' + i).hasClass('active')){
             $('.tabs-content > .tab-' + i).addClass('active');
-    };
-    
-    $('.tabs-content > .active').css('display','block');
+        };
+
+        $('.tabs-content > .active').css('display','block');
     };
 });
 
@@ -228,41 +230,41 @@ $('.slider-nav').slick({
       dots: true,
       // centerMode: true,
       focusOnSelect: true
-    });
-     $(".close__btn").on("click", function(e) {
-        e.preventDefault();
-        $(this).closest("");
-    })
-     
-     /* Отображение и скрытие формы доставки */
-    $(".purchase__form-label .checkbox").on("click", function() {
-       let _this = $(this),
-           parent = _this.closest("fieldset"),
-           form = parent.find(".purchase__form-fields"),
-           other__forms = $(".purchase__form-fields"),
-           other__fieldsets = $("fieldset"),
-           activeItem = other__forms.filter(".active__field");
-        activeItem.slideUp(500, function () {
-            other__forms.each(function() {
-                $(this).removeClass("active__field");
-            })
-            other__fieldsets.each(function(){
-                $(this).removeClass("purchase__form-courier");
-            });
-            form.slideDown(500, function() {            
-                form.toggleClass("active__field");
-            })
-  
-            parent.toggleClass("purchase__form-courier");
-        })
   });
-   
+$(".close__btn").on("click", function(e) {
+    e.preventDefault();
+    $(this).closest("");
+})
+
+/* Отображение и скрытие формы доставки */
+$(".purchase__form-label .checkbox").on("click", function() {
+ let _this = $(this),
+ parent = _this.closest("fieldset"),
+ form = parent.find(".purchase__form-fields"),
+ other__forms = $(".purchase__form-fields"),
+ other__fieldsets = $("fieldset"),
+ activeItem = other__forms.filter(".active__field");
+ activeItem.slideUp(500, function () {
+    other__forms.each(function() {
+        $(this).removeClass("active__field");
+    })
+    other__fieldsets.each(function(){
+        $(this).removeClass("purchase__form-courier");
+    });
+    form.slideDown(500, function() {            
+        form.toggleClass("active__field");
+    })
+
+    parent.toggleClass("purchase__form-courier");
+})
+});
+
 });
 
 $(document).ready(function(){
     $(".close__btn").on("click", function() {
-       $(this).closest(".item__tr").empty();
-    })
+     $(this).closest(".item__tr").empty();
+ })
 });
 
 

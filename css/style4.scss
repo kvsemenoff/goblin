@@ -716,6 +716,9 @@ body{
 		font-size: 11px;
 	}
 }
+// .dd-hidden{
+// 	display:none;
+// }
 @media only screen and (min-width : 320px) {
 
 	// Submenu
@@ -739,6 +742,9 @@ body{
 		}
 		.dd-input-header{
 			position:relative;
+		}
+		.dd-hidden{
+			visibility: hidden;
 		}
 		.lupa-submit{
 			position:absolute;
@@ -813,6 +819,9 @@ body{
 		}
 		.lupa-submit{
 			display: none;
+		}
+		.dd-hidden{
+			visibility: visible;
 		}
 		.dd-input-header:before{
 			display: none;

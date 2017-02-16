@@ -24,7 +24,7 @@
 			</div>
 			<div class="clearfix clearfix-display"></div>
 			<label class="dd-input-header">
-				<input type="text" class="input-view input-view-header" placeholder="Поиск лучших товаров..">
+				<input type="text" class="input-view input-view-header dd-hide dd-hidden" placeholder="Поиск лучших товаров..">
 				<input class="lupa-submit"	type="submit" value="">
 			</label>
 			<div class="clearfix clearfix-display2"></div>
@@ -385,7 +385,7 @@
 								</div>
 								<div class="dfboxprice">
 									<div class="df-catalog__busket df-catalog__busket_view">
-									<span class="df-catalog__newprice2 df-catalog__newprice_view2">8 210 р</span>
+										<span class="df-catalog__newprice2 df-catalog__newprice_view2">8 210 р</span>
 									</div>
 									<a href="#" class="button-1 button-1_view">в корзину</a>
 								</div>
