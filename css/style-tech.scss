@@ -523,8 +523,86 @@
 /* Cheks & select
 ============================*/
 .chs-wrap{
-	// background:#fff;
 	padding-top: 50px;
 	padding-bottom: 70px;
 	padding-left: 94px;
+}
+.pick__title__chs{
+	font-family: "RobotoRegular";
+	color:#8B8B87;
+	font-size:15px;
+}
+.select-wrap-chs{
+	margin-top: 40px;
+}
+.link-chs{
+	display: block;
+	padding: 16px 0 2px 36px;
+	background: url(../img/product_links.svg) 0px 15px no-repeat;
+	span{
+		color: #282828;
+		display: inline-block;
+		border-bottom: 1px dashed #cacaca;
+		font-family: "RobotoRegular";
+	}
+}
+.link-chs:hover{
+	span{
+		border-bottom:none;
+	}
+}
+.chs-left{
+	float: left;
+	margin-right: 25px;
+}
+.select-wrap-chs{
+	.az-select3{
+		border:1px solid #FFA500;
+	}
+	.dfbutton6{
+		border:1px solid #FFA500 !important;
+	}
+}
+.link-chs2{
+	border-bottom:none !important;
+}
+.checkbox-disable{
+	border:1px solid #D1D1D1 !important;
+}
+.checkbox-disable2{
+	border:1px solid #D1D1D1 !important;
+	border-radius: 2px !important; 
+	width: 22px !important;
+	height: 22px !important;
+}
+.checkbox-disable-txt{
+	color: #D1D1D1 !important;
+}
+.chs-right{
+	padding-top: 22px;
+}
+.dd-m{
+	padding-top: 15px;
+}
+
+/* Поиск для футера
+===========================*/
+.pf-wrap{
+	background:#282828;
+	.c__red{
+		border:1px solid red;
+	}
+	.c__red__sub{
+		color:red;
+	}
+	span{
+		display: inline-block;
+		padding-top: 10px;
+		font-family: "RobotoRegular";
+		font-size: 14px;
+		color:#797974;
+	}
+}
+.mr__pf{
+	margin-right: 20px;
 }

@@ -315,7 +315,7 @@
 		</div>
 		<div class="oth2-right">
 			<div class="str-bg">
-				<img src="img/icons/scroll_active.png" alt="">
+				<img src="img/icons/scroll_hover.png" alt="">
 			</div>
 			<div class="menu-el">
 				<h3 class="menu-el__view menu-el__view2 hover-style">Электроника <br>и компьютеры</h3>
@@ -346,36 +346,222 @@
 <!-- Chekbox & select -->
 <section class="chs-wrap">
 	<div class="container">
-		<div class="color-pick">
-			<span class="pick__title">Цвет:</span>
-			<div class="ch-block">
-				<label class="radio-lable">
-					<input class="checkbox" type="radio" name="checkbox-test" checked>
-					<span class="checkbox-custom checkbox-custom--grey"></span>
-					<span class="label"></span>
-				</label>
-				<label class="radio-lable">
-					<input class="checkbox" type="radio" name="checkbox-test" checked>
-					<span class="checkbox-custom checkbox-custom--black"></span>
-					<span class="label"></span>
-				</label>
-				<label class="radio-lable">
-					<input class="checkbox" type="radio" name="checkbox-test" checked>
-					<span class="checkbox-custom checkbox-custom--green"></span>
-					<span class="label"></span>
-				</label>
-				<label class="radio-lable">
-					<input class="checkbox" type="radio" name="checkbox-test" checked>
-					<span class="checkbox-custom checkbox-custom--light"></span>
-					<span class="label"></span>
-				</label>
+
+		<div class="chs-left">
+			<div class="color-pick">
+				<span class="pick__title__chs">Цвет:</span>
+				<div class="ch-block">
+					<label class="radio-lable">
+						<input class="checkbox" type="radio" name="checkbox-test" checked>
+						<span class="checkbox-custom checkbox-custom--grey"></span>
+						<span class="label"></span>
+					</label>
+					<label class="radio-lable">
+						<input class="checkbox" type="radio" name="checkbox-test" checked>
+						<span class="checkbox-custom checkbox-custom--black"></span>
+						<span class="label"></span>
+					</label>
+					<label class="radio-lable">
+						<input class="checkbox" type="radio" name="checkbox-test" checked>
+						<span class="checkbox-custom checkbox-custom--green"></span>
+						<span class="label"></span>
+					</label>
+					<label class="radio-lable">
+						<input class="checkbox" type="radio" name="checkbox-test" checked>
+						<span class="checkbox-custom checkbox-custom--light"></span>
+						<span class="label"></span>
+					</label>
+				</div>
 			</div>
-		</div>
-	</div>
-</section>
-<!-- End Chekbox & select -->
+
+			<div class="select-wrap-chs">
+				<div class="select-block">
+					<span class="pick__title__chs">Размер:</span>
+					<div class="az-select az-select2">
+						<select class="next-select" name="" id="">
+							<option value="1">XL 48</option>
+							<option value="2">XL 48</option>
+							<option value="3">XL 48</option>
+						</select>
+						<div class="az-options" style="display: none;"><div data-val="1">XL 48</div><div data-val="2">XL 48</div><div data-val="3">XL 48</div></div></div>	
+					</div>
+				</div>
+				<div class="select-wrap-chs">
+					<div class="df-number">
+						<span class="dfbutton dfbutton2">-</span>
+						<input type="text" value="1" disabled="disabled">  
+						<span class="dfbutton dfbutton3">+</span>
+					</div>
+				</div>
+				<div class="select-wrap-chs">
+					<div class="links-chs">
+						<a href="#" class="link-chs"><span>Характеристики</span></a>
+					</div>
+				</div>
+				<div class="select-wrap-chs">
+					<label class="radio-lable payment__label">
+						<input class="checkbox" name="checkbox-payment" type="radio">
+						<span class="checkbox-custom right__span"></span>
+						<span class="label payment__span">Доставка курьером в пределах МСК</span>
+					</label>
+				</div>
+				<div class="purchase__agreement-block">
+					<input id="purchase__check" class="purchase__agreement-checkbox" type="checkbox">
+					<label for="purchase__check" class="purchase__agreement">Доставка курьером в пределах МСК</a>
+					</label>
+				</div>
+			</div>
+
+			<!-- ///////////////////////////////////////////////////////////// -->
+
+			<div class="chs-left">
+				<div class="color-pick">
+					<span class="pick__title__chs">Цвет:</span>
+
+					<div class="ch-block">
+						<label class="radio-lable">
+							<input class="checkbox" type="radio" name="checkbox-test" checked>
+							<span class="checkbox-custom checkbox-custom--grey"></span>
+							<span class="label"></span>
+						</label>
+						<label class="radio-lable">
+							<input class="checkbox" type="radio" name="checkbox-test" checked>
+							<span class="checkbox-custom checkbox-custom--black"></span>
+							<span class="label"></span>
+						</label>
+						<label class="radio-lable">
+							<input class="checkbox" type="radio" name="checkbox-test" checked>
+							<span class="checkbox-custom checkbox-custom--green"></span>
+							<span class="label"></span>
+						</label>
+						<label class="radio-lable">
+							<input class="checkbox" type="radio" name="checkbox-test" checked>
+							<span class="checkbox-custom checkbox-custom--light"></span>
+							<span class="label"></span>
+						</label>
+					</div>
+
+				</div>
+
+				<div class="select-wrap-chs">
+					<div class="select-block">
+						<span class="pick__title__chs">Размер:</span>
+						<div class="az-select az-select2 az-select3">
+							<select class="next-select" name="" id="">
+								<option value="1">XL 48</option>
+								<option value="2">XL 48</option>
+								<option value="3">XL 48</option>
+							</select>
+							<div class="az-options" style="display: none;"><div data-val="1">XL 48</div><div data-val="2">XL 48</div><div data-val="3">XL 48</div></div></div>	
+						</div>
+					</div>
+					<div class="select-wrap-chs">
+						<div class="df-number">
+							<span class="dfbutton dfbutton2 dfbutton6">-</span>
+							<input type="text" value="1" disabled="disabled">  
+							<span class="dfbutton dfbutton3">+</span>
+						</div>
+					</div>
+					<div class="select-wrap-chs">
+						<div class="links-chs">
+							<a href="#" class="link-chs "><span class="link-chs2">Характеристики</span></a>
+						</div>
+					</div>
+					<div class="select-wrap-chs">
+						<label class="radio-lable payment__label">
+							<input class="checkbox" name="checkbox-payment" checked="checked" type="radio">
+							<span class="checkbox-custom right__span"></span>
+							<span class="label payment__span">Доставка курьером в пределах МСК</span>
+						</label>
+					</div>
+					<div class="purchase__agreement-block">
+						<input id="purchase__check" checked="checked" class="purchase__agreement-checkbox" type="checkbox">
+						<label for="purchase__check" class="purchase__agreement">Доставка курьером в пределах МСК</a>
+						</label>
+					</div>
+				</div>
+				<!-- //////////////// -->
+
+				<div class="chs-left chs-right">
+					<div class="select-wrap-chs">
+						<div class="select-block">
+							<span class="pick__title__chs">Размер:</span>
+							<div class="az-select az-select2 az-select3">
+								<select class="next-select" name="" id="">
+									<option value="1">XL 48</option>
+									<option value="2">XL 48</option>
+									<option value="3">XL 48</option>
+								</select>
+								<div class="az-options" style="display: none;"><div data-val="1">XL 48</div><div data-val="2">XL 48</div><div data-val="3">XL 48</div></div></div>	
+							</div>
+						</div>
+						<div class="select-wrap-chs">
+							<div class="df-number">
+								<span class="dfbutton dfbutton2 dfbutton6">-</span>
+								<input type="text" value="1" disabled="disabled">  
+								<span class="dfbutton dfbutton3">+</span>
+							</div>
+						</div>
+						<div class="select-wrap-chs">
+							<div class="links-chs">
+								<a href="#" class="link-chs "><span class="link-chs2">Характеристики</span></a>
+							</div>
+						</div>
+						<div class="select-wrap-chs">
+							<label class="radio-lable payment__label">
+								<input class="checkbox " name="checkbox-payment" disabled="" type="radio">
+								<span class="checkbox-custom right__span checkbox-disable"></span>
+								<span class="label payment__span checkbox-disable-txt">Доставка курьером в пределах МСК</span>
+							</label>
+							<div class="dd-m"></div>
+							<label class="radio-lable payment__label">
+								<input class="checkbox " name="checkbox-payment" disabled="" type="chekbox">
+								<span class="checkbox-custom right__span checkbox-disable2"></span>
+								<span class="label payment__span checkbox-disable-txt">Доставка курьером в пределах МСК</span>
+							</label>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+			<!-- End Chekbox & select -->
+
+			<!-- Poisk for footer -->
+			<section class="chs-wrap pf-wrap">
+				<div class="container">
+					<div class="min-float">
+						<div class="footer__email  mr__pf">
+							<form action="#">
+								<input class="input-view input-view_width input__footer" value="" placeholder="Укажите свою почту" type="text">
+								<input class="submit-view submit-view-width footer__submit" value="Так" type="submit">			
+							</form>	
+						</div><BR>
+						<span>Static state</span>
+					</div>
+					<div class="min-float">
+						<div class="footer__email mr__pf c__red">
+							<form action="#">
+								<input class="input-view input-view_width input__footer" value="" placeholder="Укажите свою почту" type="text">
+								<input class="submit-view submit-view-width footer__submit" value="Так" type="submit">		
+							</form>	
+							</div><BR>
+						<span>Hover on the input</span>	
+					</div>
+					<div class="min-float">
+						<div class="footer__email mr__pf c__red">
+							<form action="#">
+								<input class="input-view input-view_width input__footer" value="" placeholder="Укажите свою почту" type="text">
+								<input class="submit-view submit-view-width footer__submit c__red__sub" value="Так" type="submit">
+
+							</form>	
+							</div><BR>
+						<span>Hover on the button inside the input</span>	
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</section>
+			<!-- END Poisk for footer -->
 
 
-
-</body>
-</html>
+		</body>
+		</html>
