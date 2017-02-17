@@ -85,9 +85,9 @@
 
 		}
 		li:hover{
-			span:first-child:hover{
+			span:first-child{
 				color: #d2d2d2;
-			}
+			}		
 		}
 		li:nth-child(1){
 			width: 190px;
@@ -95,6 +95,15 @@
 				background: #282828 url(../img/burg.svg) no-repeat left 24px center;
 				padding-left: 71px;
 				// background-color: #282828;
+			}
+			a:hover{
+				background: #282828 url(../img/burg2.svg) no-repeat left 24px center;
+				span:first-child{
+					color: #fff;
+				}
+				span:last-child{
+					color: #d0d0c0;
+				}
 			}
 		}
 		li:nth-child(2){
@@ -251,6 +260,9 @@
 			margin-bottom: 20px;
 			position:relative;
 		}
+		a:hover{
+			color: #fff;
+		}
 		a:after{
 			content:"";
 			position:absolute;
@@ -260,6 +272,9 @@
 			right: -30px;
 			top:3px;
 			display: none;
+		}
+		a:hover:after{			
+			background: url(../img/plus2.svg) no-repeat !important;
 		}
 		.active{
 			position:relative;
@@ -271,6 +286,9 @@
 			width: 17px;
 			height: 17px;
 			right:-30px;
+		}
+		.active:hover:after{			
+			background: url(../img/minus2.svg) no-repeat !important;
 		}
 		.dd-min-menu{
 			display:none;
@@ -481,13 +499,20 @@
 	float:right;
 }
 .marg-left{
-	margin-left: 116px;
+	// margin-left: 116px;
 }
 .dd-korzina-catalog{
 	padding-top: 0 !important;
 }
 .form-catalog{
 	display:none;
+	float: left;
+	margin-left: 116px;	
+	border: 1px solid transparent;
+}
+.form-catalog:hover{
+	border: 1px solid #e3181b;
+	border-radius: 2px;
 }
 .az-select-reiting{
 	height: 27px !important;
@@ -781,19 +806,22 @@
 		}	
 	}
 }
-	.dd-korzina-img{				
-			.ddimg2{
-				display: none;
-			}
-		}		
-		.ddkorz:hover{			
-			.ddimg1{
-				display: none;
-			}
-			.ddimg2{
-				display: inline-block;
-			}
-		}
+.dd-korzina-img{				
+	.ddimg2{
+		display: none;
+	}
+}		
+.ddkorz:hover{			
+	.ddimg1{
+		display: none;
+	}
+	.ddimg2{
+		display: inline-block;
+	}
+	.dd-korzina-txt span{
+		color: #d0d0c0 !important;
+	}
+}
 @media only screen and (min-width : 480px) {
 	.dd-korzina{
 		.dd-korzina-img{
@@ -962,7 +990,7 @@
 
 
 	.form-catalog{
-		display:block;
+		display:block;			
 	}
 	.dd-sub-menu{
 		// position:absolute;
@@ -1037,6 +1065,9 @@
 				a{
 					color:#7A7A74;
 					font-family: "RobotoRegular";
+				}
+				a:hover{
+					color: #d0d0c0;
 				}
 			}
 			span:first-child{
