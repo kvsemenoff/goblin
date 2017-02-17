@@ -244,6 +244,7 @@ div[data-val]:hover{
 	width: 120px;
 	height: 33px;
 	user-select:none;
+	-moz-user-select:none;
 
 	.dfbutton{		
 		display: inline-block;
