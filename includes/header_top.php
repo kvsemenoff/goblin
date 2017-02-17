@@ -13,7 +13,7 @@
 					<a href="#">
 						<div class="dd-korzina-img">
 							<img src="img/korz.svg" alt="" class="ddimg1">
-							<img src="img/korz2.png" alt="" class="ddimg2">
+							<img src="img/korz2.svg" alt="" class="ddimg2">
 						</div>
 					</a>
 					<div class="dd-korzina-txt">
