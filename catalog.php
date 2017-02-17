@@ -36,15 +36,11 @@
 					<div class="az-select az-select-reiting float-left-only">
 						<select name="" id="">
 							<option value="1">По рейтингу</option>
-							<option value="2">тест</option>
-							<option value="3">тест</option>
-							<option value="4">тест</option>
-							<option value="5">тест</option>
-							<option value="6">тест</option>
-							<option value="7">тест</option>
-							<option value="8">тест</option>
-							<option value="9">тест</option>
-							<option value="9">тест</option>
+							<option value="2">от дешевых к дорогим</option>
+							<option value="3">от дорогих к дешевым</option>
+							<option value="4">популярные</option>
+							<option value="5">новинки</option>
+							<option value="6">акционные</option>							
 						</select>
 					</div>
 					<div class="dd-sortirovka float-right-only">

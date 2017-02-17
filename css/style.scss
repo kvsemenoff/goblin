@@ -15,6 +15,9 @@
 
 
 // Tech php
+*{
+	transition:0.3s;
+}
 h3{
 	font-size: 25px;
 }
@@ -85,6 +88,10 @@ h1{
 	border:none;
 	outline: none;
 	text-transform: uppercase;
+	transition:0.3s;
+}
+.submit-view:hover{
+	color: #e3181b;
 }
 .submit-view-width{
 	width: 116px;
@@ -114,6 +121,9 @@ select{
 	-webkit-appearance: none;
 	-moz-appearance: none;
 }
+select:hover{
+	color: #ffffff;
+}
 .next-select{
 	color:black;
 }
@@ -126,21 +136,27 @@ select::-ms-expand {
 	left: 0px;
 	width: calc(100% + 0px);
 	position: absolute;
-	background: rgba(0,0,0,0.8);
+	background: rgba(#282828,1);
 	z-index: 6;
+	width: 205px;
 }
 
 div[data-val]{
 	font-size: 14px;
 	font-family: "RobotoRegular";
-	color:#A3A3A3;
+	// color:#A3A3A3;
+	color: #fff;
 	padding: 0 15px;
 	line-height: 30px;
 	letter-spacing: 0.02em;
 	cursor: pointer;
+	transition:unset;
+
 }
 div[data-val]:hover{
-	background: rgba(255,255,255,0.1);
+	// background: rgba(255,255,255,0.1);
+	color: #e3181b;
+	background: url(../img/dfgalka.svg) no-repeat center right 12px;
 }
 
 .az-select:before{
@@ -154,9 +170,10 @@ div[data-val]:hover{
 	background: url(../img/select-arrow.svg) no-repeat top left;
 	z-index: 1;
 }
-// .az-select-focus:before{
-// 	background: url(../img/select-arrow-focus.png) no-repeat top left;
-// }
+.az-select:hover:before{
+	background: url(../img/redstr.svg) no-repeat top left;
+}
+
 .az-select_style{
 	position: relative;
 	z-index: 2;
@@ -166,20 +183,40 @@ div[data-val]:hover{
 	border:1px solid #CACACA;
 	position: relative;
 	border-radius: 2px;
-
+	
+}
+.az-select2:hover{	
+	border:1px solid #ffa500;
 }
 .az-select2:before{
 	content: '';
 	position: absolute;
-	top: 50%;
+	top: 54%;
 	transform: translate(0, -50%);
-	right: 15px;
+	right: 10px;
 	width: 13px;
 	height: 8px;
 	background: url(../img/redstr.svg) no-repeat top left !important;
 	z-index: 1;
-}
 
+}
+.select-block{
+	.az-options{		
+		background: rgba(#ffffff,1);	
+		width: 165px;
+	}
+	div[data-val]{		
+		color: #2c2c2c;	
+	}
+	div[data-val]:hover{
+		
+		color: #e3181b;
+		
+	}
+	select:hover{
+		color: #2c2c2c;	
+	}
+}
 // Кнопка в корзину
 .button-2{
 	padding: 17px 19px 17px 34px;
@@ -188,20 +225,27 @@ div[data-val]:hover{
 .button-2:after{
 	content:"";
 	position: absolute;
-	background:url(../img/korz.svg) no-repeat top right;
+	background:url(../img/korz2.svg) no-repeat center;
 	width: 50px;
 	height: 50px;
 	right: -49px;
 	top:0;
+	background-color: #ea2427;
+	transition:0.3s;
+	border-radius: 0 2px 2px 0;
 }
-
+.button-2:hover:after{
+	background-color: #ff4e51;
+}
 // Счетчик товара
 .df-number{
-	border:1px solid #CACACA;
+	
 	border-radius: 2px;
 	width: 120px;
 	height: 33px;
-	.dfbutton{
+	user-select:none;
+
+	.dfbutton{		
 		display: inline-block;
 		width: 34px;
 		height: 31px;
@@ -212,25 +256,42 @@ div[data-val]:hover{
 		font-size: 21px;
 		cursor: pointer;
 		color:transparent;
+
 	}
 	.dfbutton2{
 		padding-left: 14px;
 		border-right:1px solid #CACACA;
 		background: url(../img/min.svg) no-repeat center;
+		border:1px solid #CACACA;
+		border-radius: 2px 0 0 2px ;
+		z-index: 20;
 	}
+	
 	.dfbutton3{
 		border-left:1px solid #CACACA;
 		background: url(../img/pl.svg) no-repeat center;
+		border:1px solid #CACACA;
+		border-radius: 0px 2px 2px 0px ;
+		z-index: 20;
+	}
+	.dfbutton2:hover, .dfbutton3:hover{
+		border:1px solid #ffa500;
 	}
 	input[type="text"]{
 		// border-right: 1px solid #CACACA;
-		width: 42px;
-		background:#fff;
+		width: 43px;
+		background:transparent;
 		border:none;
 		outline: none;
 		font-family: "UbuntuBold";
 		color:black;
 		text-align: center;
+		border-top: 1px solid #CACACA;
+		border-bottom: 1px solid #CACACA;
+		margin: 0 -4px 0 -4px;
+		padding: 7px 0 4px 0;
+		z-index: 10;
+
 	}
 }
 
