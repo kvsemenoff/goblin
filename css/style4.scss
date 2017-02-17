@@ -35,7 +35,7 @@
 	float:right;
 	.dd-korzina-img{
 		display: table-cell;
-		padding-right: 8px;
+		padding-right: 12px;
 	}
 	.dd-burger{
 		display: table-cell;
@@ -73,12 +73,13 @@
 					text-transform: uppercase;
 					font-family: "UbuntuBold";
 					color:#fff;
-					font-size:15px;
+					font-size:14px;
 				}
 				span:last-child{
 					color:#A3A39D;
 					font-family: "RobotoRegular";
 					font-size:12px;
+					letter-spacing: 0.9px;
 				}
 			}
 
@@ -93,8 +94,8 @@
 		}
 		li:nth-child(2){
 			a{
-				background: url(../img/f1.svg) no-repeat left 28px center;
-				padding-left: 64px;
+				background: url(../img/f1.svg) no-repeat left 34px center;
+				padding-left: 73px;
 			}
 			a:hover{
 				background:#282828 url(../img/f1.svg) no-repeat left 28px center;
@@ -103,8 +104,8 @@
 		li:nth-child(3){
 			width: 124px;
 			a{
-				background: url(../img/f2.svg) no-repeat left 17px center;
-				padding-left: 54px;
+				background: url(../img/f2.svg) no-repeat left 22px center;
+				padding-left: 62px;
 			}
 			a:hover{
 				background:#282828 url(../img/f2.svg) no-repeat left 17px center;
@@ -113,8 +114,8 @@
 		li:nth-child(4){
 			width: 138px;
 			a{
-				background: url(../img/f3.svg) no-repeat left 18px center;
-				padding-left: 50px;
+				background: url(../img/f3.svg) no-repeat left 35px center;
+				padding-left: 71px;
 			}
 			a:hover{
 				background:#282828 url(../img/f3.svg) no-repeat left 18px center;
@@ -775,7 +776,19 @@
 		}	
 	}
 }
-
+	.dd-korzina-img{				
+			.ddimg2{
+				display: none;
+			}
+		}		
+		.ddkorz:hover{			
+			.ddimg1{
+				display: none;
+			}
+			.ddimg2{
+				display: inline-block;
+			}
+		}
 @media only screen and (min-width : 480px) {
 	.dd-korzina{
 		.dd-korzina-img{
@@ -975,8 +988,23 @@
 			border-radius:25px;
 			display: block;
 			padding-left: 16px;
-			padding-top: 7px;
+			padding-top: 14px;
 			float:left;
+			margin-top: -7px;			
+			.ddimg2{
+				display: none;
+			}
+		}
+		.ddkorz{
+			float: right;
+		}
+		.ddkorz:hover{			
+			.ddimg1{
+				display: none;
+			}
+			.ddimg2{
+				display: inline-block;
+			}
 		}
 		.dd-korzina-txt{
 			display: block;
