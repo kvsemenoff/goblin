@@ -244,8 +244,8 @@
 				<h3 class="menu-el__view hover-style">Электроника <br>и компьютеры</h3>
 			</div>
 			<div class="plus_minus">
-				<div class="dd-minus"></div>
-				<div class="dd-plus"></div>
+				<div class="dd-minus dd-minus2"></div>
+				<div class="dd-plus dd-plus2"></div>
 			</div>
 		</div>
 		<div class="clearfix"></div>
