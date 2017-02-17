@@ -323,9 +323,81 @@
 .oth-wrap{
 	background:#1E1E1E;
 	padding-top: 30px;
+	padding-bottom: 55px;
+}
+.sp-korz{
+	color: #A3A39D;
+	text-transform: uppercase;
+	font-family: "UbuntuBold";
+	font-size: 14px;
+}
+.sp-korz2{
+	color: #7A7A74;
+	font-family: "RobotoRegular";
+	font-size: 14px;
+}
+.min-float{
+	float:left;
+}
+.dd-basket{
+	margin-left: 29px;
+}
+.dd-korzina-img_bg{
+	background:#282828;
+	width: 50px;
+	height: 50px;
+	border-radius: 10em;
+	padding-top: 14px;
+	text-align: center;
 }
 
+//Электроника и компьютеры
+.menu-el{
+	margin-top: 50px;
+}
+.menu-el__view{
+	cursor: pointer;
+	font-weight: 400;
+	font-family: "UbuntuBold";
+	padding: 8px 10px 8px 35px;
+	text-transform: uppercase;
+	font-size: 14px;
+	max-width: 190px;
+	line-height: 22px;
+	background: url(../img/f1.svg) 5px 12px no-repeat;
+	color:#fff;
+}
+.menu-el__view:hover{
+	color:#C6C6C6;
+}
+.sp-hover:hover span{
+	color:#D0D0C0;
+}
+.hover-style{
+	color:#D0D0C0;
+}
 
+// Плюс, минус
+.plus_minus{
+	padding-top: 35px;
+}
+.dd-minus{
+	display: inline-block;
+	background: url(../img/minus.svg) no-repeat;
+	width: 17px;
+	height: 17px;
+	right: -30px;
+	top: 3px;
+}
+.dd-plus{
+	display: inline-block;
+	margin-left: 15px;
+	background: url(../img/plus.svg) no-repeat;
+	width: 17px;
+	height: 17px;
+	right: -30px;
+	top: 3px;
+}
 /*============================*/
 
 // Tech php

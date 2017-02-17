@@ -204,9 +204,48 @@
 			<div class="but-state">
 				<span>Active state</span>
 			</div>
-			<div class="dd-korzina-img">
-				<img src="img/korz.svg" alt="" class="ddimg1">
-				<img src="img/korz2.png" alt="" class="ddimg2">
+			<div class="ddkorz">
+				<a class="sp-hover" href="#">
+					<div class="dd-korzina-img dd-korzina-img_bg min-float">
+						<img src="img/korz.svg" alt="" class="ddimg1">
+						<img src="img/korz2.svg" alt="" class="ddimg2">
+					</div>
+					<div class="dd-basket min-float">
+						<span class="sp-korz">Корзина</span><br>
+						<span class="sp-korz2">добавьте товары</span>
+					</div>
+				</a>
+				<div class="clearfix"></div>
+			</div>
+			<div class="menu-el">
+				<h3 class="menu-el__view">Электроника <br>и компьютеры</h3>
+			</div>
+			<div class="plus_minus">
+				<div class="dd-minus"></div>
+				<div class="dd-plus"></div>
+			</div>
+		</div>
+
+		<div class="but-box-wrap">
+			<div class="but-state">
+				<span>Hover state</span>
+			</div>
+			<div class="ddkorz">
+				<div class="dd-korzina-img dd-korzina-img_bg min-float">
+					<img src="img/korz2.svg" alt="" class="">
+				</div>
+				<div class="dd-basket min-float">
+					<span class="sp-korz hover-style">Корзина</span><br>
+					<span class="sp-korz2 hover-style">добавьте товары</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="menu-el">
+				<h3 class="menu-el__view hover-style">Электроника <br>и компьютеры</h3>
+			</div>
+			<div class="plus_minus">
+				<div class="dd-minus"></div>
+				<div class="dd-plus"></div>
 			</div>
 		</div>
 		<div class="clearfix"></div>
