@@ -9,14 +9,17 @@
 					<span><a href="#">Регистрация</a></span>
 					<span><a href="#">Войти</a></span>
 				</div>
-				<a href="#">
-					<div class="dd-korzina-img">
-						<img src="img/korz.svg" alt="">
+				<div class="ddkorz">
+					<a href="#">
+						<div class="dd-korzina-img">
+							<img src="img/korz.svg" alt="" class="ddimg1">
+							<img src="img/korz2.png" alt="" class="ddimg2">
+						</div>
+					</a>
+					<div class="dd-korzina-txt">
+						<span>Корзина</span><br>
+						<span>добавьте товары</span>
 					</div>
-				</a>
-				<div class="dd-korzina-txt">
-					<span>Корзина</span><br>
-					<span>добавьте товары</span>
 				</div>
 				<div class="dd-burger">
 					<img src="img/burg.svg" alt="">
