@@ -68,7 +68,6 @@
 <!-- Конец Color Palette -->
 
 <!-- Tipography -->
-
 <section class="tp-wrapper">
 	<div class="container">
 		<div class="cl-title">
@@ -103,23 +102,113 @@
 				<p class="tp-1">
 					Citation: Pt Serif Italic 14px, spacing 20px
 				</p>
-				<p class="">Opershop не является магазином и не осуществляет непосредственно продажу. Все заявки на покупку обрабатываются нашими партнёрами.
+				<p class="tp-paragraph">Opershop не является магазином и не осуществляет непосредственно продажу. Все заявки на покупку обрабатываются нашими партнёрами.
+				</p>
+				<p class="tp-1">
+					Paragraph1: Roboto Regular 14px, spacing 19px
 				</p>
 			</div>	
 			<div class="clearfix"></div>	
 		</div>
 	</div>
 </section>
-
 <!-- Конец Tipography -->
 
+<!-- Price & Cart -->
+<section class="pr-wrap">
+	<div class="container">
+		<div class="tp-box">
+			<p class="pr-product">13 590 р</p>
+			<p class="tp-1">Price of the product: Ubuntu Bold 20px</p>
+			<p class="pr-complect">Компьютерные комплектующие</p>
+			<p class="tp-1">Title of the category: Roboto Regular 14px, spacing 19px</p>
+		</div>
+		<div class="tp-box">
+			<p class="pr-name">Модуль памяти<br>
+				HyperX Savage DDR4 (16gb)
+			</p>
+			<p class="tp-1">Title of the product: Ubuntu Bold 16px, spacing 20px</p>
+		</div>
+	</div>
+</section>
+<!-- end Price $ Cart -->
 
+<!-- Buttons -->
+<section class="but-wrap">
+	<div class="container">
+		<div class="cl-title">
+			BUTTONS
+		</div>
+		<div class="but-box-wrap but-box-wrap-ml-0">
+			<div class="but-state">
+				<span>Active state</span>
+			</div>
+			<div class="but-box">
+				<div class="but-box-item">
+					<a class="bye-but" href="#">Купить сейчас</a>
+				</div>
+				<div class="but-box-item">
+					<a class="in-package" href="#">В корзину</a>
+				</div>
+				<div class="but-box-item">
+					<a class="in-package-small" href="#">в корзину</a>
+				</div>
+			</div>
+		</div>
 
+		<div class="but-box-wrap">
+			<div class="but-state">
+				<span>Hover state</span>
+			</div>
+			<div class="but-box">
+				<div class="but-box-item">
+					<a class="bye-but bye-but2" href="#">Купить сейчас</a>
+				</div>
+				<div class="but-box-item">
+					<a class="in-package in-package2" href="#">В корзину</a>
+				</div>
+				<div class="but-box-item">
+					<a class="in-package-small in-package-small2" href="#">в корзину</a>
+				</div>
+			</div>
+		</div>
 
+		<div class="but-box-wrap">
+			<div class="but-state">
+				<span>Disable state</span>
+			</div>
+			<div class="but-box">
+				<div class="but-box-item">
+					<a class="bye-but disable" href="#">Купить сейчас</a>
+				</div>
+				<div class="but-box-item">
+					<a class="in-package disable-package" href="#">В корзину</a>
+				</div>
+				<div class="but-box-item">
+					<a class="in-package-small disable" href="#">в корзину</a>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</section>
+<!-- End Buttons -->
 
-
-
-
+<!-- Other Element -->
+<section class="oth-wrap">
+	<div class="container">
+		<div class="cl-title">
+			Other elements
+		</div>
+		<div class="but-box-wrap">
+			<div class="but-state">
+				<span>Active state</span>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</section>
+<!-- End Other Element -->
 
 
 

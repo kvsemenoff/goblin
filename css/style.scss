@@ -98,6 +98,7 @@
 .tp-wrapper{
 	background:#282828;
 	padding: 70px;
+	padding-bottom: 0px;
 }
 .tp-container{
 	border:1px solid #363636;
@@ -105,6 +106,7 @@
 }
 .tp-box{
 	float: left;
+	width: 518px;
 }
 .dd-inner-box{
 
@@ -151,8 +153,180 @@
 	margin-top: 50px;
 	margin-bottom: 18px;
 }
-/*============================*/
+.tp-paragraph{
+	margin-top: 55px;
+	margin-bottom: 20px;
+	font-family: "RobotoRegular";
+	color:#74746c;
+}
 
+// Price & Cart
+.pr-wrap{
+	background:#fff;
+	padding: 50px;
+}
+.pr-product{
+	font-size: 20px;
+	color: #1e1e1e;
+	font-family: "UbuntuBold";
+	margin-bottom: 20px;
+}
+.pr-complect{
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	color:#A9A99C;
+	margin-top: 73px;
+	margin-bottom: 20px;
+}
+.pr-name{
+	font-family: "UbuntuBold";
+	color:#1e1e1e;
+	font-size:16px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.but-wrap{
+	padding-top: 80px;
+	background:#1E1E1E;
+}
+.but-state{
+	padding-bottom: 50px;
+	span{
+		font-family: "UbuntuBold";
+		text-transform: uppercase;
+		font-size: 14px;
+		color:#D1D1CC;
+	}
+}
+.but-box-item{
+	padding-bottom: 25px;
+}
+.but-box-wrap{
+	float: left;
+	width: 204px;
+	margin-left: 50px;
+}
+.but-box-wrap-ml-0{
+	margin-left: 0;
+}
+
+/*Кнопки 
+=============================*/
+
+//Купить сейчас 
+.bye-but{
+	display: inline-block;
+	width: 180px;
+	height: 48px;
+	border: 2px solid #e3181b;
+	border-radius: 2px;
+	color:#fff;
+	font-family: "UbuntuBold";
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	line-height: 43px;
+	transition:0.7s;
+}
+.bye-but:hover{
+	background:#e3181b;
+	color:#fff;
+}
+
+// В корзину
+.in-package{
+	display: inline-block;
+	background:#e3181b;
+	width: 130px;
+	height: 48px;
+	color:#fff;
+	font-family: "UbuntuBold";
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	padding-left: 16px;
+	line-height: 46px;
+	border-radius: 2px 0px 0px 2px;
+	position: relative;
+	transition:0.7s;
+}
+.in-package:after{
+	content: "";
+	position: absolute;
+	right: -50px;
+	width: 50px;
+	height: 48px;
+	background:#e3181b url(../img/korz2.png) no-repeat center;
+	border-radius: 0px 2px 2px 0px;
+	transition:0.7s;
+}
+.in-package:hover{
+	background:#ff4346;
+}
+.in-package:hover:after{
+	background:#ff4346 url(../img/korz2.png) no-repeat center;
+}
+
+// В корзину small
+.in-package-small{
+	display: inline-block;
+	font-size:13px;
+	background:#e3181b;
+	width: 108px;
+	height: 36px;
+	color:#fff;
+	font-family: "UbuntuBold";
+	text-transform: uppercase;
+	border-radius:2px;
+	text-align: center;
+	line-height: 33px;
+	transition:0.7s;
+}
+.in-package-small:hover{
+	background:#ff4346;
+}
+
+//Вид кнопок при ховере
+.bye-but2{
+	background:#e3181b;
+}
+.in-package2{
+	background:#ff4346;
+}
+.in-package-small2{
+	background:#ff4346;
+}
+.in-package2:after{
+	background:#ff4346 url(../img/korz2.png) no-repeat center;
+}
+
+// Вид при Disable
+.disable, .disable-package{
+	background:#423233;
+	border:none;
+	color:#807676;
+}
+.disable:hover, .disable-package:hover{
+	background:#423233;
+	border:none;
+	color:#807676;
+}
+.disable-package:after{
+	background:#423233 url(../img/korz3.png) no-repeat center;
+}
+.disable-package:hover:after{
+	background:#423233 url(../img/korz3.png) no-repeat center;
+}
+
+/* Other element
+==============================*/
+.oth-wrap{
+	background:#1E1E1E;
+	padding-top: 30px;
+}
+
+
+/*============================*/
 
 // Tech php
 h3{
@@ -379,33 +553,33 @@ div[data-val]:hover{
 	display: block;
 }
 .checkbox {
-    display: none;
+	display: none;
 }
 .checkbox-custom {
-    position: relative;     
-    width: 18px;             
-    height: 18px;            
-    border: 1px solid #282828;
-    background:none;
-    border-radius: 10em;
-    margin-top: 13px;
-    cursor:pointer;
+	position: relative;     
+	width: 18px;             
+	height: 18px;            
+	border: 1px solid #282828;
+	background:none;
+	border-radius: 10em;
+	margin-top: 13px;
+	cursor:pointer;
 }
 .checkbox-custom,
 .label {
-    display: inline-block;
-    vertical-align: middle;
+	display: inline-block;
+	vertical-align: middle;
 }
 .checkbox:checked + .checkbox-custom::before {
-    content: "";             
-    display: block;        
-    position: absolute;     
-    top: 2px;
-    right: 2px;
-    bottom: 2px;
-    left: 2px;
-    background: red;
-    border-radius: 10em;
+	content: "";             
+	display: block;        
+	position: absolute;     
+	top: 2px;
+	right: 2px;
+	bottom: 2px;
+	left: 2px;
+	background: red;
+	border-radius: 10em;
 }
 
 .section_padding{
