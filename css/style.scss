@@ -10,6 +10,150 @@
 @import "style9.css";
 @import "style10.css";
 
+
+/* Guide 
+===============================*/
+.color-pallet-wrap{
+	background:#1E1E1E;
+	padding: 70px;
+}
+.cl-title{
+	color:#fff;
+	font-family: "UbuntuBold";
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 26px;
+	padding-bottom: 70px;
+}
+.cl-pallette-box{
+	margin-bottom: 25px;
+	li{
+		margin-left: 50px;
+		display: inline-block;
+		span{
+			float:left;
+			display: inline-block;
+			padding-top: 24px;
+			padding-left: 10px;
+			color: #d1d1cc;
+			font-family: "UbuntuBold";
+			font-size: 15px;
+			text-transform: uppercase;
+		}
+	}
+	li:first-child{
+		margin-left: 0;
+	}
+}
+.cl-box{
+	border-radius:10em;
+	width: 68px;
+	height: 68px;
+	float: left;
+}
+.cl-box1{
+	background:#e3181b;
+}
+.cl-box2{
+	background: #ffff00;
+}
+.cl-box3{
+	background: #ffa500;
+}
+.cl-box4{
+	background: #d0d0c0;
+}
+.cl-box5{
+	background: #a9a99c;
+}
+.cl-box6{
+	background: #74746c;
+}
+.cl-box7{
+	background: #fff;
+}
+.cl-box8{
+	background: #1e1e1e;
+	border:1px solid grey;
+}
+.cl-box9{
+	background: #282828;
+}
+.cl-box10{
+	background: #2c2c2c;
+}
+.cl-pallette-box2{
+	li:nth-child(2){
+		margin-left: 79px;
+	}
+	li:nth-child(3){
+		margin-left: 50px;
+	}
+	li:first-child{
+		margin-left: 0;
+	}
+}
+
+// Typography /////////
+.tp-wrapper{
+	background:#282828;
+	padding: 70px;
+}
+.tp-container{
+	border:1px solid #363636;
+	padding: 50px;
+}
+.tp-box{
+	float: left;
+}
+.dd-inner-box{
+
+}
+.tp-1{
+	font-family: "MyriadPro-Regular";
+	font-size: 15px;
+	color:#797974;
+}
+.tp-2{
+	margin-top: 50px;
+	margin-bottom: 22px;
+	font-family: "RobotoRegular";
+	font-size: 16px;
+	color:#797974;
+}
+.dd-katalog{
+	margin-top: 50px;
+	margin-bottom: 18px;
+	text-transform: uppercase;
+	font-family: "UbuntuBold";
+	color: #fff;
+	font-size: 14px;
+	span{
+		color:#d1d1cc;
+		padding-left: 15px;
+		span{
+			padding-left: 15px;
+			color:#a2a29c;
+		}
+	}
+}
+.tp-title{
+	display: inline-block;
+	font-family: "UbuntuBold";
+	color:#fff;
+	font-size: 22px;
+	padding-top: 25px;
+	padding-bottom: 16px;
+}
+.tp-italic{
+	font-family: "pt-serif-italic_[allfont.ru]";
+	color:#797974;
+	margin-top: 50px;
+	margin-bottom: 18px;
+}
+/*============================*/
+
+
 // Tech php
 h3{
 	font-size: 25px;

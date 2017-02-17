@@ -100,6 +100,11 @@
 				<p class="tp-italic">
 					Приходите покупайте, покупайте приходите
 				</p>
+				<p class="tp-1">
+					Citation: Pt Serif Italic 14px, spacing 20px
+				</p>
+				<p class="">Opershop не является магазином и не осуществляет непосредственно продажу. Все заявки на покупку обрабатываются нашими партнёрами.
+				</p>
 			</div>	
 			<div class="clearfix"></div>	
 		</div>
