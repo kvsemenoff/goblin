@@ -248,12 +248,132 @@
 				<div class="dd-plus dd-plus2"></div>
 			</div>
 		</div>
+
+		<div class="but-box-wrap but-box-wrap__last">
+			<div class="but-state">
+				<span>Additionaly</span>
+			</div>
+
+			<a class="basket__w__prod_wrap">
+				<div class="basket__w__prod min-float">
+					<div class="dd__add">
+						2
+					</div>
+					<img src="img/k3.png" class="imgk3" alt="">
+					<img src="img/korz2.svg" alt="" class="imgk4">
+				</div>
+				<div class="dd-basket dd-basket-w-prod min-float">
+					<span class="sp-korz hover-style">Корзина</span><br>
+					<span class="sp-korz2 hover-style">добавьте товары</span>
+				</div>
+			</a>
+			
+
+			<a class="basket__w__prod_wrap ">
+				<div class="basket__w__prod min-float ml-left_bs">
+					<div class="dd__add dd__add_hover">
+						2
+					</div>
+					<img src="img/korz2.svg" alt="">
+				</div>
+				<div class="dd-basket dd-basket-w-prod min-float">
+					<span class="sp-korz hover-style hover-style2">Корзина</span><br>
+					<span class="sp-korz2 hover-style hover-style2">добавьте товары</span>
+				</div>
+			</a>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</section>
+
+<section class="oth-wrap2">
+	<div class="container">
+		<div class="oth2-left">
+			<div class="str-bg">
+				<img src="img/icons/scroll_active.png" alt="">
+			</div>
+			<div class="menu-el">
+				<h3 class="menu-el__view menu-el__view2 hover-style">Электроника <br>и компьютеры</h3>
+			</div>
+			<div class="close-wrap">
+				<a class="oth2-close" href="#">
+					Одежда,<br> обувь аксессуары
+				</a>
+			</div>
+			<a class="reg__view" href="#">Регистрация</a>
+			<div class="dd-menu oth-marg">
+				<ul>
+					<li>
+						<a class="dd-show-catalog" href="#">
+							<span>Каталог</span><br>
+							<span>Все категории</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="oth2-right">
+			<div class="str-bg">
+				<img src="img/icons/scroll_active.png" alt="">
+			</div>
+			<div class="menu-el">
+				<h3 class="menu-el__view menu-el__view2 hover-style">Электроника <br>и компьютеры</h3>
+			</div>
+			<div class="close-wrap">
+				<a class="oth2-close" href="#">
+					Одежда,<br> обувь аксессуары
+				</a>
+			</div>
+			<a class="reg__view" href="#">Регистрация</a>
+
+			<div class="dd-menu oth-marg">
+				<ul>
+					<li>
+						<a class="dd-show-catalog" href="#">
+							<span>Каталог</span><br>
+							<span>Все категории</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 		<div class="clearfix"></div>
 	</div>
 </section>
 <!-- End Other Element -->
 
-
+<!-- Chekbox & select -->
+<section class="chs-wrap">
+	<div class="container">
+		<div class="color-pick">
+			<span class="pick__title">Цвет:</span>
+			<div class="ch-block">
+				<label class="radio-lable">
+					<input class="checkbox" type="radio" name="checkbox-test" checked>
+					<span class="checkbox-custom checkbox-custom--grey"></span>
+					<span class="label"></span>
+				</label>
+				<label class="radio-lable">
+					<input class="checkbox" type="radio" name="checkbox-test" checked>
+					<span class="checkbox-custom checkbox-custom--black"></span>
+					<span class="label"></span>
+				</label>
+				<label class="radio-lable">
+					<input class="checkbox" type="radio" name="checkbox-test" checked>
+					<span class="checkbox-custom checkbox-custom--green"></span>
+					<span class="label"></span>
+				</label>
+				<label class="radio-lable">
+					<input class="checkbox" type="radio" name="checkbox-test" checked>
+					<span class="checkbox-custom checkbox-custom--light"></span>
+					<span class="label"></span>
+				</label>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- End Chekbox & select -->
 
 
 

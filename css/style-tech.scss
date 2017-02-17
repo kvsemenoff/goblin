@@ -198,7 +198,9 @@
 .but-box-wrap-ml-0{
 	margin-left: 0;
 }
-
+.but-box-wrap__last{
+	width: 500px;
+}
 /*Кнопки 
 =============================*/
 
@@ -396,5 +398,133 @@
 .dd-plus2{
 	background: url(../img/plus2.svg) no-repeat;
 }
-/*============================*/
 
+.basket__w__prod{
+	background:#282828;
+	width: 50px;
+	height: 50px;
+	border-radius: 10em;
+	padding-top: 14px;
+	text-align: center;
+	position: relative;
+}
+.dd__add{
+	position: absolute;
+	border-radius: 10em;
+	background:#1E1E1E;
+	width: 20px;
+	height: 20px;
+	color:#E3181B;
+	font-family: "RobotoRegular";
+	top:-5px;
+	right: -5px;
+}
+.dd-basket-w-prod{
+	.hover-style{
+		color:#A2A29C;
+	}
+}
+.imgk4{
+	display: none;
+}
+.basket__w__prod_wrap:hover{
+	cursor:pointer;
+	.basket__w__prod{
+		.dd__add{
+			color:#fff;
+		}
+		.imgk3{
+			display: none;
+		}
+		.imgk4{
+			display: inline-block;
+		}
+	}
+	.hover-style{
+		color:#D0D0C0;
+	}
+}
+.dd__add_hover{
+	color:#fff;
+}
+.but-box-wrap__last{
+
+	.hover-style2{
+		color: #D0D0C0;
+	}
+}
+.ml-left_bs{
+	margin-left: 70px;
+}
+.oth-wrap2{
+	background:#282828;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	padding-left: 94px;
+}
+.menu-el__view2{
+	padding-top: 0;
+}
+.menu-el__view2:hover{
+	color:#fff;
+}
+
+// Одежда, обувь аксессуары
+.oth2-left, .oth2-right{
+	float: left;
+}
+
+.oth2-close{
+	background: url(../img/d1.svg) no-repeat left center;
+	display: block;
+	color: #C6C6C1;
+	font-size: 16px;
+	font-family: "RobotoRegular";
+	padding-left: 38px;
+	
+}
+.oth2-close:hover{
+	color:#fff;
+}
+.close-wrap{
+	padding: 50px 0px;
+}
+
+// Регистрация
+.reg__view{
+	color: #7A7A74;
+	font-family: "RobotoRegular";
+}
+.reg__view:hover{
+	color: #D0D0C0;
+	font-family: "RobotoRegular";
+}
+
+// Правая часть
+.oth2-right{
+	margin-left: 70px;
+	.oth2-close{
+		color:#fff;
+	}
+	.menu-el__view2{
+		color:#fff;
+	}
+	.reg__view{
+		color: #D0D0C0;
+	}
+	.dd-menu ul li:nth-child(1) a{
+		background: #282828 url(../img/burg2.svg) no-repeat left 24px center;
+	}
+}
+.oth-marg{
+	margin-top: 70px;
+}
+
+/* Cheks & select
+============================*/
+.chs-wrap{
+	// background:#fff;
+	padding-top: 50px;
+	padding-bottom: 70px;
+	padding-left: 94px;
+}
