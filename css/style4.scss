@@ -80,9 +80,14 @@
 					font-family: "RobotoRegular";
 					font-size:12px;
 					letter-spacing: 0.9px;
-				}
+				}				
 			}
 
+		}
+		li:hover{
+			span:first-child:hover{
+				color: #d2d2d2;
+			}
 		}
 		li:nth-child(1){
 			width: 190px;
@@ -94,8 +99,8 @@
 		}
 		li:nth-child(2){
 			a{
-				background: url(../img/f1.svg) no-repeat left 34px center;
-				padding-left: 73px;
+				background: url(../img/f1.svg) no-repeat left 28px center;
+				padding-left: 64px;
 			}
 			a:hover{
 				background:#282828 url(../img/f1.svg) no-repeat left 28px center;
@@ -104,8 +109,8 @@
 		li:nth-child(3){
 			width: 124px;
 			a{
-				background: url(../img/f2.svg) no-repeat left 22px center;
-				padding-left: 62px;
+				background: url(../img/f2.svg) no-repeat left 17px center;
+				padding-left: 54px;
 			}
 			a:hover{
 				background:#282828 url(../img/f2.svg) no-repeat left 17px center;
@@ -114,8 +119,8 @@
 		li:nth-child(4){
 			width: 138px;
 			a{
-				background: url(../img/f3.svg) no-repeat left 35px center;
-				padding-left: 71px;
+				background: url(../img/f3.svg) no-repeat left 18px center;
+				padding-left: 50px;
 			}
 			a:hover{
 				background:#282828 url(../img/f3.svg) no-repeat left 18px center;
