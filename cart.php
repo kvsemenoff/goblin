@@ -72,29 +72,31 @@
 					<h1>Irobot Scooba 450</h1>
 					<div class="form-block">
 						<form>
-							<div class="color-pick">
+							<div class="color-pick clearfix">
 								<span class="pick__title">Цвет:</span>
-								<div class="ch-block">
-									<label class="radio-lable">
-										<input class="checkbox" type="radio" name="checkbox-test" checked>
-										<span class="checkbox-custom checkbox-custom--grey"></span>
-										<span class="label"></span>
-									</label>
-									<label class="radio-lable">
-										<input class="checkbox" type="radio" name="checkbox-test" checked>
-										<span class="checkbox-custom checkbox-custom--black"></span>
-										<span class="label"></span>
-									</label>
-									<label class="radio-lable">
-										<input class="checkbox" type="radio" name="checkbox-test" checked>
-										<span class="checkbox-custom checkbox-custom--green"></span>
-										<span class="label"></span>
-									</label>
-									<label class="radio-lable">
-										<input class="checkbox" type="radio" name="checkbox-test" checked>
-										<span class="checkbox-custom checkbox-custom--light"></span>
-										<span class="label"></span>
-									</label>
+								<div class="r-btns">
+									<div class="ch-block">
+										<label class="radio-lables">
+											<input class="checkboxs" type="radio" name="checkbox-test" checked>
+											<span class="checkboxs-custom checkboxs-custom--grey"></span>
+											<span class="labels"></span>
+										</label>
+										<label class="radio-lables">
+											<input class="checkboxs" type="radio" name="checkbox-test" checked>
+											<span class="checkboxs-custom checkboxs-custom--black"></span>
+											<span class="labels"></span>
+										</label>
+										<label class="radio-lables">
+											<input class="checkboxs" type="radio" name="checkbox-test" checked>
+											<span class="checkboxs-custom checkboxs-custom--green"></span>
+											<span class="labels"></span>
+										</label>
+										<label class="radio-lables">
+											<input class="checkboxs" type="radio" name="checkbox-test" checked>
+											<span class="checkboxs-custom checkboxs-custom--light"></span>
+											<span class="labels"></span>
+										</label>
+									</div>						
 								</div>
 							</div>
 							<div class="select-block">
@@ -426,7 +428,29 @@
 					<div class="df-catalog__product df-catalog__product_view col-md-3">
 						<div class="df-catalog__img df-catalog__img_view">
 							<img src="img/bb.png" alt="" class="df-imgproduct">
-							<div class="df-miniimage">									
+							<div class="df-miniimage r-btns">
+								<div class="ch-block">
+									<label class="radio-lables">
+										<input class="checkboxs" type="radio" name="checkbox-test" checked>
+										<span class="checkboxs-custom checkboxs-custom--grey"></span>
+										<span class="labels"></span>
+									</label>
+									<label class="radio-lables">
+										<input class="checkboxs" type="radio" name="checkbox-test" checked>
+										<span class="checkboxs-custom checkboxs-custom--black"></span>
+										<span class="labels"></span>
+									</label>
+									<label class="radio-lables">
+										<input class="checkboxs" type="radio" name="checkbox-test" checked>
+										<span class="checkboxs-custom checkboxs-custom--green"></span>
+										<span class="labels"></span>
+									</label>
+									<label class="radio-lables">
+										<input class="checkboxs" type="radio" name="checkbox-test" checked>
+										<span class="checkboxs-custom checkboxs-custom--light"></span>
+										<span class="labels"></span>
+									</label>
+								</div>						
 							</div>
 						</div>
 						<div class="df-catalog-txtbox df-catalog-txtbox_view">
@@ -506,8 +530,8 @@
 	</div>
 </section>
 
-		<?php require_once('includes/footer.php'); ?>
+<?php require_once('includes/footer.php'); ?>
 
-	</body>
-	</html>
+</body>
+</html>
 
