@@ -768,6 +768,7 @@
 		border-bottom: 1px solid #eaeaea;
 	}
 	.tab{
+		transition: 0s all ease;
 		display: inline-block;
 		padding: 10px 0;
 		margin: 0 10px -2px;
@@ -797,6 +798,75 @@
 				position: absolute;
 				left: 0;
 				top: 8px;
+			}
+		}
+		p{
+			float: left;
+			padding: 0 50px 20px 0;
+			width: 50%;
+			color: #74746c;
+			font-size: 14px;
+			font-weight: 400;
+		}
+		.tab-charact{
+			margin-right: -15px;
+			li{
+				width: 50%;
+				float: left;
+				padding-right: 20px;
+				min-height: 56px;
+				&::before{
+					background: #e3181b;
+				}
+			}
+		}
+		.inner{
+			.akkordeon-close{
+				padding: 15px 10px 20px 70px;
+				span{
+					display: block;
+					color: #74746c;
+					font-size: 14px;
+					padding: 10px 0;
+				}
+				.bold{
+					color: #282828;
+					font-family: "UbuntuBold";
+					padding-bottom: 10px;
+					text-transform: uppercase;
+				}
+				.time{
+					padding: 0;
+				}
+			}
+			
+			.close-button{
+				cursor: pointer;
+				color: #282828;
+				font-family: "UbuntuBold";
+				font-size: 14px;
+				text-transform: uppercase;
+				display: block;
+				border: 1px solid #eaeaea;
+				position: relative;
+				padding: 16px 10px 15px 73px;
+				line-height: 1.3;
+				&::before{
+					content: "";
+					position: absolute;
+					width: 51px;
+					height: 51px;
+					border: 1px solid #eaeaea;
+					left: -1px;
+					top: -1px; 
+					background: url(../img/close-button-grey.png) center no-repeat;
+				}
+				&.active::before{
+			    transform: rotate(90deg);
+				}
+				&-active::before{
+					background: url(../img/close-button-red.png) center no-repeat;
+				}
 			}
 		}
 	}
@@ -944,6 +1014,20 @@
 			}
 			p{
 				max-width: 100%;
+			}
+		}
+	}
+	.charact{
+		.tab-content{
+			.tab-charact{
+				li{
+					width: 100%;
+					min-height: auto;
+					padding-bottom: 10px;
+				}
+			}
+			p{
+				width: 100%;
 			}
 		}
 	}
@@ -1140,6 +1224,19 @@
 		.slider-for{
 			.slide_info_img{
 				height: 280px;
+			}
+		}
+	}
+	.charact{
+		.tabs-content{
+			.tab-charact{
+				margin-right: 0;
+				li{
+					padding-right: 0;
+				}
+			}
+			p{
+				padding: 0 0 20px 0;
 			}
 		}
 	}

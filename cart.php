@@ -305,40 +305,81 @@
           <div class="tabs">
             <div class="tab tab-0">Характеристики</div>
             <div class="tab tab-1">Описание</div>
-            <div class="tab tab-2">Доставка</div>
-            <div class="tab tab-3 active">Оплата</div>
+            <div class="tab tab-2 active">Доставка</div>
+            <div class="tab tab-3">Оплата</div>
           </div>
           <div class="tabs-content">
             <div class="tab-content tab-0">
-              <ul>
-              	<li>Webmoney</li>
-              	<li>Qiwi</li>
-              	<li>Visa</li>
-              	<li>Yandex-money</li>
-              	<li>Системы Master Card</li>
-              </ul>
+              <div class="tab-charact">
+              	<ul class="clearfix">
+              		<li>Заряжается самостоятельно — автоматически отправляется на базу для подзарядки</li>
+              		<li>Уборка всех помещений на этаже — убирает полностью весь этаж, работая без подзарядки до 2 часов</li>
+              		<li>Локальная уборка — обнаруживает загрязненные места<br> и сосредотачивает усилия на их уборке</li>
+              		<li>Подзарядка и возобновление работы — автоматически подзаряжается и возобновляет уборку, пока работа не выполнена</li>
+              		<li>Эффективная уборка в нескольких комнатах — убирает<br> до трех комнат</li>
+              		<li>Установка расписания — убирает по расписанию</li>
+              		<li>Валики-скребки с защитой от наматывания — легко справляется<br> с волосами</li>
+              		<li>Индивидуальные настройки уборки — выбирайте тип уборки, который больше всего вам подходит</li>
+              		<li>Приложение iRobot HOME — позволяет запустить уборку из любой точки мира</li>
+              		<li>Трехступенчатая система уборки — приподнимает, собирает<br> и всасывает мусор</li>
+              	</ul>
+              </div>
             </div>
           </div>
           <div class="tabs-content">
-            <div class="tab-content tab-1">
-              <ul>
-              	<li>Visa</li>
-              	<li>Системы Master Card</li>
-              	<li>Qiwi</li>
-              	<li>Webmoney</li>
-              	<li>Yandex-money</li>
-              </ul>
+            <div class="tab-content tab-1 clearfix">
+              <p>Тщательно и бережно чистят любые покрытия от грязи и пыли. Возвращают опрятный вид линолеуму, ламинату, плитке, коврам. Удаляют почти любые пятна, пыль, разнообразный сор.</p>
+              <p>Новая модель Roomba 616. Для запуска нужно всего лишь нажать кнопку «Clean» на роботе, и Roomba 616 самостоятельно очистит до 60 квадратных метров без подзарядки.</p>
+              <p>Робот-пылесос, будь то iRobot Roomba или Scooba, хранит в памяти карту вашей квартиры и хорошо знает, где требуются его усилия. Если на пути возникает препятствие, устройство аккуратно обходит его и продолжает работу.</p>
+              <p>Укомплектован контейнером AeroVac Bin. Новый контейнер не только имеет повышенную ёмкость, предназначенную для сбора шерсти, но также оснащён всасывающим устройством и имеет компактный отсек для сбора пыли.</p>
+              <p>Заряда аккумулятора хватает на 1-2 часа, в зависимости от модели, после чего робот самостоятельно возвращается на платформу для подзарядки.</p>
+              <p>Таким образом, теперь нет необходимости в дополнительной чистке помещения базовым контейнером.</p>
+              <p>Поручите уборку тому, кто обожает её делать - пылесосу iRobot!</p>
+
             </div>
           </div>
           <div class="tabs-content">
             <div class="tab-content tab-2">
-             <ul>
-              	<li>Visa</li>
-              	<li>Webmoney</li>
-              	<li>Qiwi</li>
-              	<li>Системы Master Card</li>
-              	<li>Yandex-money</li>
-              </ul>
+            	<div class="inner">
+            		<span class="close-button">Курьером по Москве</span>
+	            	<div class="akkordeon-close">
+	            		<span class="bold">Бесплатно</span>
+	            		<span>г. Москва, ул. Павловская, 27/29</span>
+	            		<span class="time">Пн-Пт - с 09:00 до 20:00</span>
+	            		<span class="time">Сб-Вс - с 09:00 до 16:00</span>
+	            		<span>Ближайшая станция метро — Тульская.</span>
+	            	</div>
+            	</div>
+            	<div class="inner">
+            		<span class="close-button close-button-active">Курьером по Московской области</span>
+	            	<div class="akkordeon-close">
+	            		<span class="bold">Бесплатно</span>
+	            		<span>г. Москва, ул. Павловская, 27/29</span>
+	            		<span class="time">Пн-Пт - с 09:00 до 20:00</span>
+	            		<span class="time">Сб-Вс - с 09:00 до 16:00</span>
+	            		<span>Ближайшая станция метро — Тульская.</span>
+	            	</div>
+            	</div>
+            	<div class="inner">
+            		<span class="close-button close-button-active">Пункт выдачи заказов в Москве, метро Тульская</span>
+	            	<div class="akkordeon-close">
+	            		<span class="bold">Бесплатно</span>
+	            		<span>г. Москва, ул. Павловская, 27/29</span>
+	            		<span class="time">Пн-Пт - с 09:00 до 20:00</span>
+	            		<span class="time">Сб-Вс - с 09:00 до 16:00</span>
+	            		<span>Ближайшая станция метро — Тульская.</span>
+	            	</div>
+            	</div>
+            	<div class="inner">
+            		<span class="close-button">Доставка по России</span>
+	            	<div class="akkordeon-close">
+	            		<span class="bold">Бесплатно</span>
+	            		<span>г. Москва, ул. Павловская, 27/29</span>
+	            		<span class="time">Пн-Пт - с 09:00 до 20:00</span>
+	            		<span class="time">Сб-Вс - с 09:00 до 16:00</span>
+	            		<span>Ближайшая станция метро — Тульская.</span>
+	            	</div>
+            	</div>
             </div>
           </div>
           <div class="tabs-content">
@@ -358,8 +399,6 @@
 	</div>
 </section>
 
-		<?php require_once('includes/protect.php'); ?>	
-		<?php require_once('includes/shop-goblin.php'); ?>	
 		<?php require_once('includes/footer.php'); ?>
 
 	</body>

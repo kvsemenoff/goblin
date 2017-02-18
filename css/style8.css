@@ -157,11 +157,23 @@
 
 .charact .tabs-block { padding: 25px 60px; font-family: Tahoma, arial, sans-serif; font-size: 11px; font-weight: 700; }
 .charact .tabs { border-bottom: 1px solid #eaeaea; }
-.charact .tab { display: inline-block; padding: 10px 0; margin: 0 10px -2px; cursor: pointer; color: #1e1e1e; font-size: 16px; font-family: "UbuntuBold"; text-transform: uppercase; }
+.charact .tab { transition: 0s all ease; display: inline-block; padding: 10px 0; margin: 0 10px -2px; cursor: pointer; color: #1e1e1e; font-size: 16px; font-family: "UbuntuBold"; text-transform: uppercase; }
 .charact .tab:first-child { margin-left: 0; }
 .charact .tab-content { padding: 35px 0 15px; }
 .charact .tab-content li { position: relative; padding: 0 0 18px 15px; color: #74746c; font-size: 14px; font-family: "RobotoRegular"; }
 .charact .tab-content li::before { content: ""; width: 5px; height: 5px; background: #ffa500; display: block; position: absolute; left: 0; top: 8px; }
+.charact .tab-content p { float: left; padding: 0 50px 20px 0; width: 50%; color: #74746c; font-size: 14px; font-weight: 400; }
+.charact .tab-content .tab-charact { margin-right: -15px; }
+.charact .tab-content .tab-charact li { width: 50%; float: left; padding-right: 20px; min-height: 56px; }
+.charact .tab-content .tab-charact li::before { background: #e3181b; }
+.charact .tab-content .inner .akkordeon-close { padding: 15px 10px 20px 70px; }
+.charact .tab-content .inner .akkordeon-close span { display: block; color: #74746c; font-size: 14px; padding: 10px 0; }
+.charact .tab-content .inner .akkordeon-close .bold { color: #282828; font-family: "UbuntuBold"; padding-bottom: 10px; text-transform: uppercase; }
+.charact .tab-content .inner .akkordeon-close .time { padding: 0; }
+.charact .tab-content .inner .close-button { cursor: pointer; color: #282828; font-family: "UbuntuBold"; font-size: 14px; text-transform: uppercase; display: block; border: 1px solid #eaeaea; position: relative; padding: 16px 10px 15px 73px; line-height: 1.3; }
+.charact .tab-content .inner .close-button::before { content: ""; position: absolute; width: 51px; height: 51px; border: 1px solid #eaeaea; left: -1px; top: -1px; background: url(../img/close-button-grey.png) center no-repeat; }
+.charact .tab-content .inner .close-button.active::before { transform: rotate(90deg); }
+.charact .tab-content .inner .close-button-active::before { background: url(../img/close-button-red.png) center no-repeat; }
 .charact .tabs .active { border-bottom: 2px solid #e3181b; }
 
 .byu { font-family: "RobotoRegular"; background: #1e1e1e; padding: 50px 0 68px; }
@@ -195,6 +207,8 @@
   .spec .col-md-3 .item__top { min-height: 0; }
   .spec .col-md-3 .item__top, .spec .col-md-3 .img-wrap, .spec .col-md-3 .txt { margin: 0 auto; float: none; }
   .spec .col-md-3 p { max-width: 100%; }
+  .charact .tab-content .tab-charact li { width: 100%; min-height: auto; padding-bottom: 10px; }
+  .charact .tab-content p { width: 100%; }
   .byu .items-wrap { background: #fff; text-align: center; }
   .byu .df-catalog__product_view { width: 50%; min-height: 580px; border: 1px solid #eaeaea; display: block; float: left; max-width: none; }
   .byu .df-catalog__img_view { height: auto; }
@@ -233,5 +247,8 @@
   .basket-3 .end-itog__in { padding-right: 20px !important; }
   .charact .tabs { border: none; }
   .charact .tab { display: block; border-bottom: 1px solid #eaeaea; }
-  .cart .slider-for .slide_info_img { height: 280px; } }
+  .cart .slider-for .slide_info_img { height: 280px; }
+  .charact .tabs-content .tab-charact { margin-right: 0; }
+  .charact .tabs-content .tab-charact li { padding-right: 0; }
+  .charact .tabs-content p { padding: 0 0 20px 0; } }
 @media only screen and (max-width: 360px) { .cart .slider-for .slide_info_img { height: 200px; } }
