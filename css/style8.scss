@@ -172,7 +172,7 @@
 }
 .basket{
 	font-family: "RobotoRegular";
-	background: #282828;
+	background: #1e1e1e;
 	.box-1{
 		display: block;
 		background: #1e1e1e;
@@ -315,6 +315,7 @@
 	.box-itog{
 		display: block;
 		padding: 35px 25px;
+		background: #fff;
 	}
 	.item__itog{
 		display:block;
@@ -803,7 +804,39 @@
 		border-bottom: 2px solid #e3181b;
 	}
 }
+.byu{
+	font-family: "RobotoRegular";
+	background: #1e1e1e;
+	padding: 50px 0 68px;
+	h3{
+		display: block;
+		color: #fff;
+		font-size: 26px;
+		font-weight: 400;
+		font-family: "UbuntuBold";
+		padding: 0px 10px 10px 0;
+		span{
+			display: inline-block;
+			color: #ffa500;
+		}
+	}
+	p{
+		font-size: 16px;
+		color: #a2a29c;
+		padding-bottom: 20px;
+	}
+	.df-catalog__product_view{
+		background: #fff;
+		margin: 0;
+		width: 25%;
+	}
+}
 @media only screen and (max-width : 1200px) {
+	.basket{
+		.box__title-quan{
+			width: 9%;
+		}
+	}
 	.basket-3{
 		.nam-txt{
 			width: 300px;
@@ -818,6 +851,20 @@
 			width: 200px;
 		}
 	}
+	.byu{
+		.df-catalog__product_view{
+			min-height: 640px;
+		}
+		.df-catalog__img_view{
+			height: 230px;
+			overflow: hidden;
+			img.df-imgproduct{
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+		}
+	}
 }
 @media only screen and (max-width : 1000px) {
 	.basket {
@@ -827,7 +874,6 @@
 		.nam-txt{
 			width: 350px;
 			padding: 10px;
-			height: 170px;
 			overflow: hidden;
 		}
 		.nam-quan, .nam-price{
@@ -898,6 +944,28 @@
 			}
 			p{
 				max-width: 100%;
+			}
+		}
+	}
+	.byu{
+		.items-wrap{
+			background: #fff;
+			text-align: center;
+		}
+		.df-catalog__product_view{
+			width: 50%;
+			min-height: 580px;
+			border: 1px solid #eaeaea;
+			display: block;
+			float: left;
+			max-width: none;
+		}
+		.df-catalog__img_view{
+			height: auto;
+			img.df-imgproduct{
+				width: auto;
+				height: auto;
+				display: block;
 			}
 		}
 	}
@@ -1011,8 +1079,34 @@
 			}
 		}
 	}
+	.byu{
+		.df-catalog__product_view{
+			width: 100%;
+			min-height: auto;
+			padding: 25px 14px 80px 14px;
+		}
+		.df-block{
+			width: auto;
+			font-size: 16px;
+		}
+		.df-catalog__busket_view{
+			width: auto;
+			font-size: 16px;
+		}
+	}
 }
 @media only screen and (max-width : 450px){
+	.basket{
+		.box-2{
+			padding: 0 45px 0 0;
+		}
+		.box-itog{
+			padding: 0;
+		}
+		.item__itog--right{
+			text-align: left;
+		}
+	}
 	.basket-3{
 		.box-2{
 			.clearfix{
