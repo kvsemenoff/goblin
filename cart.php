@@ -1,5 +1,22 @@
 ﻿<?php require_once('includes/header.php'); ?>
 <?php require_once('includes/header_top.php'); ?>
+
+<section class="section navigation-line">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="inner">
+					<a href="#">Главная</a>
+					<a href="#">Каталог</a>
+					<a href="#">Электроника и компьюетры</a>
+					<a href="#">Домашний обиход</a>
+					<span>Пылесосы</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section class="section cart">
 	<div class="container">
 		<div class="row">

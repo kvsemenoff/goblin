@@ -1,4 +1,18 @@
 ﻿<?php require_once('includes/header.php'); ?>
+<?php require_once('includes/header_top.php'); ?>
+
+<section class="section navigation-line">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="inner">
+					<a href="#">Главная</a>
+					<span>Корзина</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 <section class="section basket">
 	<div class="container">
@@ -259,7 +273,7 @@
 	</div>
 </section>
 
-	
+<?php require_once('includes/footer.php'); ?>
 </body>
 </html>
 

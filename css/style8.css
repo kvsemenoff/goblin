@@ -1,5 +1,10 @@
-.cart, .gift, .spec, .advantages, .charact, .cart-byu { background: #010101; font-family: "RobotoRegular"; }
+.cart, .gift, .spec, .advantages, .charact, .cart-byu { background: #1e1e1e; font-family: "RobotoRegular"; }
 .cart .container, .gift .container, .spec .container, .advantages .container, .charact .container, .cart-byu .container { background: #fff; }
+
+.navigation-line { font-family: "RobotoRegular"; background: #1e1e1e; padding: 23px 0 28px; }
+.navigation-line .inner a { display: inline-block; color: #a2a29c; font-size: 14px; padding: 2px 18px 2px 0; position: relative; }
+.navigation-line .inner a::before { content: ""; position: absolute; width: 5px; height: 5px; background: #2c2c2c; right: 6px; top: 9px; }
+.navigation-line .inner span { color: #797974; display: inline-block; font-size: 14px; padding: 2px 18px 2px 0; }
 
 .cart .container { padding: 38px 0; }
 .cart .advantages { padding-bottom: 10px; background: #fff; }
@@ -49,7 +54,7 @@
 .cart .links span { color: #282828; display: inline-block; border-bottom: 1px dashed #cacaca; }
 
 .basket { font-family: "RobotoRegular"; background: #1e1e1e; }
-.basket .box-1 { display: block; background: #1e1e1e; color: #797974; font-size: 14px; padding: 55px 0 50px; }
+.basket .box-1 { display: block; background: #1e1e1e; color: #797974; font-size: 14px; padding: 0 0 7px; }
 .basket .box-1 a { display: inline-block; color: #a2a29c; font-size: 14px; font-weight: bold; min-width: 160px; padding: 10px 10px; }
 .basket h3 { display: block; color: #fff; font-size: 34px; font-weight: 400; font-family: "UbuntuBold"; padding: 0px 10px 30px 0; }
 .basket h3 span { display: inline-block; }
@@ -188,7 +193,7 @@
 .charact .tab-content .inner .close-button-active::before { background: url(../img/close-button-red.png) center no-repeat; }
 .charact .tabs .active { border-bottom: 2px solid #e3181b; }
 
-.byu .container { padding: 50px 15px 68px; }
+.byu { font-family: "RobotoRegular"; background: #1e1e1e; padding: 50px 0 68px; }
 .byu h3 { display: block; color: #fff; font-size: 26px; font-weight: 400; font-family: "UbuntuBold"; padding: 0px 10px 10px 0; }
 .byu h3 span { display: inline-block; color: #ffa500; }
 .byu p { font-size: 16px; color: #a2a29c; padding-bottom: 20px; }

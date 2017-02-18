@@ -1,8 +1,37 @@
 .cart, .gift, .spec, .advantages, .charact, .cart-byu{
-	background: #010101;
+	background: #1e1e1e;
 	font-family: "RobotoRegular";
 	.container{
 		background: #fff;
+	}
+}
+.navigation-line{
+	font-family: "RobotoRegular";
+	background: #1e1e1e;
+	padding: 23px 0 28px;
+	.inner{
+		a{
+			display: inline-block;
+			color: #a2a29c;
+			font-size: 14px;
+			padding: 2px 18px 2px 0;
+			position: relative;
+			&::before{
+				content: "";
+				position: absolute;
+				width: 5px;
+				height: 5px;
+				background: #2c2c2c;
+				right: 6px;
+ 			  top: 9px;
+			}
+		}
+		span{
+			color: #797974;
+			display: inline-block;
+			font-size: 14px;
+			padding: 2px 18px 2px 0;
+		}
 	}
 }
 .cart{
@@ -218,7 +247,7 @@
 		background: #1e1e1e;
 		color: #797974;
 		font-size: 14px;
-		padding: 55px 0 50px;
+		padding: 0 0 7px;
 		a{
 			display: inline-block;
 			color: #a2a29c;
@@ -917,9 +946,9 @@
 	}
 }
 .byu{
-	.container{
-		padding: 50px 15px 68px;
-	}
+	font-family: "RobotoRegular";
+ 	background: #1e1e1e;
+ 	padding: 50px 0 68px;
 	h3{
 		display: block;
 		color: #fff;
