@@ -399,6 +399,113 @@
 	</div>
 </section>
 
+<section class="section cart-byu">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Вместе с этим товаром покупают</h3>
+				<div class="items-wrap clearfix">
+					<div class="df-catalog__product df-catalog__product_view col-md-3">
+						<div class="df-catalog__img df-catalog__img_view">
+							<img src="img/150SUW.png" alt="" class="df-imgproduct">
+						</div>
+						<div class="df-catalog-txtbox df-catalog-txtbox_view">
+							<div class="df-alltxt">
+								<h4>МФУ Ricoh <br>SP 150SUW</h4>
+								<span class="df-nameproduct">Оперативная память</span>
+								<p>Элегантный дизайн, интуитивно понятное управление и скорость печати 22 стр./мин. Простота установки драйвера с автозапуском виртуальной панели управления позволяет начать работу..</p>
+							</div>
+							<div class="dfboxprice">			
+								<div class="df-catalog__busket df-catalog__busket_view">					
+									<span class="df-catalog__newprice2 df-catalog__newprice_view2">8 210 Р</span>
+								</div>
+								<a href="#" class="button-1 button-1_view">в корзину</a>
+							</div>
+						</div>
+					</div>
+					<div class="df-catalog__product df-catalog__product_view col-md-3">
+						<div class="df-catalog__img df-catalog__img_view">
+							<img src="img/bb.png" alt="" class="df-imgproduct">
+							<div class="df-miniimage">									
+							</div>
+						</div>
+						<div class="df-catalog-txtbox df-catalog-txtbox_view">
+							<div class="df-alltxt df-alltxt3">
+								<h4>Deeper Smart <br>Fishfinder 3.0</h4>
+								<span class="df-nameproduct">Эхолоты</span>
+								<p>Скорость до 3000 МГц и низкая..</p>
+								<b>Товар заканчивается</b>
+							</div>
+							<div class="dfboxprice">
+								<div class="df-catalog__busket df-catalog__busket_view">
+									<span class="df-catalog__oldprice df-catalog__oldprice_view">35 990 Р</span>
+									<span class="df-catalog__newprice df-catalog__newprice_view">17 990 Р</span>
+								</div>
+								<a href="#" class="button-1 button-1_view">в корзину</a>
+							</div>
+						</div>
+					</div>
+					<div class="df-catalog__product df-catalog__product_view col-md-3">
+						<div class="df-catalog__img df-catalog__img_view">
+							<img src="img/mutants.jpg" alt="" class="df-imgproduct">
+							<div class="df-miniimage">
+								<div class="df-catalog__ico df-catalog__ico_view">
+									<span class="df-catalog__show df-catalog__show_view">+ подарок</span>
+									<div class="df-catalog_image df-catalog_image_view">
+										<img src="img/dfi1.svg" alt="">
+									</div>
+								</div>
+								<div class="df-catalog__ico df-catalog__ico_view">
+									<span class="df-catalog__show df-catalog__show_view">сделан видеоразбор</span>
+									<div class="df-catalog_image df-catalog_image_view">
+										<img src="img/dfi2.svg" alt="">
+									</div>
+								</div>
+								<div class="df-catalog__ico df-catalog__ico_view " id="df-another">
+									<span class="df-catalog__show df-catalog__show_view">гоблин рекомендует</span>
+									<div class="df-catalog_image df-catalog_image_view">
+										<img src="img/dfi3.svg" alt="">
+									</div>
+								</div>			
+							</div>
+						</div>
+						<div class="df-catalog-txtbox df-catalog-txtbox_view">
+							<div class="df-alltxt">
+								<h4>свержение мутантов<br> базовый набор</h4>
+								<span class="df-nameproduct">Настольные игры</span>
+								<p>В базовый набор входит все, что необходимо для игры: Поле боя 50х50 см из баннерной ткани: прочное, яркое полотно с нанесенным ландшафтом и обозначением клеток - 1шт...</p>
+							</div>
+							<div class="dfboxprice">			
+								<div class="df-catalog__busket df-catalog__busket_view">					
+									<span class="df-catalog__newprice2 df-catalog__newprice_view2">3 795 Р</span>
+								</div>
+								<a href="#" class="button-1 button-1_view">в корзину</a>
+							</div>
+						</div>
+					</div>
+					<div class="df-catalog__product df-catalog__product_view col-md-3">
+						<div class="df-catalog__img df-catalog__img_view">
+							<img src="img/dftovar6.png" alt="" class="df-imgproduct">		
+						</div>
+						<div class="df-catalog-txtbox df-catalog-txtbox_view">
+							<div class="df-alltxt">
+								<h4>TH-900 Black <br>Limited Edition</h4>
+								<span class="df-nameproduct">Наушники</span>	
+							</div>
+							<div class="dfboxprice">			
+								<div class="df-catalog__busket df-catalog__busket_view">					
+									<span class="df-catalog__newprice2 df-catalog__newprice_view2">13 590 Р</span>
+								</div>
+								<a href="#" class="button-1 button-1_view">в корзину</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 		<?php require_once('includes/footer.php'); ?>
 
 	</body>
