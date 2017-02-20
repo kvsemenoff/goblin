@@ -544,7 +544,7 @@
 								<input class="input-view input-view_width input__footer" value="" placeholder="Укажите свою почту" type="text">
 								<input class="submit-view submit-view-width footer__submit" value="Так" type="submit">		
 							</form>	
-							</div><BR>
+						</div><BR>
 						<span>Hover on the input</span>	
 					</div>
 					<div class="min-float">
@@ -554,7 +554,7 @@
 								<input class="submit-view submit-view-width footer__submit c__red__sub" value="Так" type="submit">
 
 							</form>	
-							</div><BR>
+						</div><BR>
 						<span>Hover on the button inside the input</span>	
 					</div>
 					<div class="clearfix"></div>
@@ -563,17 +563,196 @@
 			<!-- END Poisk for footer -->
 
 			<!-- Poisk Katalog -->
-		
+			<section class="pf-wrap">
+				<div class="container">
+					<div class="clearfix"></div>
+					<div class="forms-wrap fw-float">
+						<form class="form-catalog ml-none" action="#">
+							<div class="input-wrap flout-l marg-left">
+								<input class="input-view input-view_width" type="text" value="" placeholder="Поиск лучших товаров..">
+							</div>
+							<div  class="az-select flout-l">
+								<select name="" id="">
+									<option value="1">Все разделы</option>
+									<option value="2">тест</option>
+									<option value="3">тест</option>
+									<option value="4">тест</option>
+									<option value="5">тест</option>
+									<option value="6">тест</option>
+									<option value="7">тест</option>
+									<option value="8">тест</option>
+									<option value="9">тест</option>
+									<option value="9">тест</option>
+								</select>
+							</div>
+							<div class="input-wrap flout-l">
+								<input class="submit-view submit-view-width" type="submit" value="Поиск">
+							</div>
+						</form>
+					</div>
+					<div class="fw-txt fw-float">
+						<span>Static state</span>
+					</div>
+					<div class="clearfix"></div>
+
+					<div class="forms-wrap fw-float fw__active">
+						<form class="form-catalog ml-none" action="#">
+							<div class="input-wrap flout-l marg-left">
+								<input class="input-view input-view_width" type="text" value="" placeholder="Поиск лучших товаров..">
+							</div>
+							<div  class="az-select flout-l">
+								<select name="" id="">
+									<option value="1">Все разделы</option>
+									<option value="2">тест</option>
+									<option value="3">тест</option>
+									<option value="4">тест</option>
+									<option value="5">тест</option>
+									<option value="6">тест</option>
+									<option value="7">тест</option>
+									<option value="8">тест</option>
+									<option value="9">тест</option>
+									<option value="9">тест</option>
+								</select>
+							</div>
+							<div class="input-wrap flout-l">
+								<input class="submit-view submit-view-width" type="submit" value="Поиск">
+							</div>
+						</form>
+					</div>
+					<div class="fw-txt fw-float">
+						<span>Hover on the input</span>
+					</div>
+					<div class="clearfix"></div>
+
+					<div class="forms-wrap fw-float fw__active">
+						<form class="form-catalog ml-none" action="#">
+							<div class="input-wrap flout-l marg-left">
+								<input class="input-view input-view_width" type="text" value="" placeholder="Поиск лучших товаров..">
+							</div>
+							<div  class="az-select flout-l pw-az">
+								<select class="pw-color" name="" id="">
+									<option value="1">Все разделы</option>
+									<option value="2">тест</option>
+									<option value="3">тест</option>
+									<option value="4">тест</option>
+									<option value="5">тест</option>
+									<option value="6">тест</option>
+									<option value="7">тест</option>
+									<option value="8">тест</option>
+									<option value="9">тест</option>
+									<option value="9">тест</option>
+								</select>
+							</div>
+							<div class="input-wrap flout-l">
+								<input class="submit-view submit-view-width submit-view__2" type="submit" value="Поиск">
+							</div>
+						</form>
+					</div>
+					<div class="fw-txt fw-float">
+						<span>Hover on the button inside the input</span>
+					</div>
+					<div class="clearfix"></div>
+
+					<div class="pw-reiting-wrap float-left-only">
+						<div class="dd-sortirovka float-left-only">
+							<span class="pf_no__padd">Сортировка</span>
+						</div>
+						<div class="az-select az-select-reiting float-left-only">
+							<select name="" id="">
+								<option value="1">По рейтингу</option>
+								<option value="2">от дешевых к дорогим</option>
+								<option value="3">от дорогих к дешевым</option>
+								<option value="4">популярные</option>
+								<option value="5">новинки</option>
+								<option value="6">акционные</option>							
+							</select>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="pw-reiting-wrap float-left-only">
+						<div class="dd-sortirovka float-left-only">
+							<span class="pf_no__padd">Сортировка</span>
+						</div>
+						<div class="az-select az-select-reiting float-left-only pw-az">
+							<select class="pw-color" name="" id="">
+								<option value="1">По рейтингу</option>
+								<option value="2">от дешевых к дорогим</option>
+								<option value="3">от дорогих к дешевым</option>
+								<option value="4">популярные</option>
+								<option value="5">новинки</option>
+								<option value="6">акционные</option>							
+							</select>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="pw-reiting-wrap float-left-only">
+						<div class="dd-sortirovka float-left-only">
+							<span class="pf_no__padd">Сортировка</span>
+						</div>
+						<div class="az-select az-select-reiting float-left-only pw-az">
+							<select class="pw-color" name="" id="">
+								<option value="1">По рейтингу</option>
+								<option value="2">от дешевых к дорогим</option>
+								<option value="3">от дорогих к дешевым</option>
+								<option value="4">популярные</option>
+								<option value="5">новинки</option>
+								<option value="6">акционные</option>							
+							</select>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="clearfix"></div>
 
 
+					<div class="th-box float-left-only th-box__bg1">
+						<div class="ger-wrap">
+							<span class="th-txt__first">сделан видеоразбор</span>
+						</div>
+						<div class="th-txt bg1">
+							<span >Электроника</span>
+							<p> 
+								Opershop не является магазином и
+								не осуществляет непосредственно продажу. Все заявки на покупку обрабатываются нашими партнёрами.
+							</p>
+						</div>
+					</div>
+					<div class="th-box float-left-only th-box__bg2">
+						<div class="ger-wrap">
+							<span class="th-txt__second">сделан видеоразбор</span>
+						</div>
+						<div class="th-txt bg2">
+							<span >Электроника</span>
+							<p> 
+								Opershop не является магазином и
+								не осуществляет непосредственно продажу. Все заявки на покупку обрабатываются нашими партнёрами.
+							</p>
+						</div>
+					</div>
+					<div class="th-box float-left-only th-box__bg3">
+						<div class="ger-wrap">
+							<span class="th-txt__first">сделан видеоразбор</span>
+						</div>
+						<div class="th-txt bg1">
+							<span >Электроника</span>
+							<p> 
+								Opershop не является магазином и
+								не осуществляет непосредственно продажу. Все заявки на покупку обрабатываются нашими партнёрами.
+							</p>
+						</div>
+					</div>
+					<div class="clearfix"></div>
 
-
-
-
-
-		
+				</div>
+				<!-- Container -->
+			</section>
 			<!-- END Poisk Katalog -->
-
+			
+			<section class="gt__wrap">
+				<div class="container">
+					
+				</div>
+			</section>
 
 		</body>
 		</html>
