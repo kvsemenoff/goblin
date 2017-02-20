@@ -314,7 +314,7 @@
 					<span class="df-nameproduct">Эхолоты</span>
 					<p>Скорость до 3000 МГц и низкая латентность обеспечивают..</p>
 				</div>
-				<div class="dfboxprice">
+				<div class="dfboxprice dfbottom">
 					<span class="dd-tovar-empty dd-tovar-empty2 margin-none">Товар заканчивается</span>
 					<div class="df-catalog__busket df-catalog__busket_view bg-price2">
 						<span class="df-catalog__oldprice df-catalog__oldprice_view">35 990 р</span>

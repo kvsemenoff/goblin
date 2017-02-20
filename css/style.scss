@@ -219,7 +219,7 @@ div[data-val]:hover{
 }
 // Кнопка в корзину
 .button-2{
-	padding: 17px 19px 17px 34px;
+	padding: 17px 25px 17px 25px;
 	position: relative;
 }
 .button-2:after{
@@ -242,7 +242,7 @@ div[data-val]:hover{
 	
 	border-radius: 2px;
 	width: 120px;
-	height: 33px;
+	height: 31px;
 	user-select:none;
 	-moz-user-select:none;
 
@@ -257,6 +257,7 @@ div[data-val]:hover{
 		font-size: 21px;
 		cursor: pointer;
 		color:transparent;
+		vertical-align: top;
 
 	}
 	.dfbutton2{
@@ -290,9 +291,9 @@ div[data-val]:hover{
 		border-top: 1px solid #CACACA;
 		border-bottom: 1px solid #CACACA;
 		margin: 0 -4px 0 -4px;
-		padding: 7px 0 4px 0;
+		// padding: 7px 0 4px 0;
+		height: 100%;		
 		z-index: 10;
-
 	}
 }
 

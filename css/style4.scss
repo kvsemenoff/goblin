@@ -25,7 +25,22 @@
 		height: 38px;
 		width: 100%;
 	}	
+	
 }
+.ddinpbefore{
+	position: relative;
+}
+.ddinpbefore:before{			
+	content:"";
+	position:absolute;
+	background: url(../img/strel.svg) no-repeat;
+	width: 8px;
+	height: 5px;
+	// left:66%;
+	right: 90px;
+	top:-13px;
+	// z-index: 9999;
+}	
 .dd-logo{
 	display:inline-block;
 }
@@ -794,34 +809,32 @@
 		.input-view-header{
 			width: 100%;
 			position: relative;
+			display: block;
 		}
+
 		.dd-input-header{
 			position:relative;
+			
+			display: block;
 		}
 		.dd-hidden{
-			visibility: hidden;
+			// visibility: hidden;
+			display: none;
 		}
+
 		.lupa-submit{
 			position:absolute;
-			left:64%;
-			top:-53px;
+			// left:64%;
+			right: 83px;
+			// top:-53px;
+			top:-43px;
 			display:block;
 			outline: none;
 			border:none;
 			background: url(../img/lupa.svg) no-repeat;
 			width: 22px;
 			height: 22px;
-		}
-		.dd-input-header:before{
-			content:"";
-			position:absolute;
-			background: url(../img/strel.svg) no-repeat;
-			width: 8px;
-			height: 5px;
-			left:66%;
-			top:-13px;
-			z-index: 9999;
-		}	
+		}			
 	}
 }
 .dd-korzina-img{				
@@ -849,6 +862,12 @@
 }
 
 @media only screen and (min-width : 768px) {
+	.ddinpbefore{
+		position: relative;
+	}
+	.ddinpbefore:before{		
+		background: none;		
+	}
 	// submenu
 	.dd-sub-menu{
 		top:105px;
@@ -885,14 +904,16 @@
 	// end submenu
 	.header-wrap{
 		.input-view-header{
-			height: 44px;
+			height: 44px;			
 		}
+		
 		.lupa-submit{
 			display: none;
 		}
 		.dd-hidden{
-			visibility: visible;
-		}
+			// visibility: visible;
+			display: block;			
+		}		
 		.dd-input-header:before{
 			display: none;
 		}
@@ -963,6 +984,7 @@
 	.dd-center{
 		// height: 486px;
 	}
+	
 	// end submenu
 }
 
