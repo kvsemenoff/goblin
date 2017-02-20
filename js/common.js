@@ -190,6 +190,22 @@ $('.tab').click(function(){
     };
 });
 
+// ==========================================
+// ========== Аккардеон ==========
+// ==========================================
+    $('.akkordeon-close').slideUp(0);
+        $('.close-button-active').click(function(){
+        if (!$(this).hasClass('active')){
+            $('.close-button').removeClass('active');
+            $('.akkordeon-close').slideUp(400)
+            $(this).addClass('active');
+            $(this).next('.akkordeon-close').slideDown(300)
+        } else {
+            $(this).removeClass('active');
+            $('.akkordeon-close').slideUp(400)
+        }
+    });
+
 
 // Главное меню
 $(function() {
