@@ -68,7 +68,7 @@
 			<div class="ddinpbefore dd-hide dd-hidden">
 				<input type="text" class="input-view input-view-header " placeholder="Поиск лучших товаров..">
 			</div>
-				<input class="lupa-submit"	type="submit" value="">
+				<input class="lupa-submit dftopheader2"	type="submit" value="">
 			</label>
 			<div class="clearfix clearfix-display2"></div>
 		</div>
