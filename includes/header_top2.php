@@ -65,7 +65,9 @@
 			</div>
 			<div class="clearfix clearfix-display"></div>
 			<label class="dd-input-header">
-				<input type="text" class="input-view input-view-header dd-hide dd-hidden" placeholder="Поиск лучших товаров..">
+			<div class="ddinpbefore dd-hide dd-hidden">
+				<input type="text" class="input-view input-view-header " placeholder="Поиск лучших товаров..">
+			</div>
 				<input class="lupa-submit"	type="submit" value="">
 			</label>
 			<div class="clearfix clearfix-display2"></div>
