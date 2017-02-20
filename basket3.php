@@ -1,5 +1,5 @@
 ﻿<?php require_once('includes/header.php'); ?>
-<?php require_once('/includes/header_top.php') ?>
+<?php require_once('includes/header_top.php') ?>
 
 <section class="section basket basket-3">
 	<div class="box-1">
