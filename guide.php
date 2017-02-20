@@ -748,11 +748,239 @@
 			</section>
 			<!-- END Poisk Katalog -->
 			
-			<section class="gt__wrap">
+			<!-- Tables -->
+			<section class="pf-wrap">
 				<div class="container">
-					
+					<div class="cl-title">
+						TABLES
+					</div>
+				</div>
+			</section>
+			<section class="pf-wrap__table">
+				<div class="container">
+
+					<table class="g-table">
+						<tr class="g-table-title">
+							<td class="gt-padding_top">Все параметры </td>
+							<td>Asus EeeBook E502SA<br>
+								(E502SA-XO014D) Blue
+							</td>
+							<td>Acer Packard Bell<br>
+								ENTG81BA-C5UP (NX.C3YEU.005)
+							</td>
+							<td>HP 255 G4 (N0Y69ES) Суперцена!!!</td>
+						</tr>
+					</table>
+					<table class="g-table g-table__main">
+						<tr>
+							<td>Процессор</td>
+							<td>Двухъядерный Intel Core i3-5005U </td>
+							<td>Двухъядерный Intel Celeron N3050 </td>
+							<td>Двухъядерный AMD Dual-Core </td>
+						</tr>
+						<tr>
+							<td>Экран</td>
+							<td>15.6" (1366x768) WXGA HD </td>
+							<td>15.6" (1366x768) WXGA HD </td>
+							<td>15.6" (1366x768) WXGA HD </td>
+						</tr>
+						<tr>
+							<td>Объем оперативной памяти</td>
+							<td>4 ГБ </td>
+							<td>4 ГБ </td>
+							<td>2 ГБ </td>
+						</tr>
+						<tr>
+							<td>Тип оперативной памяти</td>
+							<td>DDR3L 1600 МГц </td>
+							<td>DDR3L </td>
+							<td>DDR3L-1600 МГц </td>
+						</tr>
+						<tr>
+							<td>Операционная система</td>
+							<td>DOS </td>
+							<td>Linux </td>
+							<td>DOS </td>
+						</tr>
+						<tr>
+							<td>Экран</td>
+							<td>Экран 15.6" (1366x768) WXGA HD, глянцевый / Intel Core i3-5005U (2.0 ГГц) / RAM 4 ГБ / HDD 500 ГБ / nVidia GeForce 920M, 2 ГБ / Без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / DOS / 2.3 кг / черный 
+							</td>
+							<td>Экран 15.6" (1366x768) HD LED, матовый / Intel Celeron N3050 (1.6 - 2.16 ГГц) / RAM 4 ГБ / HDD 500 ГБ / Intel HD Graphics / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / Linux / 2.4 кг / черный</td>
+							<td>Экран 15.6” (1366x768) HD LED, матовый / AMD Dual-Core E1-6015 (1.4 ГГц) / RAM 2 ГБ / HDD 500 ГБ / AMD Radeon R2 / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / DOS / 2.15 кг / черный </td>
+						</tr>
+						<tr>
+							<td>Объем накопителя</td>
+							<td>500 ГБ </td>
+							<td>500 ГБ </td>
+							<td>500 ГБ </td>
+						</tr>
+						<tr>
+							<td>Оптический привод</td>
+							<td>Отсутствует </td>
+							<td>Отсутствует </td>
+							<td>Отсутствует </td>
+						</tr>
+						<tr>
+							<td>Цвет</td>
+							<td>Черный </td>
+							<td>Черный </td>
+							<td>Черный </td>
+						</tr>
+						<tr>
+							<td>Вес</td>
+							<td>2.3 кг </td>
+							<td>2.4 кг</td>
+							<td>2.15 кг </td>
+						</tr>
+					</table>
+
+				</div>
+			</section>
+			<!-- END Tables -->
+			<!-- Tables -->
+
+			<section class="pf-wrap__table pf-wrap__table2">
+				<div class="container">
+
+					<table class="g-table">
+						<tr class="g-table-title g-table-title2">
+							<td class="gt-padding_top">Все параметры </td>
+							<td>Asus EeeBook E502SA<br>
+								(E502SA-XO014D) Blue
+							</td>
+							<td>Acer Packard Bell<br>
+								ENTG81BA-C5UP (NX.C3YEU.005)
+							</td>
+							<td>HP 255 G4 (N0Y69ES) Суперцена!!!</td>
+						</tr>
+					</table>
+					<table class="g-table g-table__main g-table__main2">
+						<tr>
+							<td>Процессор</td>
+							<td>Двухъядерный Intel Core i3-5005U </td>
+							<td>Двухъядерный Intel Celeron N3050 </td>
+							<td>Двухъядерный AMD Dual-Core </td>
+						</tr>
+						<tr>
+							<td>Экран</td>
+							<td>15.6" (1366x768) WXGA HD </td>
+							<td>15.6" (1366x768) WXGA HD </td>
+							<td>15.6" (1366x768) WXGA HD </td>
+						</tr>
+						<tr>
+							<td>Объем оперативной памяти</td>
+							<td>4 ГБ </td>
+							<td>4 ГБ </td>
+							<td>2 ГБ </td>
+						</tr>
+						<tr>
+							<td>Тип оперативной памяти</td>
+							<td>DDR3L 1600 МГц </td>
+							<td>DDR3L </td>
+							<td>DDR3L-1600 МГц </td>
+						</tr>
+						<tr>
+							<td>Операционная система</td>
+							<td>DOS </td>
+							<td>Linux </td>
+							<td>DOS </td>
+						</tr>
+						<tr>
+							<td>Экран</td>
+							<td>Экран 15.6" (1366x768) WXGA HD, глянцевый / Intel Core i3-5005U (2.0 ГГц) / RAM 4 ГБ / HDD 500 ГБ / nVidia GeForce 920M, 2 ГБ / Без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / DOS / 2.3 кг / черный 
+							</td>
+							<td>Экран 15.6" (1366x768) HD LED, матовый / Intel Celeron N3050 (1.6 - 2.16 ГГц) / RAM 4 ГБ / HDD 500 ГБ / Intel HD Graphics / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / Linux / 2.4 кг / черный</td>
+							<td>Экран 15.6” (1366x768) HD LED, матовый / AMD Dual-Core E1-6015 (1.4 ГГц) / RAM 2 ГБ / HDD 500 ГБ / AMD Radeon R2 / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / DOS / 2.15 кг / черный </td>
+						</tr>
+						<tr>
+							<td>Объем накопителя</td>
+							<td>500 ГБ </td>
+							<td>500 ГБ </td>
+							<td>500 ГБ </td>
+						</tr>
+						<tr>
+							<td>Оптический привод</td>
+							<td>Отсутствует </td>
+							<td>Отсутствует </td>
+							<td>Отсутствует </td>
+						</tr>
+						<tr>
+							<td>Цвет</td>
+							<td>Черный </td>
+							<td>Черный </td>
+							<td>Черный </td>
+						</tr>
+						<tr>
+							<td>Вес</td>
+							<td>2.3 кг </td>
+							<td>2.4 кг</td>
+							<td>2.15 кг </td>
+						</tr>
+					</table>
+
 				</div>
 			</section>
 
-		</body>
-		</html>
+			<!-- Modals -->
+			<section class="but-wrap but-wrap__modal">
+				<div class="container">
+					<div class="cl-title">
+						MODAL WINDOW & FORM
+					</div>
+					<div class="modal-float" id="db-form3">
+						<div class="db-popaps-form3">
+							<h1 class="db-popaps2-h1">Заказать обратный звонок</h1>
+							<form action="#" method="post" class="db-form-1">
+								<input type="text" name="uname" class="input-view input-view_width input-view input-view_db-popaps3" placeholder="Введите ваше имя"><br>
+								<input type="email" name="email" class="input-view input-view_width input-view_db-popaps3" placeholder="Укажите вашу почту"><br>
+								<textarea name="text" class="textarea-view_db-popaps3" id="" cols="29" rows="8" placeholder="Ваш комментарий"></textarea><br>
+								<input type="submit" name="submit" class="submit-view submit-view-width db-submit-popaps" value="Отправить сейчас">
+							</form>
+							<span class="db-close2 dd-close"></span>
+						</div>
+					</div>
+					<!-- //////////////////////// -->
+					<div class="modal-float" id="db-form2">
+						<div class="db-popaps-form2">
+							<h1 class="db-popaps-h1">Заказать обратный звонок</h1>
+							<form action="#" method="post" class="db-form-1">
+								<input type="text" name="uname" class="input-view input-view_width input-view input-view_db-popaps2" placeholder="Введите ваше имя"><br>
+								<input type="email" name="email" class="input-view input-view_width input-view_db-popaps2" placeholder="Укажите вашу почту"><br>
+								<textarea name="text" class="textarea-view_db-popaps2" id="" cols="30" rows="8" placeholder="Ваш комментарий"></textarea><br>
+								<input type="submit" name="submit" class="submit-view submit-view-width db-submit-popaps" value="Отправить сейчас">
+							</form>
+							<span class="db-close1 dd-close"></span>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+					<!-- //////////////////////////////// -->
+					
+					<div  class="modal-float" id="db-form1">
+						<div class="db-popaps-form1 db-popaps-form12" >
+							<h1 class="db-popaps-h1">Заказать обратный звонок</h1>
+							<form action="#" method="post" class="db-form-1 form1">
+								<input type="text" name="uname" class="input-view input-view_width input-view input-view_db-popaps1" placeholder="Введите ваше имя"><br>
+								<input type="email" name="email" class="input-view input-view_width input-view_db-popaps1" placeholder="Укажите вашу почту"><br>
+								<textarea name="text" class="textarea-view_db-popaps1" id="" cols="30" rows="8" placeholder="Ваш комментарий"></textarea><br>
+								<input type="submit" name="submit" class="submit-view submit-view-width db-submit-popaps" value="Отправить сейчас">
+							</form>
+							<span class="db-close1 dd-close"></span>
+						</div>
+					</div>
+					<div class="modal-float" id="thanks">
+						<div class="db-popaps-form4">
+							<img src="img/db-message.svg" alt="img"><br>
+							<h1 class="db-message-h1">Ваша заявка<br>
+								успешно отправлена</h1>
+								<p class="db-message-p">наш представитель свяжется с вами в<br> ближайшее время</p>
+								<a href="#" class="db-message-a dd-close">ЗАКРЫТЬ</a>
+								<span class="db-close2 dd-close"></span>
+							</div>
+							<div class="clearfix"></div>
+							<!-- //////////////////////////////// -->
+						</div>
+					</section>
+					<!-- End Modals -->
+				</body>
+				</html>
