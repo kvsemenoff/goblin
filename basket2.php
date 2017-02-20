@@ -1,5 +1,5 @@
-<?php require_once('/includes/header.php') ?>
-<?php require_once('/includes/header_top.php') ?>
+<?php require_once('includes/header.php') ?>
+<?php require_once('includes/header_top.php') ?>
 <section class="purchase">
   <div class="container basket__container">
           <nav class="purchase__breadcrumbs">
