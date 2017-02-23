@@ -583,6 +583,8 @@ span.payment__span {
 }
 .button-1.payment__button {
     border: none;
+    padding: 17px 25px;
+    height: 50px;
     &::after {
         background: url(/img/purchase-items/payment_arrow.png) center center no-repeat;
         background-color: #ea2427;
@@ -707,7 +709,7 @@ fieldset {
         font-size: 13px;
         line-height: 13px;
         padding-left: 24px;
-        padding-right: 25px;
+        padding-right: 18px;
         padding-top: 20px;
         padding-bottom: 20px;
         text-transform: uppercase;
@@ -931,6 +933,7 @@ fieldset {
         height: 120px;
         padding-bottom: 15px;
         margin-bottom: 0;
+        border-bottom: 2px solid transparent;
         img {
             max-height: 100%;
             max-width: 100%;
