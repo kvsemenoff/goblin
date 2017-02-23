@@ -219,6 +219,7 @@ div[data-val]:hover{
 .button-2{
 	padding: 17px 25px 17px 25px;
 	position: relative;
+	height: 50px;	
 }
 .button-2:after{
 	content:"";
@@ -279,8 +280,8 @@ div[data-val]:hover{
 	}
 	input[type="text"]{
 		// border-right: 1px solid #CACACA;
-		width: 43px;
-		background:transparent;
+		width: 44px;
+		background-color:white;
 		border:none;
 		outline: none;
 		font-family: "UbuntuBold";
@@ -288,8 +289,7 @@ div[data-val]:hover{
 		text-align: center;
 		border-top: 1px solid #CACACA;
 		border-bottom: 1px solid #CACACA;
-		margin: 0 -4px 0 -4px;
-		// padding: 7px 0 4px 0;
+		margin: 0 -4px 0 -4px;		
 		height: 100%;		
 		z-index: 10;
 	}

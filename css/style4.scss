@@ -23,7 +23,9 @@
 		border: 1px solid #393938;
 		border-radius:2px;
 		height: 38px;
-		width: 100%;
+		width: 93%;
+    	z-index: 999;
+    	position: absolute;
 	}	
 	
 }
@@ -179,11 +181,15 @@
 	width: 100%;
 	display:none;
 	position:absolute;
-	top:109px;
+	// top:109px;
+	top:77px;
 	// outline: 2px solid yellow;
 	left:50%;
 	transform:translate(-50%, 0);
-	z-index:9999;
+	z-index:99;
+}
+.dd-sub-menu-catalog{
+	top:142px;
 }
 .dd-left{
 	background: #2C2C2C;
@@ -405,6 +411,9 @@
 		color:#6E6E69;
 		font-family: "RobotoRegular";
 		font-size: 14px;
+	}
+	a:hover{
+		color: #d0d0c0;
 	}
 	a:last-child{
 		padding-left: 18px;
@@ -810,6 +819,7 @@
 			width: 100%;
 			position: relative;
 			display: block;
+			z-index: 999;
 		}
 
 		.dd-input-header{
@@ -859,6 +869,9 @@
 			padding-right: 20px;
 		}
 	}
+	.dd-sub-menu-catalog{
+		top:120px;
+	}
 }
 
 @media only screen and (min-width : 768px) {
@@ -869,8 +882,11 @@
 		background: none;		
 	}
 	// submenu
-	.dd-sub-menu{
-		top:105px;
+	.dd-sub-menu{		
+		top:72px;
+	}
+	.dd-sub-menu-catalog{
+		top:119px;
 	}
 	.dd-bg-black{
 		width: 100%;
@@ -991,7 +1007,8 @@
 
 @media only screen and (min-width : 1248px) {
 	.fix-height{
-		min-height: 505px;
+		// min-height: 505px;
+		min-height: 522px;
 	}
 	.dd-left-center{
 		width: 934px;

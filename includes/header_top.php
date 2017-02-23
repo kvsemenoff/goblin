@@ -22,7 +22,7 @@
 					</div>
 				</div>
 				<div class="dd-burger">
-					<img src="img/burg.svg" alt="">
+					<img src="img/burg.svg" alt="" >					
 				</div>
 			</div>
 			<div class="clearfix clearfix-display"></div>
